@@ -31,6 +31,7 @@ export SAVEHIST=1000000000099999
 # plugins=(git bundler virtualenv virtualenvwrapper dotenv sublime tmux rbenv  gem kubectl colored-man-pages  redis-cli go heroku history httpie jsontools pyenv kops kube-ps1 minikube pip gulp extract )
 # plugins=(git bundler virtualenv nvm dotenv sublime tmux rbenv  gem kubectl colored-man-pages  redis-cli go heroku history httpie jsontools pyenv kops kube-ps1 minikube pip gulp extract )
 plugins=(
+	docker
 	# git 
 	# bundler
 	# virtualenv
@@ -157,7 +158,7 @@ POWERLEVEL9K_VCS_SVN_HOOKS_BACKGROUND="-1"
 
 POWERLEVEL9K_SHOW_CHANGESET=true
 
-POWERLEVEL9K_CHANGESET_HASH_LENGTH=6
+POWERLEVEL9K_CHANGESET_HASH_LENGTH=12
 
 
 POWERLEVEL9K_VCS_SHORTEN_LENGTH=4
@@ -459,6 +460,7 @@ if [[ -d ~/.nvm ]]; then
 	export NVM_DIR="$HOME/.nvm"
 	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+	nvm use system
 fi
 # 
 # kubectl 
