@@ -11029,3 +11029,335 @@ done
 : 1562557932:0;source ~/.zshrc 
 : 1562557945:0;ls
 : 1562558253:0;sleep 10000 ; killall mpv
+: 1562597151:0;upgrade_oh_my_zsh
+: 1562601033:0;docker pull node:10.16-alpine;docker pull  node:12.3.1-alpine;docker pull node:8.16-alpine;docker pull 12.6-alpine
+: 1562601067:0;apt upgrade
+: 1562601226:0;docker pull node:10.16-alpine;docker pull  node:12.3.1-alpine;docker pull node:8.16-alpine;docker pull node:12.6-alpine
+: 1562601258:0;windscribe connect
+: 1562601349:0;sudo nano /etc/apt/sources.list
+: 1562601385:0;wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -\
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+: 1562601420:0;wget  https://www.virtualbox.org/download/oracle_vbox_2016.asc \
+wget  https://www.virtualbox.org/download/oracle_vbox.asc #-O- | sudo apt-key add -
+: 1562601542:0;apt list --upgradable
+: 1562601597:0;apt install virtualbox-6.0 virtualbox-ext-pack
+: 1562601605:0;apt install virtualbox-6.0 
+: 1562601622:0;apt install --install-recomends virtualbox-6.0 
+: 1562601697:0;windscribe disconnect 
+: 1562601701:0;base=https://github.com/docker/machine/releases/download/v0.16.0 &&\
+  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&\
+  sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+: 1562601749:0;ls /tmp/
+: 1562601761:0;cp /tmp/docker-machine /Arquivos/
+: 1562601791:0;sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+: 1562601798:0;apt install --install-recommends virtualbox-6.0 
+: 1562602115:0;code-exploration -n
+: 1562602167:0;cd Docker
+: 1562602176:0;md nodejs
+: 1562602178:0;cd nodejs
+: 1562602182:0;md pnpm
+: 1562602183:0;cd pnpm
+: 1562602187:0;nano Dockerfile
+: 1562602239:0;docker build -t node-with-pnpm:0.0.1 .
+: 1562602683:0;code-exploration 
+: 1562602702:0;code-exploration .
+: 1562603299:0;code-exploration /usr/share/applications/code*
+: 1562603331:0;code-exploration --help
+: 1562603367:0;code --new-window
+: 1562603423:0;code --max-memory 400
+: 1562604115:0;docker-machine create --driver virtualbox --virtualbox-disk-size "10000" --virtualbox-memory "256" teste
+: 1562604777:0;sudo docker run --detach \\
+  --hostname gitlab.example.com \\
+  --publish 443:443 --publish 80:80 --publish 22:22 \\
+  --name gitlab \\
+  --restart always \\
+  --volume /srv/gitlab/config:/etc/gitlab \\
+  --volume /srv/gitlab/logs:/var/log/gitlab \\
+  --volume /srv/gitlab/data:/var/opt/gitlab \\
+  gitlab/gitlab-ce:latest
+: 1562604820:0;docker run --detach \\
+  --hostname gitlab.example.com \\
+  --publish 7000:443 --publish 8080:80 --publish 2222:22 \\
+  --name gitlab \\
+  --restart always \\
+  --volume /srv/gitlab/config:/etc/gitlab \\
+  --volume /srv/gitlab/logs:/var/log/gitlab \\
+  --volume /srv/gitlab/data:/var/opt/gitlab \\
+  gitlab/gitlab-ce:latest
+: 1562604890:0;docker pull gitlab/gitlab-ce:12.0.3-ce.0
+: 1562605109:0;docker-machine ls
+: 1562605153:0;docker-machine stop teste
+: 1562605313:0;cd tcc/Novo_Tcc
+: 1562605468:0;git commit -m 'add gravações das entrevistas da milene e thiago'
+: 1562605472:0;git pushall
+: 1562605743:0;cd Sequelize
+: 1562605748:0;cg https://github.com/Rocketseat/blog-express-sequelize.git
+: 1562605765:0;cg https://github.com/Rocketseat/blog-express-sequelize.git blog-express-sequelize_2
+: 1562605771:0;cd blog-express-sequelize
+: 1562606019:0;apt install libmysqld-dev libpq-dev libsqlite3-dev
+: 1562606118:0;apt install libmysqlclient-dev libpq-dev libsqlite3-dev
+: 1562607229:0;docker run --detach \\
+  --hostname gitlab.example.com \\
+  --publish 7000:443 --publish 8080:80 --publish 2222:22 \\
+  --name gitlab \\
+  --restart always \\
+  --volume /srv/gitlab/config:/etc/gitlab \\
+  --volume /srv/gitlab/logs:/var/log/gitlab \\
+  --volume /srv/gitlab/data:/var/opt/gitlab \\
+  gitlab/gitlab-ce:12.0.3-ec.0
+: 1562607237:0;docker run --detach \\
+  --hostname gitlab.example.com \\
+  --publish 7000:443 --publish 8080:80 --publish 2222:22 \\
+  --name gitlab \\
+  --restart always \\
+  --volume /srv/gitlab/config:/etc/gitlab \\
+  --volume /srv/gitlab/logs:/var/log/gitlab \\
+  --volume /srv/gitlab/data:/var/opt/gitlab \\
+  gitlab/gitlab-ce:12.0.3-ce.0
+: 1562607805:0;docker cd ..
+: 1562607858:0;md React
+: 1562607861:0;cd React
+: 1562607868:0;cg https://github.com/facebook/react-native-website.git
+: 1562607894:0;cg https://github.com/reactjs/reactjs.org.git
+: 1562607919:0;cd reactjs.org
+: 1562607934:0;git checkout  -b docs_serve
+: 1562608062:0;git checkout -b docs_serve-pnpm
+: 1562608176:0;git checkout master 
+: 1562608219:0;cd react-native-website
+: 1562608243:0;cd website
+: 1562608246:0;pnpm add --latest
+: 1562608670:0;pnpm add -D @babel/plugin-proposal-class-properties
+: 1562608719:0;pnpm add -D @babel/plugin-proposal-object-rest-spread
+: 1562608744:0;pnpm add -D @babel/preset-react
+: 1562609019:0;man npm
+: 1562609038:0;npm help install
+: 1562609151:0;nano ~/.npmrc
+: 1562609156:0;pnpm add -g npm
+: 1562609275:0;pnpm install --help
+: 1562609385:0;pnpm add --save-peer
+: 1562609715:0;rm -fr node_modules
+: 1562609871:0;pnpm add request @babel/core 
+: 1562609977:0;pnpm add @babel/preset-env
+: 1562609995:0;pnpm add js-yaml
+: 1562610004:0;yarn build
+: 1562610249:0;mv node_modules node_modules_3
+: 1562610257:0;rm yarn.lock
+: 1562610268:0;rm pnpm-lock.yaml
+: 1562610443:0;brew cask install minikube
+: 1562610747:0;yarn dev
+: 1562611218:0;docker ps
+: 1562611305:0;docker stop 2606aa9f0d94
+: 1562611340:0;docker container prune
+: 1562611351:0;docker container ls
+: 1562611365:0;docker container rm 2606aa9f0d94
+: 1562611369:0;docker container ls -a
+: 1562611397:0;cd /Arquivos/Dev_Files/Developments/
+: 1562611415:0;md Rocketseat
+: 1562611417:0;cd Rocketseat
+: 1562611476:0;create-react-app style-guide
+: 1562611576:0;cd style-guide
+: 1562611581:0;yarn add eslint -D
+: 1562611731:0;yarn --emojin
+: 1562611739:0;yarn --help
+: 1562611771:0;yarn --emoji
+: 1562611896:0;alias yarn='yarn --emoji'
+: 1562611991:0;cd Yarn
+: 1562611993:0;git clone git@github.com:yarnpkg/website.git yarn-website
+: 1562612011:0;cd yarn-website
+: 1562612023:0;make 
+: 1562612067:0;yarn eslint --init
+: 1562612083:0;yarn run eslint --init
+: 1562612160:0;npm-script-list
+: 1562612251:0;rm yarn.lock [
+: 1562612257:0;rm yarn.lock 
+: 1562612262:0;mv node_modules node_modules_
+: 1562612275:0;subl 
+: 1562612352:0;nano ~/.yarnrc
+: 1562612367:0;yarn
+: 1562612608:0;rm -fr package-lock.json
+: 1562612612:0;yarn 
+: 1562612718:0;mv node_modules node_modules_2
+: 1562612725:0;pnpm add
+: 1562612938:0;yarn add babel-eslint -D
+: 1562612959:0;type yarn
+: 1562612986:0;pnpm add babel-eslint -D
+: 1562613073:0;c make
+: 1562613080:0;c Makefile
+: 1562613098:0;bundle
+: 1562613178:0;cg https://github.com/airbnb/javascript.git airbnb-javascript
+: 1562613209:0;pnpm r add
+: 1562613236:0;cd packages
+: 1562613258:0;pnpm store add eslint-config-airbnb eslint-config-airbnb-base
+: 1562613276:0;cd airbnb-javascript
+: 1562613279:0;cd linters
+: 1562613400:0;pnpm add -D eslint-plugin-babel
+: 1562613421:0;pnpm store add morgan
+: 1562618496:0;l
+: 1562618639:0;rbenv install 2.4.3
+: 1562625902:0;cd Compressed
+: 1562639119:0;md old
+: 1562639122:0;md * old
+: 1562639131:0;nemo .
+: 1562639145:0;git clone https://github.com/GalaticStryder/gnome-terminal-colors-dracula
+: 1562639152:0;cd gnome-terminal-colors-dracula
+: 1562639160:0;./install.sh
+: 1562639251:0;cd ~/.oh-my-zsh/custom/themes/
+: 1562639254:0;cg https://github.com/denysdovhan/spaceship-prompt.git
+: 1562639444:0;cp spaceship-prompt /Arquivos/Dev_Files/Shell
+: 1562639450:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+: 1562639475:0;cat ~/.zshrc
+: 1562639513:0;zplugin light zdharma/fast-syntax-highlighting\
+zplugin light zsh-users/zsh-autosuggestions\
+zplugin light zsh-users/zsh-completions
+: 1562639601:0;subl
+: 1562639826:0;ls spaceship-prompt/
+: 1562639846:0;pdw
+: 1562639848:0;p
+: 1562640137:0;nvm --help
+: 1562640145:0;nvm use 12.4
+: 1562640306:0;nvm use system
+: 1562640314:0;pnpm --version
+: 1562640333:0;l ~/
+: 1562640364:0;vue create -m pnpm typescript-vue-init-3
+: 1562640412:0;pnpm add -g @vue/cli
+: 1562640521:0;cd /etc
+: 1562640545:0;cd /Arquivos/Dev_Files/tcc/Novo_Tcc/
+: 1562640778:0;nojs -v
+: 1562640781:0;js -v
+: 1562640974:0;yarn completions
+: 1562641027:0;hsi docker
+: 1562641208:0;rm -f ~/.zcompdump; compinit
+: 1562641274:0;vue create -m pnpm typescript-vue-init-4
+: 1562641431:0;git status
+: 1562641434:0;git add --all 
+: 1562641469:0;git commit -m 'change powerlevel9k => spacechip'
+: 1562641480:0;git remote -v
+: 1562641489:0;git push
+: 1562641617:0;cat README.md
+: 1562641626:0;pwd
+: 1562641899:0;apt update
+: 1562642110:0;apt list --upgradable -a
+: 1562642122:0;apt list --upgradable 
+: 1562642144:0;sudo mintupdate 
+: 1562642333:0;cd ..
+: 1562642338:0;cd ~/
+: 1562642343:0;cd Downloads
+: 1562642347:0;cd Documents
+: 1562642363:0;cd Downloads/Compressed/Old/FC5_Wallpapers
+: 1562642370:0;cd
+: 1562642430:0;sudo gparted
+: 1562642533:0;cd Shell
+: 1562642547:0;cg https://github.com/denysdovhan/spaceship-prompt.wiki.git spaceship-prompt.wiki
+: 1562643278:0;cd planeone
+: 1562643300:0;deactivate
+: 1562643467:0;cd Developments
+: 1562643471:0;cd Vue
+: 1562643479:0;cd tmp
+: 1562643481:0;cd typescript-vue-init-4
+: 1562643531:0;source ~/.zshrc 
+: 1562643593:0;cat package.json
+: 1562643690:0;node -v
+: 1562643704:0;cd /Arquivos/Dev_Files/
+: 1562643706:0;cd DJango
+: 1562643712:0;cd teste-env
+: 1562643714:0;. env/bin/activate
+: 1562643722:0;ls
+: 1562643725:0;python --version
+: 1562643728:0;exit
+: 1562643735:0;python3 --version
+: 1562643759:0;nano ~/.yarnrc
+: 1562643785:0;ls
+: 1562643787:0;f
+: 1562643789:0;fg
+: 1562643868:0;ls
+: 1562643908:0;cd ;
+: 1562643910:0;cd ..
+: 1562643914:0;pwd
+: 1562643922:0;cd tito7
+: 1562643924:0;ls
+: 1562643927:0;cd /
+: 1562643929:0;cd 
+: 1562644011:0;cd src
+: 1562644014:0;ls
+: 1562644017:0;cd ..
+: 1562644029:0;cd projects
+: 1562644031:0;cd share-files
+: 1562644036:0;cd src
+: 1562644038:0;ls
+: 1562644251:0;node -v
+: 1562644253:0;ls
+: 1562644258:0;git status
+: 1562644264:0;git add --all 
+: 1562644267:0;git log
+: 1562644300:0;git commit -m 'add new changes'
+: 1562644304:0;ls
+: 1562644309:0;git remote -v
+: 1562644312:0;git push
+: 1562644438:0;s
+: 1562644903:0;tmux
+: 1562644913:0;apt install tmux 
+: 1562644963:0;cd /Arquivos/Dev_Files/
+: 1562644969:0;cd Developments/
+: 1562644971:0;cd Vue
+: 1562644975:0;cd projects
+: 1562644982:0;cd share-files
+: 1562644984:0;ls
+: 1562645241:0;nvm use 12.4
+: 1562645247:0;ls
+: 1562645255:0;nvm use system
+: 1562645258:0;ls
+: 1562645294:0;nvm use node
+: 1562645304:0;nvm use 12.6
+: 1562645320:0;nvm use 12.4
+: 1562645330:0;nvm use 12.6.0
+: 1562645337:0;nvm use 12.5.0
+: 1562645348:0;node -v
+: 1562645350:0;ls
+: 1562645353:0;ll
+: 1562645382:0;ls
+: 1562645441:0;nvm install node
+: 1562645457:0;whereis node
+: 1562645471:0;sudo su
+: 1562645685:0;sudo nano /root/.bashrc
+: 1562645695:0;sudo su
+: 1562645843:0;echo $USERNAME
+: 1562645847:0;sudo su
+: 1562645936:0;sudo cp ~/.zshrc /root
+: 1562645941:0;sudo su
+: 1562645987:0;sudo cp ~/.zshrc /root
+: 1562645989:0;sudo su
+: 1562646061:0;sudo cp ~/.zshrc /root
+: 1562646063:0;sudo su
+: 1562646079:0;sudo cp ~/.zshrc /root
+: 1562646082:0;sudo su
+: 1562646206:0;sudo subl
+: 1562646229:0;sudo subl /root/.zsrc
+: 1562646271:0;sudo su
+: 1562646785:0;du -hs ~/.zplugin
+: 1562646797:0;ls ~/.zplugin
+: 1562646801:0;ls ~/.zplugin/completions
+: 1562646805:0;ls ~/.zplugin/plugins
+: 1562646837:0;sudo su
+: 1562646922:0;zcompile ~/.zplugin/bin/zplugin.zsh
+: 1562646925:0;ls
+: 1562646941:0;sudo su
+: 1562647385:0;$USER
+: 1562647390:0;echo $USER
+: 1562647467:0;ls ~/.zplugin/plugins
+: 1562647469:0;ls ~/.zplugin/plugins/_local---zplugin
+: 1562647474:0;ls ~/.zplugin/plugins/_local---zplugin/_zplugin
+: 1562647517:0;nemo  ~/.zplugin/plugins/
+: 1562647629:0;sudo su
+: 1562648119:0;cd /Arquivos/Dev_Files/
+: 1562648127:0;cd Developments
+: 1562648131:0;cd Shell/my-zsh-config
+: 1562648134:0;git status
+: 1562648143:0;cat zsh_history
+: 1562648153:0;ls ~/
+: 1562648161:0;cat ~/.zsh_history
+: 1562648219:0;ln zsh_history ~/.zsh_history
+: 1562648225:0;cat ~/.zsh_history
+: 1562648243:0;subl ~/.zsh_history
+: 1562648349:0;cat ~/.zsh_history
+: 1562648356:0;git status
+: 1562648359:0;git add --all 
