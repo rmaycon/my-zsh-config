@@ -32,7 +32,7 @@ export SAVEHIST=1000000000099999
 # plugins=(git bundler virtualenv nvm dotenv sublime tmux rbenv  gem kubectl colored-man-pages  redis-cli go heroku history httpie jsontools pyenv kops kube-ps1 minikube pip gulp extract )
 plugins=(
 	docker
-	# git 
+	git 
 	# bundler
 	# virtualenv
 	# sublime
@@ -77,309 +77,441 @@ export PATH="$PATH:/usr/share/rvm/bin/"
 # plugins=( git dotenv ruby colored-man-pages npm nvm gem )
 
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="powerlevel9k/powerlevel9k"
 # ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_MODE='nerdfont-complete'
+ZSH_THEME="spaceship-prompt/spaceship"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+# POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_MODE='awesome-fontconfig'
 # POWERLEVEL9K_MODE='nerd-fonts'
 
+source $ZSH/oh-my-zsh.sh
+SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  hg            # Mercurial section (hg_branch  + hg_status)
+  exec_time     # Execution time
+  line_sep      # Line break
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  node          # Node.js section
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+
+# SPACESHIP_ROMPT_ORDER=(
+#   time          # Time stamps section
+#   user          # Username section
+#   dir           # Current directory section
+#   host          # Hostname section
+#   git           # Git section (git_branch + git_status)
+#   hg            # Mercurial section (hg_branch  + hg_status)
+#   package       # Package version
+#   ruby          # Ruby section
+#   elixir        # Elixir section
+#   xcode         # Xcode section
+#   swift         # Swift section
+#   golang        # Go section
+#   php           # PHP section
+#   rust          # Rust section
+#   haskell       # Haskell Stack section
+#   julia         # Julia section
+#   docker        # Docker section
+#   aws           # Amazon Web Services section
+#   venv          # virtualenv section
+#   conda         # conda virtualenv section
+#   pyenv         # Pyenv section
+#   dotnet        # .NET section
+#   ember         # Ember.js section
+#   kubecontext   # Kubectl context section
+#   terraform     # Terraform workspace section
+#   exec_time     # Execution time
+#   line_sep      # Line break
+#   battery       # Battery level and status
+#   vi_mode       # Vi-mode indicator
+#   jobs          # Background jobs indicator
+#   exit_code     # Exit code section
+#   char          # Prompt character
+# )
+SPACESHIP_USER_SHOW=always
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_CHAR_SYMBOL="❯"
+SPACESHIP_CHAR_SUFFIX=" "
+
+
+### Added by Zplugin's installer
+source '/home/tito7/.zplugin/bin/zplugin.zsh'
+autoload -Uz _zplugin
+(( ${+_comps} )) && _comps[zplugin]=_zplugin
+### End of Zplugin's installer chunk
+
+zplugin light zdharma/fast-syntax-highlighting
+zplugin light zsh-users/zsh-autosuggestions
+zplugin light zsh-users/zsh-completions
+zplugin light "buonomo/yarn-completion"
 
 
 
 # source ~/.local/bin/virtualenvwrapper.sh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-###########################################################################################################################################################
-# unknow config
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-ZSH_HIGHLIGHT_STYLES[cursor]='bold'
+# ###########################################################################################################################################################
+# # unknow config
+# ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+# ZSH_HIGHLIGHT_STYLES[cursor]='bold'
 
-ZSH_HIGHLIGHT_STYLES[alias]='fg=green,bold'
-ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=green,bold'
-ZSH_HIGHLIGHT_STYLES[builtin]='fg=green,bold'
-ZSH_HIGHLIGHT_STYLES[function]='fg=green,bold'
-ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
-ZSH_HIGHLIGHT_STYLES[precommand]='fg=green,bold'
-ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=green,bold'
-###########################################################################################################################################################
+# ZSH_HIGHLIGHT_STYLES[alias]='fg=green,bold'
+# ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=green,bold'
+# ZSH_HIGHLIGHT_STYLES[builtin]='fg=green,bold'
+# ZSH_HIGHLIGHT_STYLES[function]='fg=green,bold'
+# ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
+# ZSH_HIGHLIGHT_STYLES[precommand]='fg=green,bold'
+# ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=green,bold'
+# ###########################################################################################################################################################
 
-##########################################################################################################################
-# coloer conifg 
-
-
-DEFAULT_FOREGROUND=006 DEFAULT_BACKGROUND=-1
-DEFAULT_COLOR=$DEFAULT_FOREGROUND
+# ##########################################################################################################################
+# # coloer conifg 
 
 
-
-
-###########################################################################################################################
-# VCS config
+# DEFAULT_FOREGROUND=006 DEFAULT_BACKGROUND=-1
+# DEFAULT_COLOR=$DEFAULT_FOREGROUND
 
 
 
 
-POWERLEVEL9K_VCS_GIT_GITLAB_ICON='🦊'
-POWERLEVEL9K_VCS_GIT_GITHUB_ICON='🐈️'
-POWERLEVEL9K_VCS_GIT_BITBUCKET_ICON="" 
+# ###########################################################################################################################
+# # VCS config
 
 
 
 
-# POWERLEVEL9K_VCS_CLEAN_FOREGROUND=""
-# POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=""
-# POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=""
-# POWERLEVEL9K_VCS_GIT_GITHUB_ICON_FOREGROUND='010'
-# POWERLEVEL9K_VCS_GIT_GITLAB_ICON_FOREGROUND='010'
-
-POWERLEVEL9K_VCS_CLEAN_FOREGROUND='010'
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='011'
-POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='013'
-
-# POWERLEVEL9K_VCS_GIT_HOOKS_FOREGROUND='010'
-# POWERLEVEL9K_VCS_HG_HOOKS_FOREGROUND='010'
-# POWERLEVEL9K_VCS_HIDE_TAGS_FOREGROUND='010'
-# POWERLEVEL9K_VCS_INTERNAL_HASH_LENGTH_FOREGROUND='010'
-# POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY_FOREGROUND='010'
-# POWERLEVEL9K_VCS_SVN_HOOKS_FOREGROUND='010'
-
-POWERLEVEL9K_VCS_CLEAN_BACKGROUND="-1"
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="-1"
-POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="-1"
-POWERLEVEL9K_VCS_GIT_GITHUB_ICON_BACKGROUND="-1"
-POWERLEVEL9K_VCS_GIT_GITLAB_ICON_BACKGROUND="-1"
-POWERLEVEL9K_VCS_GIT_HOOKS_BACKGROUND="-1"
-POWERLEVEL9K_VCS_HG_HOOKS_BACKGROUND="-1"
-POWERLEVEL9K_VCS_HIDE_TAGS_BACKGROUND="-1"
-POWERLEVEL9K_VCS_INTERNAL_HASH_LENGTH_BACKGROUND="-1"
-POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY_BACKGROUND="-1"
-POWERLEVEL9K_VCS_SVN_HOOKS_BACKGROUND="-1"
-
-POWERLEVEL9K_SHOW_CHANGESET=true
-
-POWERLEVEL9K_CHANGESET_HASH_LENGTH=12
+# POWERLEVEL9K_VCS_GIT_GITLAB_ICON='🦊'
+# POWERLEVEL9K_VCS_GIT_GITHUB_ICON='🐈️'
+# POWERLEVEL9K_VCS_GIT_BITBUCKET_ICON="" 
 
 
-POWERLEVEL9K_VCS_SHORTEN_LENGTH=4
-POWERLEVEL9K_VCS_SHORTEN_MIN_LENGTH=11
-POWERLEVEL9K_VCS_SHORTEN_STRATEGY="truncate_from_right"
-POWERLEVEL9K_VCS_SHORTEN_DELIMITER=".."
-# vcs-detect-changes git-untracked git-aheadbehind git-stash git-remotebranch git-tagname)
-
-# POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-remotebranch git-tagname)
-
-#############################################################################################################################
-# icons 
 
 
-POWERLEVEL9K_RAM_ICON='🐸️'
-POWERLEVEL9K_AWS_EB_ICON="🌱" 
-POWERLEVEL9K_AWS_ICON=""
-POWERLEVEL9K_BATTERY_ICON="🔋"
-POWERLEVEL9K_FREEBSD_ICON="😈"
-POWERLEVEL9K_SUNOS_ICON='🌞' 
-POWERLEVEL9K_ROOT_ICON="⚡"
-POWERLEVEL9K_EXECUTION_TIME_ICON="⏳"
-POWERLEVEL9K_NODE_ICON='⬢'
-POWERLEVEL9K_CARRIAGE_RETURN_ICON='↩'
-POWERLEVEL9K_FAIL_ICON='✘'
-POWERLEVEL9K_OK_ICON="✔"  
-POWERLEVEL9K_GO_ICON=""
-POWERLEVEL9K_VCS_INCOMING_CHANGES_ICON='↓'
-POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON='↑'
-POWERLEVEL9K_VCS_REMOTE_BRANCH_ICON='→'
-POWERLEVEL9K_VCS_STAGED_ICON='✚'
-POWERLEVEL9K_VCS_BRANCH_ICON=" "
-POWERLEVEL9K_LINUX_ICON="☕️"
-POWERLEVEL9K_APPLE_ICON="🍎"
-POWERLEVEL9K_VCS_TAG_ICON=" "
-POWERLEVEL9K_TEST_ICON=""
-POWERLEVEL9K_SWAP_ICON=""
-POWERLEVEL9K_BACKGROUND_JOBS_ICON=""
-POWERLEVEL9K_SERVER_ICON=""
-POWERLEVEL9K_SSH_ICON=""
-POWERLEVEL9K_OS_ICON_BACKGROUND='-1'
-POWERLEVEL9K_TODO_ICON='📔'
-POWERLEVEL9K_PYTHON_ICON='🐍'
-POWERLEVEL9K_RUBY_ICON="♦️"
+# # POWERLEVEL9K_VCS_CLEAN_FOREGROUND=""
+# # POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=""
+# # POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=""
+# # POWERLEVEL9K_VCS_GIT_GITHUB_ICON_FOREGROUND='010'
+# # POWERLEVEL9K_VCS_GIT_GITLAB_ICON_FOREGROUND='010'
 
-source $ZSH/oh-my-zsh.sh
+# POWERLEVEL9K_VCS_CLEAN_FOREGROUND='010'
+# POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='011'
+# POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='013'
 
-##########################################################################################################################
-# powerlevel dir config
+# # POWERLEVEL9K_VCS_GIT_HOOKS_FOREGROUND='010'
+# # POWERLEVEL9K_VCS_HG_HOOKS_FOREGROUND='010'
+# # POWERLEVEL9K_VCS_HIDE_TAGS_FOREGROUND='010'
+# # POWERLEVEL9K_VCS_INTERNAL_HASH_LENGTH_FOREGROUND='010'
+# # POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY_FOREGROUND='010'
+# # POWERLEVEL9K_VCS_SVN_HOOKS_FOREGROUND='010'
+
+# POWERLEVEL9K_VCS_CLEAN_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_GIT_GITHUB_ICON_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_GIT_GITLAB_ICON_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_GIT_HOOKS_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_HG_HOOKS_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_HIDE_TAGS_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_INTERNAL_HASH_LENGTH_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY_BACKGROUND="-1"
+# POWERLEVEL9K_VCS_SVN_HOOKS_BACKGROUND="-1"
+
+# POWERLEVEL9K_SHOW_CHANGESET=true
+
+# POWERLEVEL9K_CHANGESET_HASH_LENGTH=12
+
+
+# POWERLEVEL9K_VCS_SHORTEN_LENGTH=4
+# POWERLEVEL9K_VCS_SHORTEN_MIN_LENGTH=11
+# POWERLEVEL9K_VCS_SHORTEN_STRATEGY="truncate_from_right"
+# POWERLEVEL9K_VCS_SHORTEN_DELIMITER=".."
+# # vcs-detect-changes git-untracked git-aheadbehind git-stash git-remotebranch git-tagname)
+
+# # POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-remotebranch git-tagname)
+
+# #############################################################################################################################
+# # icons 
+
+
+# POWERLEVEL9K_RAM_ICON='🐸️'
+# POWERLEVEL9K_AWS_EB_ICON="🌱" 
+# POWERLEVEL9K_AWS_ICON=""
+# POWERLEVEL9K_BATTERY_ICON="🔋"
+# POWERLEVEL9K_FREEBSD_ICON="😈"
+# POWERLEVEL9K_SUNOS_ICON='🌞' 
+# POWERLEVEL9K_ROOT_ICON="⚡"
+# POWERLEVEL9K_EXECUTION_TIME_ICON="⏳"
+# POWERLEVEL9K_NODE_ICON='⬢'
+# POWERLEVEL9K_CARRIAGE_RETURN_ICON='↩'
+# POWERLEVEL9K_FAIL_ICON='✘'
+# POWERLEVEL9K_OK_ICON="✔"  
+# POWERLEVEL9K_GO_ICON=""
+# POWERLEVEL9K_VCS_INCOMING_CHANGES_ICON='↓'
+# POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON='↑'
+# POWERLEVEL9K_VCS_REMOTE_BRANCH_ICON='→'
+# POWERLEVEL9K_VCS_STAGED_ICON='✚'
+# POWERLEVEL9K_VCS_BRANCH_ICON=" "
+# POWERLEVEL9K_LINUX_ICON="☕️"
+# POWERLEVEL9K_APPLE_ICON="🍎"
+# POWERLEVEL9K_VCS_TAG_ICON=" "
+# POWERLEVEL9K_TEST_ICON=""
+# POWERLEVEL9K_SWAP_ICON=""
+# POWERLEVEL9K_BACKGROUND_JOBS_ICON=""
+# POWERLEVEL9K_SERVER_ICON=""
+# POWERLEVEL9K_SSH_ICON=""
+# POWERLEVEL9K_OS_ICON_BACKGROUND='-1'
+# POWERLEVEL9K_TODO_ICON='📔'
+# POWERLEVEL9K_PYTHON_ICON='🐍'
+# POWERLEVEL9K_RUBY_ICON="♦️"
+
+
+# ##########################################################################################################################
+# # powerlevel dir config
  
 
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='-1'
-POWERLEVEL9K_DIR_HOME_BACKGROUND="-1"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="-1"
-POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='006'
-POWERLEVEL9K_DIR_HOME_FOREGROUND="12"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="12"
+# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_HOME_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_HOME_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_HOME_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_BACKGROUND="-1"
+# POWERLEVEL9K_LOCK_ICON_BACKGROUND='-1'
+# POWERLEVEL9K_LOCK_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_WRITABLE_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_HOME_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND='-1'
+# POWERLEVEL9K_BACKGROUND='-1'
+# POWERLEVEL9K_DIR_ETC_BACKGROUND='none'
 
-POWERLEVEL9K_HOME_SUB_ICON='📂'
-POWERLEVEL9K_FOLDER_ICON='📁'
-POWERLEVEL9K_HOME_FOLDER_ABBREVIATION='~'
-POWERLEVEL9K_HOME_ICON=$'🏠'
 
 
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="red"
-POWERLEVEL9K_DIR_WRITABLE="echo 🔐"
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND="-1"
-POWERLEVEL9K_DIR_HOME_BACKGROUND="-1"
-POWERLEVEL9K_DIR_HOME_FOREGROUND="006"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="-1"
-POWERLEVEL9K_DIR_HOME_BACKGROUND="-1"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="006"
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="-1"
-POWERLEVEL9K_DIR_BACKGROUND="-1"
+# POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='006'
+# POWERLEVEL9K_DIR_HOME_FOREGROUND="12"
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="12"
+# POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="red"
+# POWERLEVEL9K_DIR_HOME_FOREGROUND="006"
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="006"
 # POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="124"
-
-
-POWERLEVEL9K_LOCK_ICON='🔐'
-POWERLEVEL9K_LOCK_ICON_BACKGROUND='-1'
-POWERLEVEL9K_LOCK_BACKGROUND='-1'
-
-POWERLEVEL9K_SHORTEN_DELIMITER='...'
-
-
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND='-1'
-POWERLEVEL9K_DIR_WRITABLE_BACKGROUND='-1'
-
-POWERLEVEL9K_DIR_BACKGROUND='-1'
-POWERLEVEL9K_ETC_ICON='⚙'
-POWERLEVEL9K_ETC_BACKGROUND='-1'
-POWERLEVEL9K_ETC_ICON_BACKGROUND='-1'
-
-POWERLEVEL9K_DIR_HOME_BACKGROUND='-1'
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='-1'
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='-1'
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND='-1'
-POWERLEVEL9K_BACKGROUND='-1'
-# POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
-# POWERLEVEL9K_HOME_DIR_OMIT_FIRST_CHARACTER=true
-# POWERLEVEL9K_HOME_FOLDER_ABBREVIATION="%F{red} $(print_icon 'HOME_ICON') %F{black}"
-# POWERLEVEL9K_HOME_FOLDER_ABBREVIATION="%F{red} $(echo '🏠') %F{black}"
-
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
-
-# POWERLEVEL9K_SHORTEN_STRATEGY
-
-#############################################################################################################################
-# user config
-
-
-POWERLEVEL9K_USER_BACKGROUND='-1'
-
-POWERLEVEL9K_ALWAYS_SHOW_CONTEXT=true
-POWERLEVEL9K_ALWAYS_SHOW_USER=true
-
-POWERLEVEL9K_USER_ICON='😎️'                    
-POWERLEVEL9K_USER_SUDO_BACKGROUND='-1'
-POWERLEVEL9K_USER_SUDO_FOREGROUND='011'
-POWERLEVEL9K_USER_ROOT_BACKGROUND='-1'
-POWERLEVEL9K_USER_ROOT_FOREGROUND='011'
-POWERLEVEL9K_USER_DEFAULT_BACKGROUND='-1'
-POWERLEVEL9K_USER_DEFAULT_FOREGROUND='003'
-
-#############################################################################################################################
-# status
-
-POWERLEVEL9K_STATUS_OK_BACKGROUND='-1'
-POWERLEVEL9K_STATUS_OK_FOREGROUND='082'
-
-#############################################################################################################################
-# node version
-POWERLEVEL9K_NODE_VERSION_BACKGROUND='-1'
-POWERLEVEL9K_NODE_VERSION_FOREGROUND='47'
-
-#############################################################################################################################
-# time config
-POWERLEVEL9K_TIME_BACKGROUND='-1'
-
-#############################################################################################################################
-# nvm config
-
-POWERLEVEL9K_NVM_BACKGROUND="-1"
-
-#############################################################################################################################
-# pnpm icon
-
-POWERLEVEL9K_CUSTOM_PNPM='cd "$(pwd)";echo 📦 $(pnpm -v)'
-POWERLEVEL9K_CUSTOM_PNPM_BACKGROUND="-1"
-POWERLEVEL9K_CUSTOM_PNPM_FOREGROUND='007'
-
-
-#############################################################################################################################
-# ram icon
-# 
-POWERLEVEL9K_RAM_BACKGROUND='-1'
-POWERLEVEL9K_RAM_FOREGROUND='001'
-
-#############################################################################################################################
-# host icon
-
-POWERLEVEL9K_HOST_LOCAL_BACKGROUND='-1'
-
-#############################################################################################################################
-# prompt config
-
-POWERLEVEL9K_STATUS_OK_IN_NON_VERBOSE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=''
-P9KGT_BACKGROUND='-1'
-
-#############################################################################################################################
-# prompt elements
-
-POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX=" %(?:%{$fg_bold[blue]%}↓ :%{$fg_bold[red]%}↓ )"
-POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX=" %(?:%{$fg_bold[blue]%} :%{$fg_bold[red]%} )"
-POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX=""
-
-# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[039]%} ➜  :%{$fg_bold[red]%} ➜  )"
+# POWERLEVEL9K_DIR_ETC_FOREGROUND='006'
+# POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='006'
 
 
 
-# virifica se esta rodadndo no terminal do vscode com base em uma variavel definida na configuração do vscode => shel env => vscode
-
-if [[ $vscode == "true" ]] ; then
-	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(  'user' 'virtualenv' 'pyenv'   'dir_writable'  'dir'  'newline' 'node_version' 'custom_pnpm'  'ram'   'vcs'  )
-
-	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=( background_jobs  'node_version' 'custom_pnpm'   )
-	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=( )
-
-else
-
-	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(  'user' 'virtualenv' 'pyenv'   'dir_writable'  'dir'  'newline'   'ram'   'vcs'  )
-
-	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=( background_jobs  'node_version' 'custom_pnpm'   )
-
-fi
-
-if  [[  $vscode == "true" ]]  ; then
-	# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[039]%}✔️  👉️   :%{$fg_bold[red]%}❌️ 👉️   )"
-	POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[green]%}❯   :%{$fg_bold[red]%}❯   )"
-else
-	# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[039]%}✔️  👉️ :%{$fg_bold[red]%}❌️ 👉️ )"
-	POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[green]%}❯ :%{$fg_bold[red]%}❯ )"
-
-fi
-# POWERLEVEL9K_MULTILINE_LAST_PROMPT_SUFFIX=" %(?:%{$fg_bold[039]%}▶  :%{$fg_bold[red]%}▶  )"
-
-POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="%F{black}%f"
-POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}%f"
-
-POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR="%F{black}%f"
-POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}|%f"
-POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}%f"
-
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
-
-POWERLEVEL9K_STATUS_VERBOSE=true
-POWERLEVEL9K_STATUS_CROSS=true
+# # POWERLEVEL9K_DIR_HOME_BACKGROUND='none'
+# # POWERLEVEL9K_DIR_HOME_FOREGROUND='004'
+# # POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='none'
+# # POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='none'
+# # POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='004'
 
 
-POWERLEVEL9K_DISABLE_RPROMPT=false
+# POWERLEVEL9K_HOME_SUB_ICON='📂'
+# POWERLEVEL9K_DIR_HOME_SEPARATOR=''
+# # POWERLEVEL9K_HOME_SUB_ICON=''
+# # POWERLEVEL9K_HOME_SUB_ICON="$(echo '🏠 =>' )"
+# POWERLEVEL9K_FOLDER_ICON='🗂️'
+# # POWERLEVEL9K_FOLDER_ICON=''
+# POWERLEVEL9K_HOME_ICON=$'🏠'
+# # POWERLEVEL9K_HOME_ICON=$'~'
+# POWERLEVEL9K_LOCK_ICON='🔐'
+# POWERLEVEL9K_ETC_ICON='⚙'
+
+# POWERLEVEL9K_DIR_WRITABLE="echo 🔐"
+
+
+
+
+# P9K_DIR_ETC_BACKGROUND='111'
+
+
+
+# # POWERLEVEL9K_HOME_FOLDER_ABBREVIATION='~'
+# # POWERLEVEL9K_HOME_FOLDER_ABBREVIATION='📂'
+# POWERLEVEL9K_HOME_FOLDER_ABBREVIATION=''
+
+# # # POWERLEVEL9K_DIR_PATH_ABSOLUTE
+# # POWERLEVEL9K_DIR_PATH_ABSOLUTE='None'
+# # POWERLEVEL9K_DIR_PATH_ABSOLUTE=
+
+
+
+
+# # POWERLEVEL9K_SHORTEN_DELIMITER='...'
+# POWERLEVEL9K_SHORTEN_DELIMITER=''
+
+
+
+
+
+# # POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
+# # POWERLEVEL9K_DIR_OMIT_SECOND_CHARACTER=true
+# # POWERLEVEL9K_HOME_DIR_OMIT_FIRST_CHARACTER=true
+# # POWERLEVEL9K_HOME_FOLDER_ABBREVIATION="%F{red} $(print_icon 'HOME_ICON') %F{black}"
+# # POWERLEVEL9K_HOME_FOLDER_ABBREVIATION="%F{red} $(echo '🏠') %F{black}"
+
+# POWERLEVEL9K_SHORTEN_DIR_LENGTH=
+
+# # POWERLEVEL9K_SHORTEN_STRATEGY
+
+# # POWERLEVEL9K_HOME_FOLDER_ABBREVIATION="$(echo '🏠 =>' )"
+# # POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+# # POWERLEVEL9K_SHORTEN_DELIMITER=""
+# # POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+# # POWERLEVEL9K_SHORTEN_STRATEGY="truncate_with_folder_marker"
+# # POWERLEVEL9K_DIR_PATH_SEPARATOR="%F{red} $(print_icon 'LEFT_SUBSEGMENT_SEPARATOR') %F{black}"
+# function separate () {
+# 	if [[ $(pwd) == $HOME ]]; then
+# 		#statements
+# 		echo "➜ "
+# 	else 
+# 		echo " ➜ "
+# 	fi
+# }
+# export separate
+# POWERLEVEL9K_DIR_PATH_SEPARATOR="🚀️"
+# POWERLEVEL9K_DIR_PATH_SEPARATOR="🚦️"
+# # POWERLEVEL9K_DIR_PATH_SEPARATOR="🔎️"
+
+
+
+
+# #############################################################################################################################
+# # user config
+
+
+# POWERLEVEL9K_USER_BACKGROUND='-1'
+
+# POWERLEVEL9K_ALWAYS_SHOW_CONTEXT=true
+# POWERLEVEL9K_ALWAYS_SHOW_USER=true
+
+# POWERLEVEL9K_USER_ICON='😎️'                    
+# POWERLEVEL9K_USER_SUDO_BACKGROUND='-1'
+# POWERLEVEL9K_USER_SUDO_FOREGROUND='011'
+# POWERLEVEL9K_USER_ROOT_BACKGROUND='-1'
+# POWERLEVEL9K_USER_ROOT_FOREGROUND='011'
+# POWERLEVEL9K_USER_DEFAULT_BACKGROUND='-1'
+# POWERLEVEL9K_USER_DEFAULT_FOREGROUND='003'
+
+# #############################################################################################################################
+# # status
+
+# POWERLEVEL9K_STATUS_OK_BACKGROUND='-1'
+# POWERLEVEL9K_STATUS_OK_FOREGROUND='082'
+
+# #############################################################################################################################
+# # node version
+# POWERLEVEL9K_NODE_VERSION_BACKGROUND='-1'
+# POWERLEVEL9K_NODE_VERSION_FOREGROUND='47'
+
+# #############################################################################################################################
+# # time config
+# POWERLEVEL9K_TIME_BACKGROUND='-1'
+
+# #############################################################################################################################
+# # nvm config
+
+# POWERLEVEL9K_NVM_BACKGROUND="-1"
+
+# #############################################################################################################################
+# # pnpm icon
+
+# POWERLEVEL9K_CUSTOM_PNPM='cd "$(pwd)";echo 📦 $(pnpm -v)'
+# POWERLEVEL9K_CUSTOM_PNPM_BACKGROUND="-1"
+# POWERLEVEL9K_CUSTOM_PNPM_FOREGROUND='007'
+
+
+# #############################################################################################################################
+# # ram icon
+# # 
+# POWERLEVEL9K_RAM_BACKGROUND='-1'
+# POWERLEVEL9K_RAM_FOREGROUND='001'
+
+# #############################################################################################################################
+# # host icon
+
+# POWERLEVEL9K_HOST_LOCAL_BACKGROUND='-1'
+
+# #############################################################################################################################
+# # prompt config
+
+# POWERLEVEL9K_STATUS_OK_IN_NON_VERBOSE=true
+# POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=''
+# P9KGT_BACKGROUND='-1'
+# POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=''
+# # POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=' '
+# POWERLEVEL9K_WHITESPACE_BETWEEN_LEFT_SEGMENTS=''
+
+# #############################################################################################################################
+# # prompt elements
+
+# # POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX="%(?:%{$fg_bold[blue]%}↓ :%{$fg_bold[red]%}↓ )"
+# # POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX="%(?:%{$fg_bold[blue]%} :%{$fg_bold[red]%} )"
+# # POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX=" "
+
+# # POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[039]%} ➜  :%{$fg_bold[red]%} ➜  )"
+
+
+
+# # virifica se esta rodadndo no terminal do vscode com base em uma variavel definida na configuração do vscode => shel env => vscode
+
+# if [[ $vscode == "true" ]] ; then
+# 	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(  'user'   'dir'  'dir_writable'  'newline' 'node_version' 'custom_pnpm'  'ram'   'vcs'  )
+
+# 	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('virtualenv' 'pyenv'   'dir_writable' background_jobs  'node_version' 'custom_pnpm'   )
+# 	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=( )
+
+# else
+
+# 	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(   'user'  'dir' 'dir_writable'   'newline'   'ram'   'vcs'  )
+
+# 	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(  'virtualenv' 'pyenv'    background_jobs  'node_version' 'custom_pnpm'   )
+
+# fi
+
+# if  [[  $vscode == "true" ]]  ; then
+# 	# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[039]%}✔️  👉️   :%{$fg_bold[red]%}❌️ 👉️   )"
+# 	POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%(?:%{$fg_bold[green]%}❯   :%{$fg_bold[red]%}❯   )"
+# else
+# 	# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" %(?:%{$fg_bold[039]%}✔️  👉️ :%{$fg_bold[red]%}❌️ 👉️ )"
+# 	POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%(?:%{$fg_bold[green]%}❯ :%{$fg_bold[red]%}❯ )"
+
+# fi
+# # POWERLEVEL9K_MULTILINE_LAST_PROMPT_SUFFIX=" %(?:%{$fg_bold[039]%}▶  :%{$fg_bold[red]%}▶  )"
+
+# # POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="%F{black}%f"
+# POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=""
+# # POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}%f"
+# POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=" "
+
+# POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR="%F{black}%f"
+# POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}|%f"
+# POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}%f"
+
+# POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+# POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
+# POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX=""
+
+# POWERLEVEL9K_STATUS_VERBOSE=true
+# POWERLEVEL9K_STATUS_CROSS=true
+
+
+# POWERLEVEL9K_DISABLE_RPROMPT=false
+
+
+
 
 
 #############################################################################################################################
@@ -460,7 +592,7 @@ if [[ -d ~/.nvm ]]; then
 	export NVM_DIR="$HOME/.nvm"
 	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-	nvm use system
+	nvm use system &> /dev/null 
 fi
 # 
 # kubectl 
@@ -474,3 +606,5 @@ fi
 # kubeadm
 # source <(kubeadm completion zsh)
 # 
+
+

@@ -10633,3 +10633,399 @@ done
 : 1562382804:0;ls
 : 1562386527:0;clear
 : 1562386530:0;sleep 10000 ; killall mpv
+: 1562514494:0;ln zshrc ~/.zshrc
+: 1562514499:0;rm -fr ~/zshrc
+: 1562514503:0;git status
+: 1562514508:0;git add README.md
+: 1562514523:0;git commit -m 'add README.md'
+: 1562514529:0;git push
+: 1562518589:0;git pushall
+: 1562522377:0;cd /Arquivos/Dev_Files/Developments/
+: 1562522383:0;cd Plugins
+: 1562522385:0;ls
+: 1562522386:0;cd ..
+: 1562522391:0;cd Codes
+: 1562522392:0;ls
+: 1562522394:0;cd ..
+: 1562522395:0;ls
+: 1562522399:0;cd CLI-Dev/
+: 1562522400:0;ls
+: 1562522401:0;cd Oclif
+: 1562522402:0;ls
+: 1562522405:0;cd api-init
+: 1562522406:0;ls
+: 1562522409:0;git status
+: 1562522444:0;apt install git-flow
+: 1562522488:0;git flow init
+: 1562522502:0;git status
+: 1562522512:0;git add src/commands/create.js
+: 1562522547:0;git commit -m 'add changes in => src/commands/create.js '
+: 1562522550:0;git flow init
+: 1562522592:0;git branch
+: 1562522617:0;api-init 
+: 1562522634:0;api-init
+: 1562522644:0;np add --latest
+: 1562522662:0;ls bin/run
+: 1562522666:0;ls bin/
+: 1562522681:0;api-init --help
+: 1562522693:0;nano bin/run
+: 1562522721:0;whereis api-init
+: 1562522731:0;rm -fr /Packages/bin/api-init
+: 1562522737:0;pnpm link
+: 1562522744:0;api-init --help
+: 1562522765:0;api-init create  --help
+: 1562522783:0;git status
+: 1562523004:0;source ~/.zshrc 
+: 1562523027:0;git gui
+: 1562523074:0;git log
+: 1562523109:0;api-init create  --help
+: 1562523112:0;cd ..
+: 1562523113:0;ls
+: 1562523117:0;cd tmp
+: 1562523118:0;ls
+: 1562523123:0;ls app-adonis/
+: 1562523127:0;cd teste
+: 1562523128:0;ls
+: 1562523140:0;cd ..
+: 1562523147:0;mv tmp adonisjs-tmp
+: 1562523150:0;md tmp
+: 1562523151:0;cd tmp
+: 1562523152:0;ls
+: 1562523155:0;api-init create  
+: 1562523162:0;api-init create  teste1
+: 1562523195:0;code-exploration -a .
+: 1562523264:0;eslint --init 
+: 1562523477:0;ls
+: 1562523480:0;ls ~/
+: 1562523850:0;pnpm add -D eslint
+: 1562524178:0;cd. .
+: 1562524179:0;cd ..
+: 1562524195:0;md clis
+: 1562524196:0;cd clis
+: 1562524207:0;oclif
+: 1562524242:0;oclif multi api-init
+: 1562524259:0;oclif multi api-init --help
+: 1562524282:0;oclif multi api-init
+: 1562524497:0;ls /Packages/bin
+: 1562524509:0;mv /Packages/bin/yarn /Packages/bin/yarn2
+: 1562524515:0;cp /Packages/bin/pnpm /Packages/bin/yarn
+: 1562524517:0;oclif multi api-init
+: 1562524579:0;ping google.com
+: 1562524595:0;nano ~/.npmrc
+: 1562524602:0;oclif multi api-init
+: 1562524609:0;oclif multi api-init-tslint
+: 1562524694:0;cd api-init-tslint
+: 1562524706:0;pnpm add @oclif/erros 
+: 1562524712:0;pnpm add @oclif/errors 
+: 1562524725:0;rm -fr /Packages/bin/api-init
+: 1562524730:0;pnpm link
+: 1562524739:0;api-init 
+: 1562524749:0;ls /Packages/bin
+: 1562524758:0;api-init 
+: 1562524768:0;npm-script-list
+: 1562524786:0;cat bin/run
+: 1562524794:0;ls
+: 1562524797:0;npm-script-list
+: 1562524833:0;yarn version
+: 1562524879:0;ping google.com
+: 1562524924:0;api-init 
+: 1562524932:0;/Packages/bin/apit-init
+: 1562524949:0;rm -fr /Packages/bin/apit-init
+: 1562524954:0;nano package.json
+: 1562524965:0;pnpm link
+: 1562524975:0;api-init 
+: 1562524991:0;code-exploration -a .
+: 1562525211:0;cd ..
+: 1562525224:0;cd api-init
+: 1562525278:0;pnpm add -D eslint-config-prettier
+: 1562525301:0;pnpm add -D eslint-plugin-prettier
+: 1562525314:0;eslint --init 
+: 1562525325:0;cat .eslintrc.js
+: 1562525449:0;pnpm add -D eslint-config-prettier eslint-plugin-prettier
+: 1562525485:0;pnpm add -g prettier
+: 1562525542:0;pnpm add -D prettier
+: 1562527531:0;pnpm add -D babel-eslint
+: 1562527586:0;pnpm add -D eslint-plugin-babel
+: 1562529307:0;api-init 
+: 1562529337:0;rm -fr /Packages/bin/apit-init
+: 1562529344:0;pnpm link
+: 1562529352:0;api-init 
+: 1562529357:0;api-init --help
+: 1562529362:0;api-init create --help
+: 1562534315:0;code-exploration -a .
+: 1562534332:0;git init
+: 1562549672:0;cd /Arquivos/Dev_Files/Developments/
+: 1562549680:0;cd Shell/my-zsh-config
+: 1562549682:0;subl -a .
+: 1562549763:0;cd
+: 1562549767:0;cd Downloads
+: 1562549816:0;source ~/.zshrc 
+: 1562549898:0;cd Compressed
+: 1562549900:0;cd Old
+: 1562549903:0;ls
+: 1562549912:0;source ~/.zshrc 
+: 1562550159:0;cd /etc
+: 1562550307:0;cd
+: 1562550310:0;cd Downloads
+: 1562550314:0;ls
+: 1562550316:0;ll
+: 1562550432:0;ls
+: 1562550434:0;cd /etc
+: 1562550439:0;cd 
+: 1562550441:0;cd Downloads
+: 1562550499:0;cd /etc
+: 1562550501:0;cd 
+: 1562550511:0;ls
+: 1562550518:0;cd Biblioteca\ do\ calibre
+: 1562550522:0;cd /etc
+: 1562550524:0;ls
+: 1562550526:0;l
+: 1562550547:0;cd
+: 1562550626:0;source ~/.zshrc 
+: 1562550639:0;cd Downloads
+: 1562550642:0;ls
+: 1562550702:0;cd /
+: 1562550708:0;cd bin
+: 1562550711:0;ls
+: 1562550714:0;l
+: 1562550768:0;cd 
+: 1562550775:0;cd Downloads
+: 1562550778:0;cd Compressed
+: 1562550784:0;cd Old/Fan_Kit
+: 1562550787:0;ls
+: 1562550789:0;cd 
+: 1562550802:0;cd Documentos/Covers/NAruto/classico
+: 1562550805:0;ls
+: 1562550807:0;cd ..
+: 1562550816:0;cd Lista\ de\ episódios\ de\ Yu\ Yu\ Hakusho\  �\ Wikipédia,\ a\ enciclopédia\ livre_files
+: 1562550819:0;cd .
+: 1562550821:0;ls
+: 1562550822:0;cd ..
+: 1562550825:0;ls
+: 1562550827:0;l
+: 1562550915:0;source ~/.zshrc 
+: 1562550940:0;ls
+: 1562550942:0;pwd
+: 1562551078:0;ls
+: 1562551081:0;cd ..
+: 1562551299:0;ls
+: 1562551310:0;source ~/.zshrc 
+: 1562551317:0;cd /
+: 1562551320:0;cd Arquivos
+: 1562551324:0;cd MangÃ�s
+: 1562551331:0;cd 
+: 1562551337:0;cd Biblioteca\ do\ calibre
+: 1562551348:0;cd Don\ Tapscott
+: 1562551367:0;cd .
+: 1562551370:0;source ~/.zshrc 
+: 1562551846:0;cd
+: 1562551856:0;source ~/.zshrc 
+: 1562551928:0;echo "=>"
+: 1562551982:0;source ~/.zshrc 
+: 1562552036:0;cd Downloads
+: 1562552057:0;source ~/.zshrc 
+: 1562552186:0;cd
+: 1562552194:0;cd Downloads
+: 1562552196:0;ls
+: 1562552344:0;cd /etc
+: 1562552349:0;ls
+: 1562552444:0;source ~/.zshrc 
+: 1562552563:0;cd 
+: 1562552566:0;cd Documentos
+: 1562552570:0;cd AICP\ wallpapers\ -\ Album\ on\ Imgur_files
+: 1562552574:0;ls
+: 1562552615:0;cd /etc
+: 1562552621:0;ls
+: 1562552634:0;source ~/.zshrc 
+: 1562552718:0;cd alternatives
+: 1562552722:0;cd ..
+: 1562552734:0;c mongod.conf
+: 1562552746:0;cd systemd/system
+: 1562552749:0;ls
+: 1562552754:0;cd /bin
+: 1562552758:0;ls
+: 1562552793:0;source ~/.zshrc 
+: 1562552800:0;cd ..
+: 1562552801:0;cd etc
+: 1562552804:0;ls
+: 1562552829:0;source ~/.zshrc 
+: 1562552837:0;cd ..
+: 1562552839:0;cd bin
+: 1562552842:0;ls
+: 1562552844:0;cd ..
+: 1562552846:0;cd etc
+: 1562552849:0;ls
+: 1562552918:0;ks
+: 1562552921:0;ls
+: 1562552946:0;source ~/.zshrc 
+: 1562552959:0;ls
+: 1562552963:0;cd /bin
+: 1562552982:0;source ~/.zshrc 
+: 1562553090:0;ls
+: 1562553166:0;source ~/.zshrc 
+: 1562553175:0;cd /bin
+: 1562553179:0;ls
+: 1562553227:0;source ~/.zshrc 
+: 1562553364:0;ls
+: 1562553387:0;source ~/.zshrc 
+: 1562553630:0;ls
+: 1562553635:0;cd /etc
+: 1562553640:0;ls
+: 1562553643:0;pwd
+: 1562553649:0;cd 
+: 1562553652:0;cd Downloads
+: 1562553654:0;ls
+: 1562553659:0;cd ..
+: 1562553664:0;cd Documentos
+: 1562553668:0;ls
+: 1562553670:0;cd ,,
+: 1562553671:0;cd ..
+: 1562553674:0;cd Docker
+: 1562553677:0;cd apache2
+: 1562553680:0;cd ..
+: 1562553683:0;ls
+: 1562553744:0;echo "\UE12E"
+: 1562553966:0;cd 
+: 1562553967:0;cd Downloads
+: 1562553970:0;cd Compressed
+: 1562553976:0;cd Old
+: 1562553995:0;source ~/.zshrc 
+: 1562554068:0;ls
+: 1562554085:0;source ~/.zshrc 
+: 1562554096:0;ls
+: 1562554326:0;source ~/.zshrc 
+: 1562554390:0;cd /etc
+: 1562554396:0;cd apm
+: 1562554415:0;source ~/.zshrc 
+: 1562554459:0;cd /bin
+: 1562554463:0;p
+: 1562554471:0;cd ..
+: 1562554474:0;cd usr
+: 1562554475:0;ls
+: 1562554477:0;cd etc
+: 1562554486:0;ls
+: 1562554489:0;cd ..
+: 1562554494:0;ls
+: 1562554597:0;cd
+: 1562554602:0;cd Downloads
+: 1562554619:0;source ~/.zshrc 
+: 1562554670:0;cd
+: 1562554688:0;source ~/.zshrc 
+: 1562554705:0;cd go
+: 1562554709:0;cd ..
+: 1562554719:0;cd Downloads
+: 1562554725:0;cd Compressed
+: 1562554743:0;source ~/.zshrc 
+: 1562554810:0;cd /bin
+: 1562554830:0;cd /etc
+: 1562554834:0;cd apparmor
+: 1562554838:0;cd do
+: 1562554839:0;cd 
+: 1562554842:0;cd Docker
+: 1562554908:0;cd /etc
+: 1562554911:0;cd alternatives
+: 1562554935:0;source ~/.zshrc 
+: 1562554945:0;cd 
+: 1562554946:0;cd Downloads
+: 1562555005:0;SO
+: 1562555009:0;source ~/.zshrc 
+: 1562555293:0;ls
+: 1562555298:0;cd Compressed
+: 1562555328:0;source ~/.zshrc 
+: 1562555755:0;function separete () {\
+	if [[ $(pwd) == $HOME ]]; then\
+		#statements\
+		echo "igual"\
+	fi\
+}
+: 1562555759:0;separete
+: 1562555761:0;cd
+: 1562555765:0;separete
+: 1562555851:0;cd Downloads
+: 1562555859:0;source ~/.zshrc 
+: 1562555875:0;cd Arquivos
+: 1562555889:0;separete
+: 1562555901:0;source ~/.zshrc 
+: 1562555913:0;separete
+: 1562555918:0;separate
+: 1562555921:0;cd
+: 1562555924:0;separate
+: 1562555985:0;cd Downloads
+: 1562555995:0;cd Arquivos
+: 1562556033:0;cd Documentos
+: 1562556093:0;cd Covers
+: 1562556098:0;ls
+: 1562556102:0;cd
+: 1562556178:0;cd Downloads
+: 1562556200:0;cd
+: 1562556203:0;cd Downloads
+: 1562556274:0;cd Images
+: 1562556277:0;ls
+: 1562556285:0;cd /
+: 1562556291:0;cd bin
+: 1562556310:0;cd /etc
+: 1562556337:0;ls
+: 1562556339:0;cd ..
+: 1562556341:0;cd
+: 1562556345:0;cd Downloads
+: 1562556346:0;ls
+: 1562556349:0;cd Compressed
+: 1562556351:0;cd /Arquivos
+: 1562556356:0;cd Dev_Files/
+: 1562556359:0;cd Developments
+: 1562556364:0;cd CLI-Dev
+: 1562556366:0;cd Oclif
+: 1562556368:0;ls
+: 1562556371:0;p
+: 1562556386:0;source ~/.zshrc 
+: 1562556397:0;pwd
+: 1562556516:0;source ~/.zshrc 
+: 1562556524:0;cd /bin
+: 1562556529:0;cd ..
+: 1562556530:0;cd etc
+: 1562556543:0;cd systemd
+: 1562556545:0;cd system
+: 1562556549:0;ls
+: 1562556553:0;pwd
+: 1562556999:0;cd
+: 1562557003:0;cd Downloads
+: 1562557006:0;ls
+: 1562557048:0;cd Arquivos
+: 1562557051:0;ls
+: 1562557053:0;pwd
+: 1562557056:0;cd /Arquivos
+: 1562557065:0;cd
+: 1562557085:0;cd Docker
+: 1562557097:0;source ~/.zshrc 
+: 1562557309:0;cd 
+: 1562557313:0;cd Downloads
+: 1562557316:0;cd Arquivos
+: 1562557327:0;cd Seedr
+: 1562557330:0;cd /
+: 1562557340:0;cd Arquivos
+: 1562557368:0;cd /Arquivos/Dev_Files/Developments/
+: 1562557374:0;ls
+: 1562557492:0;cd /etc
+: 1562557506:0;cd 
+: 1562557509:0;cd Downloads
+: 1562557518:0;cd Compressed
+: 1562557522:0;ccd ..
+: 1562557524:0;cd ..
+: 1562557528:0;cd Documents
+: 1562557532:0;cd ..
+: 1562557553:0;p
+: 1562557556:0;cd
+: 1562557559:0;cd /
+: 1562557745:0;ls
+: 1562557749:0;cd Arquivos
+: 1562557754:0;cd Android/
+: 1562557756:0;ls
+: 1562557761:0;cd ..
+: 1562557764:0;cd 
+: 1562557766:0;cd Documentos
+: 1562557768:0;cd
+: 1562557774:0;./Downloads
+: 1562557776:0;ls
+: 1562557932:0;source ~/.zshrc 
+: 1562557945:0;ls
+: 1562558253:0;sleep 10000 ; killall mpv
