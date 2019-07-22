@@ -103,10 +103,10 @@ fi
 
 
 export PATH="$PATH:/usr/lib/dart/bin"
-export PATH="$PATH:/Packages/bin"
-export PATH="$PATH:/Packages"
+export PATH="$PATH:$HOME/Packages/bin"
+export PATH="$PATH:$HOME/Packages"
 #export NPM_CONFIG_PREFIX="/Packages"
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
+#export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 export PATH="$PATH:/usr/share/rvm/bin/"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
