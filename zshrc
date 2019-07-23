@@ -316,4 +316,4 @@ alias cg="git clone"
 
 
 
-#rm -f ~/.zcompdump; compinit
+rm -f ~/.zcompdump; compinit
