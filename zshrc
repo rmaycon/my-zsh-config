@@ -63,47 +63,10 @@ if [[ -d ~/.rbenv ]]; then
 
 fi
 
-#############################################################################################################################
-# completions 
-# 
-#  npm 
-# source <(npm completion)
-# 
-# pip
-function _pip_completion {
-  local words cword
-  read -Ac words
-  read -cn cword
-  reply=( $( COMP_WORDS="$words[*]" \
-             COMP_CWORD=$(( cword-1 )) \
-             PIP_AUTO_COMPLETE=1 $words[1] ) )
-}
-compctl -K _pip_completion pip3
-# 
-# nvm 
-if [[ -d ~/.nvm ]]; then
-
-	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-	nvm use system &> /dev/null 
-fi
-# 
-# kubectl 
-# source <(kubectl completion zsh)
-# 
-# homebrew
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-fi
-# 
-# kubeadm
-# source <(kubeadm completion zsh)
-# 
 
 
-export MANPATH=/opt/local/share/man:$MANPATH
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# export MANPATH=/opt/local/share/man:$MANPATH
+# export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 
 export PATH="$PATH:/usr/lib/dart/bin"
@@ -111,14 +74,16 @@ export PATH="$PATH:$HOME/Packages/bin"
 export PATH="$PATH:$HOME/Packages"
 #export NPM_CONFIG_PREFIX="/Packages"
 #export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
-export PATH="$PATH:$HOME/.config/composer/vendor/bin"
-export PATH="$PATH:/usr/share/rvm/bin/"
+# export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+# export PATH="$PATH:/usr/share/rvm/bin/"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=( git bundler dotenv osx rake rbenv ruby colored-man-pages npm nvm )
 # plugins=( git dotenv ruby colored-man-pages npm nvm gem )
 
+
+# autoload -U +X compinit && compinit
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="spaceship-prompt/spaceship"
@@ -192,7 +157,46 @@ SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
 
 
-if [[ $USER != "root" ]]; then
+#############################################################################################################################
+# completions 
+# 
+#  npm 
+# source <(npm completion)
+# 
+# pip
+function _pip_completion {
+  local words cword
+  read -Ac words
+  read -cn cword
+  reply=( $( COMP_WORDS="$words[*]" \
+             COMP_CWORD=$(( cword-1 )) \
+             PIP_AUTO_COMPLETE=1 $words[1] ) )
+}
+compctl -K _pip_completion pip3
+# 
+# nvm 
+if [[ -d ~/.nvm ]]; then
+
+	export NVM_DIR="$HOME/.nvm"
+	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+	nvm use system &> /dev/null 
+fi
+# 
+# kubectl 
+# source <(kubectl completion zsh)
+# 
+# homebrew
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+# 
+# kubeadm
+# source <(kubeadm completion zsh)
+# 
+
+
+# if [[ $USER != "root" ]]; then
 	#statements
 	### Added by Zplugin's installer
 	source $HOME'/.zplugin/bin/zplugin.zsh'
@@ -210,13 +214,13 @@ if [[ $USER != "root" ]]; then
 	zplugin light zsh-users/zsh-autosuggestions
 	zplugin light zsh-users/zsh-completions
 	zplugin light "buonomo/yarn-completion"
-else
-	source '/root/.zplugin/plugins/buonomo---yarn-completion/yarn-completion.plugin.zsh'
-	source '/root/.zplugin/plugins/zsh-users---zsh-autosuggestions/zsh-autosuggestions.zsh'
-	source '/root/.zplugin/plugins/zsh-users---zsh-history-substring-search/zsh-history-substring-search.zsh'
-	source '/root/.zplugin/plugins/zdharma---fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh'
-	source '/root/.zplugin/plugins/zsh-users---zsh-completions/zsh-completions.plugin.zsh'
-fi
+# else
+# 	source '/root/.zplugin/plugins/buonomo---yarn-completion/yarn-completion.plugin.zsh'
+# 	source '/root/.zplugin/plugins/zsh-users---zsh-autosuggestions/zsh-autosuggestions.zsh'
+# 	source '/root/.zplugin/plugins/zsh-users---zsh-history-substring-search/zsh-history-substring-search.zsh'
+# 	source '/root/.zplugin/plugins/zdharma---fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh'
+# 	source '/root/.zplugin/plugins/zsh-users---zsh-completions/zsh-completions.plugin.zsh'
+# fi
 
 
 
@@ -308,6 +312,7 @@ alias pcwd='cd "$(pwd)"'
 alias pioff='pip install --user --no-index --find-links=file://$HOME/.mypypi '
 alias pi3off='pip3 install --user --no-index --find-links=file://$HOME/.mypypi '
 alias cp='cp -r'
+alias cg="git clone"
 
 
 
