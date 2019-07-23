@@ -102,6 +102,10 @@ fi
 # 
 
 
+export MANPATH=/opt/local/share/man:$MANPATH
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+
 export PATH="$PATH:/usr/lib/dart/bin"
 export PATH="$PATH:$HOME/Packages/bin"
 export PATH="$PATH:$HOME/Packages"
@@ -307,3 +311,4 @@ alias cp='cp -r'
 
 
 
+#rm -f ~/.zcompdump; compinit
