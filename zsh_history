@@ -1577,3 +1577,25 @@ done
 : 1564977885:0;git stash
 : 1564977891:0;git status
 : 1564977906:0;cp ~/.zsh_history zsh_history
+: 1564977952:0;history
+: 1564977961:0;ls
+: 1564977963:0;history
+: 1564977966:0;cat zsh_history
+: 1564977975:0;git status
+: 1564977987:0;hsi brew
+: 1564978000:0;hsi brew > brew-history
+: 1564978004:0;git add brew-history
+: 1564978018:0;git commit -m "adcionando brew-history"
+: 1564978044:0;git status
+: 1564978055:0;git log
+: 1564978157:0;htop
+: 1564978367:0;-
+: 1564978375:0;echo -
+: 1564978379:0;cd -
+: 1564978390:0;ls
+: 1564978414:0;-
+: 1564978419:0;cd -
+: 1564978424:0;+
+: 1564978655:0;ls 
+: 1564978953:0;brew cask install spactacle 
+: 1564978972:0;brew cask install spectacle 
