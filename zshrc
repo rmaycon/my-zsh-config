@@ -19,7 +19,7 @@
 
 export ZSH=~/.oh-my-zsh
 export TERM="xterm-256color"
-
+ZSH_DISABLE_COMPFIX=true
 
 
 
@@ -72,6 +72,8 @@ fi
 export PATH="$PATH:/usr/lib/dart/bin"
 export PATH="$PATH:$HOME/Packages/bin"
 export PATH="$PATH:$HOME/Packages"
+export PATH="$PATH:$HOME/Packages/spack/bin"
+# export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin"
 #export NPM_CONFIG_PREFIX="/Packages"
 #export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 # export PATH="$PATH:$HOME/.config/composer/vendor/bin"
@@ -91,6 +93,7 @@ ZSH_THEME="spaceship-prompt/spaceship"
 # POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_MODE='awesome-fontconfig'
 # POWERLEVEL9K_MODE='nerd-fonts'
+
 SPACESHIP_USER_SHOW=always
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="❯"
@@ -123,23 +126,23 @@ SPACESHIP_ROMPT_ORDER=(
   package       # Package version
   ruby          # Ruby section
   node          # Node.js section
-  elixir        # Elixir section
+#   elixir        # Elixir section
   xcode         # Xcode section
-  swift         # Swift section
-  golang        # Go section
+#   swift         # Swift section
+#   golang        # Go section
   php           # PHP section
-  rust          # Rust section
-  haskell       # Haskell Stack section
-  julia         # Julia section
+#   rust          # Rust section
+#   haskell       # Haskell Stack section
+#   julia         # Julia section
   docker        # Docker section
-  aws           # Amazon Web Services section
+#   aws           # Amazon Web Services section
   venv          # virtualenv section
   conda         # conda virtualenv section
   pyenv         # Pyenv section
-  dotnet        # .NET section
-  ember         # Ember.js section
-  kubecontext   # Kubectl context section
-  terraform     # Terraform workspace section
+#   dotnet        # .NET section
+#   ember         # Ember.js section
+  # kubecontext   # Kubectl context section
+#   terraform     # Terraform workspace section
   exec_time     # Execution time
   line_sep      # Line break
   battery       # Battery level and status
@@ -194,7 +197,7 @@ fi
 # kubeadm
 # source <(kubeadm completion zsh)
 # 
-
+# rm -f ~/.zcompdump
 
 # if [[ $USER != "root" ]]; then
 	#statements
@@ -209,11 +212,12 @@ fi
 	# zplugin light zsh-users/zsh-completions
 	# zplugin light buonomo/yarn-completion
 
-	zplugin light zsh-users/zsh-history-substring-search
-	zplugin light zdharma/fast-syntax-highlighting
-	zplugin light zsh-users/zsh-autosuggestions
-	zplugin light zsh-users/zsh-completions
-	zplugin light "buonomo/yarn-completion"
+	zplugin load zsh-users/zsh-history-substring-search
+	zplugin load zdharma/fast-syntax-highlighting
+	zplugin load zsh-users/zsh-autosuggestions
+	zplugin load zsh-users/zsh-completions
+	zplugin load "buonomo/yarn-completion"
+	zpl compinit >> /dev/null
 # else
 # 	source '/root/.zplugin/plugins/buonomo---yarn-completion/yarn-completion.plugin.zsh'
 # 	source '/root/.zplugin/plugins/zsh-users---zsh-autosuggestions/zsh-autosuggestions.zsh'
@@ -316,4 +320,4 @@ alias cg="git clone"
 
 
 
-rm -f ~/.zcompdump; compinit
+# rm -f ~/.zcompdump; compinit
