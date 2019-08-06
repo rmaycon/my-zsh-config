@@ -1599,3 +1599,137 @@ done
 : 1564978655:0;ls 
 : 1564978953:0;brew cask install spactacle 
 : 1564978972:0;brew cask install spectacle 
+: 1565024207:0;ln -f zshrc ~/.zshrc
+: 1565024253:0;brew install node
+: 1565024285:0;mkdir ~/.zplugin\
+git clone https://github.com/zdharma/zplugin.git ~/.zplugin/bin
+: 1565024533:0;node -v
+: 1565024570:0;cat .zshrc
+: 1565024652:0;hsi brew > brew-history
+: 1565024686:0;brew cask install sublime-text
+: 1565024843:0;subl brew-history
+: 1565025084:0;brew tap homebrew/cask
+: 1565025309:0;brew tap mongodb/brew
+: 1565025361:0;brew install xkill
+: 1565025437:0;brew install wget ffmpeg osxfuse tesseract-lang mounty python3 git rar unrar p7zip\
+\
+brew cask install --force mpv keka docker p7zip visual-studio-code sublime-merge firefox opera insomnia postman virtualbox drawio kitematic  vlc evernote windscribe spectacle android-file-transfer balenaetcher softmaker-freeoffice  libreoffice libreoffice-language-pack devdocs mongodb-community@4.0 mysql postgresql@10 pgadmin4 iterm2 xdm free-download-manager
+: 1565025456:0;brew install wget ffmpeg  tesseract-lang mounty python3 git rar unrar p7zip\
+\
+brew cask install --force mpv keka docker p7zip visual-studio-code sublime-merge firefox opera insomnia postman virtualbox drawio kitematic  vlc evernote windscribe spectacle android-file-transfer balenaetcher softmaker-freeoffice  libreoffice libreoffice-language-pack devdocs mongodb-community@4.0 mysql postgresql@10 pgadmin4 iterm2 xdm free-download-manager
+: 1565025502:0;brew install wget ffmpeg  tesseract-lang  python3 git rar unrar p7zip\
+\
+brew cask install --force mpv keka docker p7zip visual-studio-code sublime-merge firefox opera insomnia postman virtualbox drawio kitematic  vlc evernote windscribe spectacle android-file-transfer balenaetcher softmaker-freeoffice  libreoffice libreoffice-language-pack devdocs mongodb-community@4.0 mysql postgresql@10 pgadmin4 iterm2 xdm free-download-manager mounty
+: 1565025560:0;brew install wget ffmpeg  tesseract-lang  python3 git rar unrar p7zip\
+\
+brew cask install --force mpv rar keka docker visual-studio-code sublime-merge firefox opera insomnia postman virtualbox drawio kitematic  vlc evernote windscribe spectacle android-file-transfer balenaetcher softmaker-freeoffice  libreoffice libreoffice-language-pack devdocs mongodb-community@4.0 mysql postgresql@10 pgadmin4 iterm2 xdm free-download-manager mounty
+: 1565025611:0;brew install wget ffmpeg  tesseract-lang  python3 git rar unrar p7zip
+: 1565025626:0;brew install wget ffmpeg  tesseract-lang  python3 git  unrar p7zip
+: 1565025705:0;cd www/my-zsh-config
+: 1565025709:0;git status
+: 1565025723:0;git checkout master
+: 1565025729:0;git pull
+: 1565025738:0;ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "mayconrebordao1122@gmail.com"
+: 1565025742:0;pbcopy < ~/.ssh/id_ed25519.pub
+: 1565025893:0;brew cask install telegram
+: 1565026241:0;brew cask install whatsapp
+: 1565026787:0;brew cask install telegram-desktop
+: 1565027075:0;brew cask install --force mpv rar evernote keka docker visual-studio-code sublime-merge firefox opera insomnia postman virtualbox drawio kitematic  vlc evernote windscribe spectacle android-file-transfer balenaetcher softmaker-freeoffice  libreoffice libreoffice-language-pack devdocs  pgadmin4 iterm2 xdm free-download-manager mounty
+: 1565027285:0;git --version
+: 1565027315:0;brew install mongodb-community@4.0 mysql postgresql@10 git 
+: 1565027635:0;git --version
+: 1565027646:0;brew upgrade git
+: 1565028741:0;where git
+: 1565028752:0;l /usr/bin
+: 1565028782:0;where git
+: 1565028812:0;/usr/local/bin/git --version
+: 1565028875:0;sudo -s
+: 1565028904:0;cd /usr/
+: 1565028907:0;ls
+: 1565028912:0;md old
+: 1565028919:0;mv bin/git* old
+: 1565028921:0;exi
+: 1565028923:0;exit
+: 1565028925:0;git --version
+: 1565029626:0;open /usr/local/Caskroom/libreoffice-language-pack/6.2.5/LibreOffice Language Pack.app'\
+'
+: 1565029653:0;open '/usr/local/Caskroom/libreoffice-language-pack/6.2.5/LibreOffice Language Pack.app' 
+: 1565029922:0;brew cask install jdownloader
+: 1565031773:0;cd
+: 1565031786:0;sudo chmod -R 754 .config
+: 1565031823:0;sudo chown -R  $(whoami) .config
+: 1565031934:0;cd www
+: 1565031935:0;cd tmp
+: 1565031936:0;ls
+: 1565031941:0;cd myApp
+: 1565031942:0;ls
+: 1565031946:0;yarn 
+: 1565032039:0;defaults write com.apple.screencapture location ~/Pictures/ScreenShots
+: 1565032292:0;mv node_modules node_modules_old1
+: 1565032296:0;pnpm add
+: 1565032318:0;rm -fr /usr/local/lib/node_modules/npm/npmrc
+: 1565032325:0;npm config set --global cache  $HOME/Packages/npm-cache
+: 1565032337:0;npm config --global set store $HOME/Packages/pnpm-store
+: 1565032352:0;npm config set prefix $HOME/Packages
+: 1565032359:0;rm -fr ~/.npmrc
+: 1565032378:0;npm config set --global prefix $HOME/Packages
+: 1565032407:0;yarn config set cache-folder $HOME/Packages/yarn-cache
+: 1565032415:0;rm -fr node_modules_old1
+: 1565032434:0;yarn 
+: 1565032758:0;mv node_modules node_modules_old1
+: 1565032763:0;pnpm add
+: 1565032771:0;cd www
+: 1565032774:0;ls
+: 1565032777:0;cd btm-api
+: 1565032778:0;ls
+: 1565032784:0;mv node_modules node_modules_old2
+: 1565032789:0;pnpm add
+: 1565033189:0;pnpm up -g --latest
+: 1565033483:0;cd ..
+: 1565033488:0;cd tmp
+: 1565033491:0;ionic start myApp-curso tabs
+: 1565033704:0;ls
+: 1565033755:0;cd myApp-curso
+: 1565033756:0;ls
+: 1565033758:0;mv node_modules node_modules_old2
+: 1565033762:0;yarn
+: 1565033915:0;cd ..
+: 1565033918:0;cd myApp-curso
+: 1565033943:0;sudo -s
+: 1565050329:0;cd Downloads/tmp
+: 1565050331:0;ls
+: 1565050337:0;cd Downloads
+: 1565050338:0;ls
+: 1565050341:0;cd ..
+: 1565050343:0;cd tmp
+: 1565050348:0;ls
+: 1565050365:0;ffmpeg -y -i O\ Grande\ Eu\ Sou\ -\ Leonardo\ Vieira\ \(Legendado\ para\ Células\).mp4 O\ Grande\ Eu\ Sou\ -\ Leonardo\ Vieira\ \(Legendado\ para\ Células\).mp3
+: 1565052803:0;brew cask install trello
+: 1565053130:0;brew cask install macs-fan-control
+: 1565054943:0;defaults write com.apple.screencapture location ~/Pictures/ScreenShots
+: 1565055034:0;defaults write com.apple.screencapture 
+: 1565055092:0;defaults write com.apple.screencapture location $HOME/Pictures/ScreenShots
+: 1565055228:0;md Pictures/ScreenShots
+: 1565055230:0;defaults write com.apple.screencapture location $HOME/Pictures/ScreenShots
+: 1565069268:0;brew cask install macs-fan-control
+: 1565077478:0;brew cask uninstall whatsapp
+: 1565081016:0;brew --cache
+: 1565081164:0;cd www
+: 1565081165:0;ls
+: 1565081167:0;cd my-zsh-config
+: 1565081173:0;git status
+: 1565081181:0;git add zsh_history
+: 1565081190:0;git commit -m "adicionando history"
+: 1565081209:0;git push
+: 1565081241:0;git status
+: 1565081245:0;git log
+: 1565081277:0;git pull
+: 1565081302:0;cat zsh_history
+: 1565081315:0;l ~/
+: 1565081335:0;cd ..
+: 1565081343:0;git config --global user.email "mayconrebordao1122@gmail.com"
+: 1565081346:0;git config --global user.name "Maycon Rebordão"
+: 1565081353:0;mv my-zsh-config my-zsh-config_old
+: 1565081369:0;cg git@github.com:rmaycon7/my-zsh-config
+: 1565081378:0;cd my-zsh-config
+: 1565081383:0;cp ~/.zsh_history zsh_history
