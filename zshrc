@@ -36,7 +36,7 @@ plugins=(
 	# bundler
 	# virtualenv
 	# sublime
-	# rbenv
+	rbenv
 	# gem
 	# colored-man-pages
 	# redis-cli
@@ -68,7 +68,7 @@ fi
 # export MANPATH=/opt/local/share/man:$MANPATH
 # export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export PATH="$PATH:/usr/lib/dart/bin"
 export PATH="$PATH:$HOME/Packages/bin"
 export PATH="$PATH:$HOME/Packages"
@@ -317,6 +317,7 @@ alias pioff='pip install --user --no-index --find-links=file://$HOME/.mypypi '
 alias pi3off='pip3 install --user --no-index --find-links=file://$HOME/.mypypi '
 alias cp='cp -r'
 alias cg="git clone"
+alias dlsite='wget -mrkEpnp -N  --backup-converted   --adjust-extension --page-requisites --html-extension --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 OPR/52.0.2871.40" -c -m -p -r -k -erobots=off'
 
 
 
