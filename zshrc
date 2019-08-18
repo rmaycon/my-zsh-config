@@ -68,9 +68,28 @@ fi
 # export MANPATH=/opt/local/share/man:$MANPATH
 # export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
+# unset  ANDROID_HOME
+export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+# export ANDROID_HOME=/usr/local/share/android-sdk
+# export ANDROID_HOME=
+export ANDROID_SDK_ROOT="/Users/rmaycon7/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"
+export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools/bin"
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools"
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home"
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+
+for i in 
+
 export PATH="$PATH:/usr/lib/dart/bin"
 export PATH="$PATH:$HOME/Packages/bin"
+export PATH="$PATH:/Applications/Android Studio.app/Contents/gradle/gradle-5.1.1/bin"
+export PATH="$PATH:/Applications/Android\ Studio.app/Contents/MacOS/"
+export PATH="$PATH:/usr/local/share/android-sdk/tools/bin"
+
+
 export PATH="$PATH:$HOME/Packages"
 export PATH="$PATH:$HOME/Packages/spack/bin"
 # export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin"

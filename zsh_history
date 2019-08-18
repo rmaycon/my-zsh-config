@@ -2347,3 +2347,353 @@ done
 : 1565664200:0;du -sh www/my-zsh-config/zsh_history
 : 1565664208:0;du -sh .zsh_history
 : 1565664214:0;cp .zsh_history www/my-zsh-config/zsh_history
+: 1565664218:0;cd www/my-zsh-config
+: 1565664220:0;git status
+: 1565664226:0;git add zsh
+: 1565664230:0;git add zsh*
+: 1565664232:0;git status
+: 1565664255:0;git commit -m "atualizadno zshrc, e zsh_history"
+: 1565664264:0;git status
+: 1565664271:0;ls
+: 1565664287:0;cd ..
+: 1565664288:0;ls
+: 1565664317:0;cd tmp
+: 1565664318:0;ls
+: 1565664319:0;l
+: 1565664321:0;ll
+: 1565695850:0;where java
+: 1565696451:0;java --version
+: 1565696483:0;brew cask uninstall java
+: 1565696534:0;java --version
+: 1565696546:0;where java
+: 1565696612:0;java 
+: 1565696624:0;where java
+: 1565696644:0;brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+: 1565696654:0;brew cask reinstall adoptopenjdk/openjdk/adoptopenjdk8
+: 1565696690:0;java --version
+: 1565696699:0;java
+: 1565696708:0;java -version
+: 1565696760:0;l /usr/bin
+: 1565696874:0;brew cask install java8
+: 1565696901:0;brew cask install java
+: 1565696929:0;java --version
+: 1565696935:0;l /usr/bin
+: 1565696951:0;where java
+: 1565696963:0;brew cask install java8
+: 1565710287:0;killall Finder
+: 1565710986:0;cd /Volumes/data-hfsplus/\\
+;
+: 1565710988:0;ls
+: 1565710991:0;l
+: 1565711052:0;rm -fr .DS_Store .DocumentRevisions-V100 .OSInstallMessages .Spotlight-V100 .TemporaryItems .com.apple.timemachine.donotpresent .disk_label .disk_label_2x .fseventsd
+: 1565711060:0;sudo rm -fr .DS_Store .DocumentRevisions-V100 .OSInstallMessages .Spotlight-V100 .TemporaryItems .com.apple.timemachine.donotpresent .disk_label .disk_label_2x .fseventsd
+: 1565711066:0;ls
+: 1565711066:0;l
+: 1565711069:0;cd
+: 1565727111:0;sleep 2
+: 1565727242:0;mpv Music/iTunes/iTunes\ Media/Music/Gui\ Brazil/Be\ different\ \[EP\]/04\ Yeshua\ \(Original\ Mix\).mp3
+: 1565727253:0;mpv Music/iTunes/iTunes\ Media/Music/Gui\ Brazil/Be\ different\ \[EP\]/04\ Yeshua\ \(Original\ Mix\).mp3 --loop
+: 1565727289:0;sleep 4000; mpv Music/iTunes/iTunes\ Media/Music/Gui\ Brazil/Be\ different\ \[EP\]/04\ Yeshua\ \(Original\ Mix\).mp3 --loop
+: 1565743803:0;htop
+: 1565744241:0;ffmpeg -y -i /Volumes/data-hfsplus/Video/tmp/Ãƒ·\ Serhat\ Durmus\ _\ Hislerim.mp4  ~/Music/"Serhat Durmus _ Hislerim.mp3"
+: 1565744253:0;ls Music
+: 1565746531:0;hsi rm 
+: 1565750996:0;php --version
+: 1565792463:0;brew cask install go2shell
+: 1565793126:0;python
+: 1565793130:0;python3
+: 1565795395:0;brew cask install go2shell
+: 1565795751:0;brew cask install --help
+: 1565795764:0;brew cask install go2shell --force
+: 1565796635:0;brew cask install go2shell 
+: 1565796724:0;brew cask install unetbootin go2shell 
+: 1565796863:0;brew --cache
+: 1565796878:0;open $(brew --cache)
+: 1565796943:0;brew cask install go2shell 
+: 1565796969:0;brew cask install go2shell --proxy-insecure
+: 1565797188:0;cd /Users/rmaycon7/Downloads; clear; pwd
+: 1565797235:0;cd /Applications; clear; 
+: 1565797249:0;clear
+: 1565805991:0;pbcopy < ~/.ssh/id_rsa.pub
+: 1565807035:0;cd www
+: 1565807036:0;ls
+: 1565807038:0;cd ionic
+: 1565807042:0;cg https://github.com/charles-s-franca/ionic-3-para-iniciantes.git
+: 1565807047:0;cd ionic-3-para-iniciantes
+: 1565807047:0;ls
+: 1565807049:0;yarn 
+: 1565807240:0;cd ..
+: 1565807244:0;cg https://github.com/CodeExpertsLearning/ionic-3-essencial.git
+: 1565807253:0;ls
+: 1565807257:0;cd ionic-3-essencial
+: 1565807262:0;yarn 
+: 1565807487:0;nvm use 10
+: 1565807502:0;ls
+: 1565807508:0;nvm use 10
+: 1565807514:0;yarn 
+: 1565807639:0;nvm install 10
+: 1565807824:0;brew cask install android-platform-tools
+: 1565808097:0;brew cask install android-messages android-ndk
+: 1565808165:0;ld
+: 1565808169:0;ls
+: 1565807502:466;yarn 
+: 1565808185:0;yarn 
+: 1565808209:0;nano ~/.zshrc
+: 1565808879:0;brew cask reinstall android-sdk
+: 1565808910:0;brew cask install homebrew/cask-versions/java8
+: 1565808921:0;nano ~/.zshrc
+: 1565808998:0;brew cask info java8
+: 1565809010:0;brew tap caskroom/versions
+: 1565809017:0;brew cask info java8
+: 1565809127:0;brew cask install adoptopenjdk8
+: 1565809153:0;brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+: 1565809174:0;brew cask reinstall adoptopenjdk/openjdk/adoptopenjdk8
+: 1565809194:0;open /
+: 1565809360:0;/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+: 1565809362:0;ls
+: 1565813081:0;cd 
+: 1565813083:0;cd www
+: 1565813084:0;ls
+: 1565813093:0;cd ionic
+: 1565813096:0;ls
+: 1565813099:0;cd projetos
+: 1565813100:0;ls
+: 1565813108:0;cd ionic3tabs
+: 1565813109:0;cd ..
+: 1565813112:0;cd Ionic3TabsNew
+: 1565813113:0;ls
+: 1565813123:0;ionic cordova platform add ios
+: 1565813140:0;ionic cordova platform run android
+: 1565813228:0;ionic cordova emmulate run android
+: 1565813245:0;cordova --help
+: 1565813258:0;ionic cordova --help
+: 1565813272:0;ionic cordova emulate run android
+: 1565813301:0;ionic cordova emulate android
+: 1565813349:0;subl -a ~/.zshrc
+: 1565813430:0;source ~/.zshrc
+: 1565813465:0;ionic cordova emulate android
+: 1565813475:0;nvm use 10
+: 1565813479:0;ionic cordova emulate android
+: 1565813535:0;brew cask reinstall android-studio
+: 1565816009:0;pwd
+: 1565816029:0;source ~/.zshrc
+: 1565816084:0;ionic cordova emulate android
+: 1565816093:0;nvm use 10
+: 1565816096:0;ionic cordova emulate android
+: 1565816160:0;ionic cordova emulate ios
+: 1565841940:0;hsi "brew cask"
+: 1565842010:0;hsi "brew "
+: 1565842038:0;brew cask list 
+: 1565830270:0;cd /Users/rmaycon7/Downloads/Video/\[Ionic\ 3\ Essencial\ --\ free\]\ -\ 1\ IntroducÌ§aÌƒ£o\ -\ YouTube; clear; 
+: 1565830271:0;ls
+: 1565830285:0;md tmp 
+: 1565830291:0;mv *.mp4 tmp
+: 1565830294:0;ls tmp
+: 1565830308:0;subl -a change.py
+: 1565830328:0;where python3
+: 1565830363:0;/usr/bin/env python3
+: 1565830530:0;ls
+: 1565830535:0;chmod +x change.py
+: 1565830536:0;ls
+: 1565830547:0;./change.py
+: 1565830805:0;ls
+: 1565830810:0;ls tmp
+: 1565831465:0;cd
+: 1565831470:0;cd www
+: 1565831479:0;cd ionic/projetos
+: 1565831481:0;ls
+: 1565831488:0;cd ionic3tabs
+: 1565831488:0;ls
+: 1565831505:0;ionic cordova run android
+: 1565831741:0;brew link android-studio
+: 1565831785:0;ls /Applications/Android\ Studio.app/Contents
+: 1565831791:0;open  /Applications/Android\ Studio.app/Contents
+: 1565831853:0;ls
+: 1565831857:0;ionic cordova emulate ios
+: 1565831866:0;ionic cordova emulate android
+: 1565832568:0;ln -fs /Applications/Android\ Studio.app/Contents/MacOS/studio /usr/local/bin/
+: 1565832576:0;ionic cordova emulate android
+: 1565832611:0;nvm use 10
+: 1565832616:0;ionic cordova emulate android
+: 1565832633:0;cd ..
+: 1565832637:0;cd Ionic3TabsNew
+: 1565832639:0;ionic cordova emulate android
+: 1565832910:0;ls ~/Library/Android/sdk/tools
+: 1565832946:0;ls ~/Library/Android/sdk/tools/
+: 1565832954:0;emulator --version
+: 1565833053:0;ls ~/Library/Android/sdk/*
+: 1565833507:0;ionic cordova emulate android
+: 1565833580:0;nvm use 10
+: 1565833585:0;ionic cordova emulate android
+: 1565834220:0;nvm use 10
+: 1565834227:0;ionic cordova emulate android
+: 1565834294:0;unset ANDROID_HOME
+: 1565834310:0;ionic cordova emulate android
+: 1565834349:0;echo $ANDROID_HOME
+: 1565834355:0;ls
+: 1565834358:0;echo $ANDROID_HOME
+: 1565834367:0;l
+: 1565834377:0;rm -fr package-lock.json
+: 1565834380:0;cat package.json
+: 1565834387:0;ls
+: 1565834391:0;l
+: 1565834402:0;cat ionic.config.json
+: 1565834421:0;ionic cordova emulate android
+: 1565834454:0;cd
+: 1565834457:0;ls
+: 1565834460:0;cd Documents
+: 1565834461:0;ls
+: 1565834462:0;cd TCC
+: 1565834465:0;;ls
+: 1565834466:0;ls
+: 1565834471:0;cd Novo_Tcc
+: 1565834472:0;ls
+: 1565834475:0;code .
+: 1565834646:0;cd ..
+: 1565834648:0;ls
+: 1565834651:0;ls Novo_Tcc
+: 1565834657:0;cd Novo_Tcc
+: 1565834659:0;code .
+: 1565834892:0;cd ..
+: 1565834893:0;ls
+: 1565834903:0;cd /Volumes/data-hfsplus/\\
+;
+: 1565834904:0;ls
+: 1565834909:0;ls TCC
+: 1565834922:0;cd ..
+: 1565834925:0;cd data-ntfs
+: 1565834936:0;cd Arquivos/Dev_Files/tcc/tcc_old_files
+: 1565834937:0;ls
+: 1565834944:0;cd New_Templete
+: 1565834944:0;ls
+: 1565834948:0;cd tt
+: 1565834950:0;cd tcc
+: 1565834953:0;subl -a .
+: 1565835280:0;open .
+: 1565835524:0;subl -a /Volumes/data-ntfs/Arquivos/Dev_Files/tcc/tcc_old_files/Modelos/Dropbox/TCC 
+: 1565839550:0;cd ls
+: 1565839556:0;cd 
+: 1565839557:0;ls
+: 1565839560:0;cd Desktop
+: 1565839562:0;cd ..
+: 1565839568:0;cd Downloads/Sacolas\ salvas\ -\ Apple\ \(BR\)_files
+: 1565898656:0;cd 
+: 1565898659:0;cd www
+: 1565898665:0;cd ionic
+: 1565898666:0;ls
+: 1565898668:0;cd projetos
+: 1565898671:0;cd Ionic3TabsNew
+: 1565898673:0;ionic cordova emulate android
+: 1565898755:0;nvm use 10
+: 1565898763:0;ionic cordova emulate android
+: 1565898996:0;chmod 777 /Applications/Android\ Studio.app/Contents/gradle/gradle-5.1.1/bin/gradle
+: 1565898999:0;ionic cordova emulate android
+: 1565900211:0;ionic cordova emulate android --info
+: 1565900379:0;printenv
+: 1565900418:0;brew cask install gradle
+: 1565900497:0;brew cask install qlgradle
+: 1565900528:0;brew  install qlgradle
+: 1565900536:0;brew  install gradle
+: 1565900698:0;where gradle
+: 1565900706:0;ionic cordova emulate android --info
+: 1565900846:0;nvm install 8
+: 1565900854:0;cd ..
+: 1565900869:0;ionic start ionic3-node8 tabs 
+: 1565901250:0;cd ionic3-node8
+: 1565901253:0;yarn 
+: 1565901259:0;ls
+: 1565901271:0;ionic cordova emulate android
+: 1565902142:0;yarn
+: 1565902169:0;ionic cordova emulate android
+: 1565902477:0;ls /usr/local/Cellar/gradle
+: 1565902481:0;ls /usr/local/Cellar/gradle/5.6
+: 1565902484:0;ls /usr/local/Cellar/gradle/5.6/bin
+: 1565902501:0;brew link gradle
+: 1565902521:0;brew unlink gradle && brew link gradle
+: 1565902528:0;where gradle
+: 1565902554:0;nvm use 8
+: 1565902561:0;ionic cordova emulate android
+: 1565902618:0;where gradle
+: 1565903004:0;ls ~/Library/Android/sdk/build-tools
+: 1565903006:0;ls ~/Library/Android/sdk/build-tools/29.0.2
+: 1565903020:0;ionic cordova emulate android
+: 1565903030:0;nvm use 8
+: 1565903033:0;ionic cordova emulate android
+: 1565903111:0;ls ~/Library/Android/sdk/build-tools/29.0.2
+: 1565903129:0;ls /Library/Android/sdk/build-tools/29.0.2
+: 1565903260:0;ls /usr/local/share/android-sdk/tools/
+: 1565903277:0;ls /usr/local/share/android-sdk/
+: 1565903281:0;ls /usr/local/share/android-sdk/tools/\\
+;
+: 1565903287:0;ls /usr/local/share/android-sdk/tools/\
+;
+: 1565903292:0;ls /usr/local/share/android-sdk/tools/bin\
+;
+: 1565903372:0;nvm use 8
+: 1565903376:0;ionic cordova emulate android
+: 1565903551:0;ls /usr/local/share/android-sdk
+: 1565903567:0;brew cask install android-platform-tools
+: 1565903582:0;brew cask reinstall android-platform-tools
+: 1565903621:0;ls ~/Library/Android/sdk/platform-tools
+: 1565903741:0;nvm use 8
+: 1565903744:0;ionic cordova emulate android
+: 1565903794:0;brew cask uninstall android-platform-tools
+: 1565903825:0;source ~/.zshrc
+: 1565903849:0;where adb
+: 1565903862:0;where fastboot
+: 1565903865:0;ionic cordova emulate android
+: 1565903954:0;nvm use 8
+: 1565903959:0;ionic cordova emulate android
+: 1565904040:0;where gradle
+: 1565904058:0;brew remove gradle 
+: 1565904101:0;nvm use 8
+: 1565904106:0;ionic cordova emulate android
+: 1565904325:0;cd ..
+: 1565904332:0;nvm use 10
+: 1565904347:0;ionic start ionic3-node10 tabs 
+: 1565904492:0;ls ~/Library/Android/sdk/tools/bin
+: 1565904529:0;nvm use 8
+: 1565904541:0;ionic cordova emulate android
+: 1565904550:0;cd ionic3-node10
+: 1565904554:0;yarn 
+: 1565904565:0;ionic cordova emulate ios
+: 1565904642:0;ls ~/Library/Android/sdk/platform-tools
+: 1565904953:0;yarn 
+: 1565904980:0;ionic cordova emulate ios
+: 1565905157:0;ionic cordova emulate android
+: 1565905752:0;ionic cordova emulateios
+: 1565905757:0;ionic cordova emulate ios
+: 1565923019:0;diskutil cs list
+: 1565923021:0;diskutil  list
+: 1565964555:0;upgrade_oh_my_zsh
+: 1565964571:0;brew update 
+: 1565966134:0;brew upgrade
+: 1565966874:0;brew install node@10
+: 1565966937:0;node -v
+: 1565966942:0;nvm install 10
+: 1565966977:0;brew install godep
+: 1565967120:0;brew upgrade
+: 1565968886:0;brew cask upgrade
+: 1565968991:0;brew cask install utorrent
+: 1565969040:0;brew cask install bitorrent
+: 1565969097:0;brew cask install utorrent
+: 1565969225:0;brew cask install bittorrent-sync
+: 1565973301:0;brew cask upgrade --all
+: 1565973388:0;brew cask install pcsx2
+: 1565973394:0;brew cask upgrade 
+: 1565991708:0;ping google.com
+: 1566075289:0;ls
+: 1566075292:0;cd tmp
+: 1566075292:0;ls
+: 1566075295:0;cd video
+: 1566075298:0;md video
+: 1566075299:0;cd video
+: 1566075364:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4 -vf scale=480p -map 0 You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4  
+: 1566075387:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4 -vf scale=480hd -map 0 You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4  
+: 1566075407:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4 -vf scale=480hd -map 0 'You\re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4'  
+: 1566075433:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4 -vf scale=840x480 -map 0 'You\re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4'  
+: 1566075682:0;mv You\\re\\\ Gonna\\\ Be\\\ Ok\\\ -\\\ Lakewood\\\ Church.mp4  "You're Gonna Be Ok - Lakewood Church.mp4" 
+: 1566110343:0;c
+: 1566110347:0;cd
+: 1566110349:0;ls
+: 1566110353:0;cp .zsh_history www/my-zsh-config/zsh_history
