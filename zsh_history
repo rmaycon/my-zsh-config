@@ -1574,6 +1574,7 @@ done
 : 1564977845:0;ls
 : 1564977865:0;cat zsh_history
 : 1564977879:0;cp ~/.zsh_history zsh_history
+<<<<<<< Updated upstream
 : 1564977885:0;git stash
 : 1564977891:0;git status
 : 1564977906:0;cp ~/.zsh_history zsh_history
@@ -2750,3 +2751,5 @@ done
 : 1566322220:0;git status
 : 1566322223:0;cd
 : 1566322226:0;cp .zsh_history www/my-zsh-config/zsh_history
+=======
+>>>>>>> Stashed changes
