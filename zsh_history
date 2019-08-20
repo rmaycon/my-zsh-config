@@ -2697,3 +2697,56 @@ done
 : 1566110347:0;cd
 : 1566110349:0;ls
 : 1566110353:0;cp .zsh_history www/my-zsh-config/zsh_history
+: 1566110363:0;du -sh www/my-zsh-config/zsh_history
+: 1566110368:0;cd www/my-zsh-config
+: 1566110373:0;git add zsh*
+: 1566110376:0;git commit -m "atualizadno zshrc, e zsh_history"
+: 1566137722:0;git status
+: 1566137728:0;git log
+: 1566237001:0;cd www
+: 1566237001:0;cg https://github.com/TMRJIJ/Night-Shift-on-Unsupported-Macs.git
+: 1566260984:0;open $(brew --cache)
+: 1566261009:0;brew cleanup
+: 1566261164:0;brew cask list > brew_cask-list
+: 1566261555:0;whoami
+: 1566261810:0;cd /Applications/GTA\ Vice\ City.app/Contents/Resources; clear; 
+: 1566261814:0;ls
+: 1566261818:0;mv user
+: 1566261851:0;mv user* ~/Documents/
+: 1566261897:0;rm -fr user.reg
+: 1566261916:0;cp ~/Documents/user* .
+: 1566261921:0;cat userdef.reg
+: 1566261953:0;subl -a userdef.reg
+: 1566273529:0;subl -a ~/.zshrc
+: 1566273666:0;ls
+: 1566274171:0;defaults write com.apple.screencapture location $HOME/Pictures/ScreenShots
+: 1566274951:0;sudo htop
+: 1566313612:0;brew update
+: 1566313760:0;brew upgrade
+: 1566314889:0;nvm install 10
+: 1566314902:0;nvm use system
+: 1566314911:0;brew cask upgrade
+: 1566316121:0;brew cask reinstall mac-fans-controll
+: 1566321327:0;upgrade_oh_my_zsh
+: 1566322064:0;cd www
+: 1566322065:0;cd ionic
+: 1566322067:0;cd projetos
+: 1566322068:0;ls
+: 1566322071:0;cd ..
+: 1566322071:0;ls
+: 1566322075:0;cd projetos
+: 1566322079:0;cd Ionic3TabsNew
+: 1566322081:0;ls
+: 1566322087:0;ionic g 
+: 1566322117:0;nvm use 10
+: 1566322124:0;ionic g 
+: 1566322196:0;cd 
+: 1566322196:0;cd www
+: 1566322198:0;ionic g 
+: 1566322208:0;ls
+: 1566322211:0;cd m
+: 1566322214:0;cd my-zsh-config
+: 1566322215:0;ls
+: 1566322220:0;git status
+: 1566322223:0;cd
+: 1566322226:0;cp .zsh_history www/my-zsh-config/zsh_history

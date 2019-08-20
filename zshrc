@@ -62,6 +62,7 @@ if [[ -d ~/.rbenv ]]; then
 	# export PATH="$HOME/.rbenv/bin:$PATH"
 
 fi
+# sdsdfsdNJNNOonninoniNONO
 
 
 
@@ -149,11 +150,11 @@ SPACESHIP_ROMPT_ORDER=(
   xcode         # Xcode section
 #   swift         # Swift section
 #   golang        # Go section
-  php           # PHP section
+  # php           # PHP section
 #   rust          # Rust section
 #   haskell       # Haskell Stack section
 #   julia         # Julia section
-  docker        # Docker section
+  # docker        # Docker section
 #   aws           # Amazon Web Services section
   venv          # virtualenv section
   conda         # conda virtualenv section
