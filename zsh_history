@@ -2767,3 +2767,99 @@ done
 : 1566322378:0;git commit -m "atualizadno zshrc, e zsh_history"
 : 1566322388:0;cp ~/.zsh_history www/my-zsh-config/zsh_history
 : 1566322396:0;cp ~/.zsh_history ~/www/my-zsh-config/zsh_history
+: 1566322398:0;git status
+: 1566322401:0;git add zsh*
+: 1566322403:0;git commit -m "atualizadno zshrc, e zsh_history"
+: 1566322407:0;git push
+: 1566322433:0;l
+: 1566322438:0;ls
+: 1566322439:0;l
+: 1566322458:0;echo .DS_Store >> .gitignore
+: 1566322468:0;git status
+: 1566322486:0;echo .zshrc >> .gitignore
+: 1566322496:0;echo iterm >> .gitignore
+: 1566322500:0;git add .gitignore
+: 1566322510:0;git commit -m "adicionando .gitignore"
+: 1566322513:0;git push
+: 1566322538:0;ls
+: 1566322540:0;ionic g 
+: 1566322564:0;cd ~/www
+: 1566322565:0;ls
+: 1566322567:0;cd btm-api
+: 1566322568:0;ls
+: 1566322571:0;mv node_modules node_modules_old3
+: 1566322574:0;yarn 
+: 1566322594:0;yarn upgrade
+: 1566322638:0;cd ..
+: 1566322639:0;ls
+: 1566322643:0;cd tmp
+: 1566322644:0;ls
+: 1566322648:0;cd app2
+: 1566322648:0;ls
+: 1566322661:0;mv node_modules node_modules_old1
+: 1566322662:0;ls
+: 1566322734:0;yarn add express  mongoose morgan multer cors helmet compress nodemon sucrase typescript @types/express @types/mongoose @types/multer @types/cors @types/helmet
+: 1566322764:0;yarn add prettier 
+: 1566322773:0;mv node_modules node_modules_old2
+: 1566322776:0;pnpm add
+: 1566322787:0;cd ~/www/btm-api
+: 1566322789:0;ls
+: 1566322793:0;mv node_modules node_modules_old4
+: 1566322800:0;nvm use 10
+: 1566322808:0;yarn config list
+: 1566322826:0;nvm use system
+: 1566322828:0;yarn config list
+: 1566322839:0;nvm use 10
+: 1566322861:0;hsi ""npm config"\
+;
+: 1566322869:0;hsi "npm config"
+: 1566323028:0;npm config set prefix $HOME/Packages npm config set --global cache  $HOME/Packages/npm-cache npm config --global set store $HOME/Packages/pnpm-store 
+: 1566323033:0;yarn 
+: 1566323038:0;yarn config list
+: 1566323063:0;npm config set prefix $HOME/Packages ;npm config set --global cache  $HOME/Packages/npm-cache ;npm config --global set store $HOME/Packages/pnpm-store ;
+: 1566323068:0;yarn config list
+: 1566323127:0;npm config set prefix $HOME/Packages ;npm config set  cache  $HOME/Packages/npm-cache ;npm config  set store $HOME/Packages/pnpm-store ;
+: 1566323132:0;yarn config list
+: 1566323139:0;pnpm add
+: 1566323241:0;pnpm add -g pnpm 
+: 1566323267:0;pnpm up -g --latest
+: 1566323278:0;pnpm up  --latest
+: 1566323298:0;cd ..
+: 1566323302:0;cd ionic/projetos
+: 1566323305:0;cd Ionic3TabsNew
+: 1566323307:0;ls
+: 1566323311:0;mv node_modules node_modules_old2
+: 1566323315:0;pnpm add
+: 1566323510:0;pnpm add -D cordova-plugin-ionic@^5.0.0
+: 1566323526:0;pnpm add -D cordova-plugin-ionic@5.0.0
+: 1566345583:0;brew install ntfs-3g
+: 1566345607:0;brew list
+: 1566348918:0;cd
+: 1566348919:0;ls
+: 1566348923:0;cd Music
+: 1566348923:0;ls
+: 1566348929:0;md tmp; cd tmp
+: 1566348934:0;ls
+: 1566349035:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -map 0 "Casa Worship - A Casa é Sua.mp3"
+: 1566349080:0;cd 
+: 1566349082:0;cd Music/tmp
+: 1566349084:0;ls
+: 1566349146:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -map 0 "Casa Worship - A Casa é Sua.mp3"
+: 1566349160:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -map a "Casa Worship - A Casa é Sua.mp3"
+: 1566349220:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -map v capa.jpg
+: 1566349242:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -frames 0  capa.jpg
+: 1566349245:0;ls
+: 1566349299:0;subl -a ~/www/my-zsh-config
+: 1566349510:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -i capa.jpg -map 1:0 -id3v2_version 3 -metadata:s:v comment="Cover (Front)"  -map a "Casa Worship - A Casa é Sua.mp3"
+: 1566349533:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4 -i capa.jpg  -metadata title="A Casa é Sua" -metadata artist="Casa Worship"  -map 1:0 -id3v2_version 3 -metadata:s:v comment="Cover (Front)"  -map a "Casa Worship - A Casa é Sua.mp3"
+: 1566349634:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4 -i capa.jpg  -metadata title="A Casa é Sua" -metadata artist="Casa Worship"  -map 1:0 -id3v2_version 3 -metadata:s:v comment="Cover (Front)" -metadata:s:v title="Cover" -map a "Casa Worship - A Casa é Sua.mp3"
+: 1566349904:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -map a "Casa Worship - A Casa é Sua.mp3"
+: 1566349935:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4 -i capa.jpg  -metadata title="A Casa é Sua" -metadata artist="Casa Worship"  -map 1:0 -id3v2_version 3 -metadata:s:v comment="Cover (Front)" -metadata:s:v title="Cover" -map a "Casa Worship - A Casa é Sua.aac"
+: 1566349945:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -map a "Casa Worship - A Casa é Sua.aac"
+: 1566349989:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4  -metadata title="A Casa é Sua" -metadata artist="Casa Worship" -map a "Casa Worship - A Casa é Sua.m4a"
+: 1566350390:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4 -i capa.jpg  -metadata title="A Casa é Sua" -metadata artist="Casa Worship"  -map 1:0 -id3v2_version 3 -metadata:s:v comment="Cover (Front)" -metadata:s:v title="Cover" -map a "Casa Worship - A Casa é Sua.aac"
+: 1566350399:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/A\ Casa\ é\ Sua\ -\ Casa\ Worship.mp4 -i capa.jpg  -metadata title="A Casa é Sua" -metadata artist="Casa Worship"  -map 1:0 -id3v2_version 3 -metadata:s:v comment="Cover (Front)" -metadata:s:v title="Cover" -map a "Casa Worship - A Casa é Sua.mp3"
+: 1566393642:0;brew install ntfs-3g
+: 1566397647:0;rm -fr .npmrc
+: 1566397665:0;cd www/my-zsh-config
+: 1566397667:0;cp ~/.zsh_history ~/www/my-zsh-config/zsh_history
