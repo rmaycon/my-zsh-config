@@ -1,1 +1,1 @@
-# Repositório com minahs configurações do zsh (Z Shell)
+# Repositório com minhas configurações do zsh (Z Shell)

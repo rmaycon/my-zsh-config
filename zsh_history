@@ -4501,3 +4501,11 @@ done
 : 1573677368:0;ls ~
 : 1573677370:0;cat zsh_history
 : 1573677374:0;git add --all
+: 1573677377:0;git commit -m "atualizando zsh_history"
+: 1573677378:0;git push
+: 1573677415:0;ls
+: 1573677426:0;ls ~
+: 1573677429:0;l ~/
+: 1573677454:0;nano README.md 
+: 1573677475:0;git add --all\\
+;
