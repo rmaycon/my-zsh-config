@@ -2863,3 +2863,1641 @@ done
 : 1566397647:0;rm -fr .npmrc
 : 1566397665:0;cd www/my-zsh-config
 : 1566397667:0;cp ~/.zsh_history ~/www/my-zsh-config/zsh_history
+: 1566397674:0;git add zsh*
+: 1566397677:0;git commit -m "atualizadno zshrc, e zsh_history"
+: 1566397680:0;git push
+: 1566397688:0;cd
+: 1566397690:0;cd Documents
+: 1566397691:0;ls
+: 1566397696:0;md mac
+: 1566397697:0;cd mac
+: 1566397712:0;brew list >> brew-packages
+: 1566397732:0;brew cask list > brew_cask-packages
+: 1566397739:0;cat brew-packages
+: 1566397747:0;cat brew_cask-packages
+: 1566397829:0;cd
+: 1566397829:0;ls
+: 1566397840:0;mv Pictures Pictures-old
+: 1566397844:0;ls
+: 1566397847:0;ls Packages
+: 1566397852:0;ls Pictures
+: 1566397853:0;ls
+: 1566397858:0;l
+: 1566398053:0;cd Documents
+: 1566398055:0;cd mac
+: 1566398091:0;cat brew_cask-packages | xargs  brew cask install
+: 1566398131:0;cat brew-packages | xargs  brew  install
+: 1566398403:0;brew tap --help
+: 1566398428:0;brew tap --list
+: 1566398787:0;brew tap --list-pinned
+: 1566399979:0;cd /Volumes/High\ Sierra; clear; 
+: 1566399985:0;rm -fr ÀÉº/.npmrc
+: 1566399990:0;rm -fr ~/.npmrc
+: 1566399993:0;ls
+: 1566400001:0;cp /Users .
+: 1566400007:0;cd Users
+: 1566400008:0;ls
+: 1566400012:0;ls rmaycon7
+: 1566400014:0;l rmaycon7
+: 1566407041:0;ls
+: 1566407123:0;rm -fr .nvm/versions/node/v10.16.3/etc/npmrc
+: 1566409342:0;cd Documents
+: 1566409343:0;ls
+: 1566409350:0;cd mac
+: 1566409355:0;cat brew-packages | xargs  brew  install
+: 1566409452:0;hsi "brew tap"
+: 1566409467:0;brew tap mongodb/brew
+: 1566409502:0;brew tap homebrew/cask
+: 1566409564:0;cat brew-packages | xargs  brew  install
+: 1566409711:0;brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+: 1566409863:0;cat brew-packages | xargs  brew  install
+: 1566410325:0;cd www
+: 1566410325:0;git clone https://github.com/dracula/xcode.git
+: 1566410347:0;mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+: 1566410357:0;ln -s $DRACULA_THEME/Dracula.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.xccolortheme
+: 1566410393:0;it clone https://github.com/dracula/terminal-app.git
+: 1566410396:0;git clone https://github.com/dracula/terminal-app.git
+: 1566410401:0;open .
+: 1566410475:0;cat brew_cask-packages | xargs  brew cask install
+: 1566410975:0;brew cask install google-chrome
+: 1566411549:0;brew cask install spectacle 
+: 1566411634:0;brew cask install qlvideo
+: 1566411843:0;cat brew-packages | xargs  brew  install
+: 1566411903:0;brew install ntfs-3g
+: 1566412133:0;sudo rm -fr /.Trashes
+: 1566412333:0;cat brew_cask-packages 
+: 1566412383:0;brew install rbenv 
+: 1566412543:0;brew cask install mpv vlc telegram rar postman udeler insomnia opera pgadmin github devdocs docker 
+: 1566412580:0;brew cask install mpv vlc telegram rar postman udeler insomnia opera pgadmin4 github devdocs docker 
+: 1566412775:0;brew cask install jdownloader
+: 1566414326:0;brew cask install keka belenaetcher sublime-text sublime-merge google-photos-backup-and-sync drawio android-studio android-sdk 
+: 1566414409:0;brew cask install keka balenaetcher  sublime-text sublime-merge google-photos-backup-and-sync drawio android-studio android-sdk 
+: 1566414538:0;brew cask install evernote
+: 1566415292:0;brew cask install mpv vlc telegram rar postman udeler insomnia opera pgadmin4 github devdocs docker 
+: 1566415307:0;brew cask install keka balenaetcher  sublime-text sublime-merge google-photos-backup-and-sync drawio android-studio android-sdk 
+: 1566416579:0;brew cask install --help
+: 1566416598:0;man brew-cask
+: 1566416658:0;cat brew_cask-packages 
+: 1566416683:0;brew cask install libreoffice-language-pack
+: 1566416765:0;cat brew-packages | xargs  brew  install
+: 1566416814:0;brew install osxfuse
+: 1566416827:0;brew cask install libreoffice
+: 1566416835:0;nano brew-packages
+: 1566416864:0;brew install ntfs-3g
+: 1566416884:0;brew cask install osxfuse
+: 1566416896:0;cat brew_cask-packages 
+: 1566416917:0;brew cask install unetbootin 
+: 1566416936:0;brew cask install mounty
+: 1566443083:0;defaults write com.apple.screencapture location $HOME/Pictures/ScreenShots
+: 1566447202:0;l
+: 1566447203:0;ls
+: 1566447216:0;yarn --version
+: 1566447223:0;yarn cache
+: 1566447227:0;yarn cache list
+: 1566447239:0;yarn config list
+: 1566447254:0;clear
+: 1566447286:0;brew cask install megasync
+: 1566447323:0;brew cask edit megasync
+: 1566447371:0;brew cask install megasync
+: 1566447396:0;cd Documents
+: 1566447398:0;node -v
+: 1566447406:0;ls
+: 1566447412:0;cd mac/
+: 1566447415:0;cat brew_cask-packages 
+: 1566447435:0;brew cask install libreoffice-language-pack libreoffice
+: 1566447864:0;brew cask install iterm2 firefox java macs-fan-control kitematic sequential  windscribe
+: 1566447889:0;ls $(brew --cache)
+: 1566447915:0;brew cask install firefox java macs-fan-control kitematic sequential  windscribe
+: 1566447932:0;brew cask install java macs-fan-control kitematic sequential  windscribe
+: 1566447997:0;cat brew-packages
+: 1566448016:0;python3 --version
+: 1566448057:0;brew list
+: 1566448067:0;brew list >> brew-packages
+: 1566448070:0;cat brew-packages
+: 1566448133:0;brew install ntfs-3g
+: 1566448203:0;brew install p7zip
+: 1566448219:0;brew install unrar
+: 1566448275:0;brew link unrar --force
+: 1566448295:0;brew link unrar --overwrite 
+: 1566448303:0;unrar --version
+: 1566448316:0;brew list >> brew-packages
+: 1566448326:0;brew list > brew-packages
+: 1566448329:0;cat brew-packages
+: 1566448360:0;brew install python@2
+: 1566448383:0;where python
+: 1566448396:0;ls
+: 1566448490:0;brew cask install visual-studio-code 
+: 1566448649:0;brew services start mongodb-community@4.0
+: 1566448931:0;brew cask install mactex
+: 1566448960:0;go --version
+: 1566448971:0;go version
+: 1566449921:0;brew install wget git
+: 1566449940:0;where git
+: 1566449943:0;git --version
+: 1566449964:0;/usr/local/bin/git --version
+: 1566449977:0;/usr/bin/git --version 
+: 1566449988:0;git --version
+: 1566485410:0;brew services start mongodb-community@4.0
+: 1566485428:0;brew install wget git
+: 1566486857:0;hsi brew
+: 1566486876:0;brew install python@2 ntfs-3g 
+: 1566571505:0;brew upgrade
+: 1566571525:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1566572239:0;brew cask install hyper
+: 1566572393:0;cd Documents/mac
+: 1566572394:0;l
+: 1566572400:0;cat brew-packages | xargs  brew  install
+: 1566572994:0;brew cask install unetbootin 
+: 1566575542:0;nano brew_cask-packages
+: 1566612555:0;ls $(brew --cache)
+: 1566612572:0;l $(brew --cache)
+: 1566612582:0;l $(brew --cache)/downloads
+: 1566612590:0;ls $(brew --cache)/downloads
+: 1566613143:0;brew cask install android-studio
+: 1566613339:0;brew cask install /Volumes/data-hfsplus/Apps/brew/downloads/e6ade2a5793ce7914d0335f798248fd47ea3cb423ea5bd3eac51627c9c700b73--VSCode-darwin-stable.zip 
+: 1566613401:0;brew cask install /Users/rmaycon7/Downloads/visual-studio-code.zip 
+: 1566613422:0;brew cask install -f/Users/rmaycon7/Downloads/visual-studio-code.zip 
+: 1566613429:0;brew cask install -f /Users/rmaycon7/Downloads/visual-studio-code.zip 
+: 1566613450:0;brew install -f /Users/rmaycon7/Downloads/visual-studio-code.zip 
+: 1566613464:0;man brew-cask
+: 1566614268:0;cd Documents/TCC
+: 1566614270:0;ls
+: 1566614272:0;cd Novo_Tcc
+: 1566614274:0;ls
+: 1566614287:0;code -a .
+: 1566615399:0;git status
+: 1566615448:0;open .
+: 1566615477:0;git restore entrevistas/grava\303\247\303\265es/Milene - Intrevista 2 de jul 14.20.mp3
+: 1566615500:0;git restore "entrevistas/grava\303\247\303\265es/Milene - Intrevista 2 de jul 14.20.mp3"
+: 1566615535:0;git restore entrevistas/grava√ß√µes/Milene - Intrevista 2 de jul 14.20.mp3
+: 1566615553:0;git restore "entrevistas/grava√ß√µes/Milene - Intrevista 2 de jul 14.20.mp3" 
+: 1566615612:0;git restore "entrevistas/grava√ß√µes/Thiago Dias.m4a" 
+: 1566615615:0;git status
+: 1566615641:0;git add --all
+: 1566615644:0;git status
+: 1566615653:0;git add tads_modelo_tcc
+: 1566615655:0;git status
+: 1566615687:0;git commit -m "adicionando anotacoes/artigos"
+: 1566615690:0;git status
+: 1566615702:0;cd tads_modelo_tcc
+: 1566615705:0;git status
+: 1566615734:0;cat .gitignore
+: 1566615743:0;git status
+: 1566615751:0;nano .gitignore
+: 1566615813:0;git status
+: 1566615829:0;git add .gitignore
+: 1566615831:0;git status
+: 1566615857:0;git add .
+: 1566615860:0;git status
+: 1566615865:0;git commit -m "adicionando anotacoes/artigos"
+: 1566615868:0;git status
+: 1566615871:0;git log
+: 1566615879:0;cd ..
+: 1566615882:0;ls
+: 1566615884:0;git status
+: 1566615906:0;git add tads_modelo_tcc
+: 1566615911:0;git status
+: 1566615914:0;git commit -m "adicionando anotacoes/artigos"
+: 1566615920:0;git status
+: 1566619245:0;cd
+: 1566619248:0;cd Music/tmp
+: 1566619250:0;ls
+: 1566619508:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/You\'re\ Gonna\ Be\ Ok\ -\ Lakewood\ Church.mp4 -metadata title="You're Gonna Be Ok" -metadata artist="Brian & Jenn Johnson"  "You're Gonna Be Ok - Brian & Jenn Johnson _ After All These Years.mp3" 
+: 1566619525:0;open .
+: 1566659108:0;cd 
+: 1566659114:0;cd www/ionic
+: 1566659114:0;ls
+: 1566659117:0;md tmp
+: 1566659121:0;md tmp; cd tmp
+: 1566659140:0;ionic start ionic3-node10 tabs --type ionic3
+: 1566659757:0;cd ..
+: 1566659760:0;cd projetos
+: 1566659761:0;ls
+: 1566659763:0;cd Ionic3TabsNew
+: 1566659764:0;ls
+: 1566659771:0;ionic serve --lab
+: 1566659790:0;nvm use 10
+: 1566659794:0;ionic serve --lab
+: 1566659812:0;yarn 
+: 1566659829:0;pnpm 
+: 1566659834:0;pnpm add
+: 1566659868:0;npm config --global set prefix $HOME/Packages ;npm config set --global cache  $HOME/Packages/npm-cache ;npm config --global set store $HOME/Packages/pnpm-store ;
+: 1566659876:0;yarn config list
+: 1566659880:0;pnpm add
+: 1566659886:0;ionic serve --lab
+: 1566659911:0;yarn
+: 1566660403:0;node
+: 1566660670:0;ionic serve --lab
+: 1566660691:0;mv node_modules node_modules_old4
+: 1566660693:0;yarn
+: 1566660798:0;ionic serve --lab
+: 1566660823:0;rm -fr yarn-error.log
+: 1566660829:0;rm -fr yarn.lock
+: 1566660834:0;rm -fr node_modules
+: 1566660842:0;yarn
+: 1566661351:0;ionic serve --lab
+: 1566661630:0;ionic info
+: 1566661670:0;pnpm add -g cordova-res  native-run
+: 1566661686:0;ionic info
+: 1566661719:0;ionic --version
+: 1566661728:0;pnpm add -g ionic
+: 1566661765:0;pnpm add -g pnpm 
+: 1566661815:0;ionic info
+: 1566661838:0;pnpm ls -g
+: 1566661852:0;yarn add cordova-res
+: 1566661901:0;pnpm add -g @ionic/lab
+: 1566661923:0;yarn add  @ionic/lab
+: 1566661951:0;yarn add  @ionic/lab -D
+: 1566661984:0;nano package.json
+: 1566662003:0;yarn rm  @ionic/lab 
+: 1566662010:0;yarn removem  @ionic/lab 
+: 1566662014:0;yarn remove  @ionic/lab 
+: 1566662040:0;yarn add  @ionic/lab -D
+: 1566662066:0;ionic info
+: 1566662094:0;ionic serve --lab
+: 1566662127:0;cd ..
+: 1566662132:0;cd tmp
+: 1566662141:0;ionic start ionic3-node10 tabs --type ionic3
+: 1566662153:0;ionic start ionic3-node12 sidemenu
+: 1566662166:0;ionic config set -g yarn true 
+: 1566662175:0;ionic start ionic3-node12 sidemenu
+: 1566662198:0;ionic info
+: 1566662223:0;pnpm add -g ionic@4
+: 1566662256:0;ionic start ionic3-node12 sidemenu
+: 1566662271:0;ionic config set -g yarn true 
+: 1566662280:0;ionic config ls
+: 1566662287:0;ionic config list
+: 1566662293:0;ionic config list -g
+: 1566662299:0;ionic config list --global
+: 1566662318:0;ionic config get
+: 1566662325:0;ionic config get -g
+: 1566662357:0;ionic config set -g npmClient yarn
+: 1566662361:0;ionic config get -g
+: 1566662371:0;ionic start ionic3-node12 sidemenu
+: 1566662496:0;mv ~/.ionic/config.json ~/.ionic/config.json.old
+: 1566662686:0;cd ionic3-node12
+: 1566662692:0;cd ..
+: 1566662702:0;ionic config set -g yarn true 
+: 1566662708:0;ionic config get -g
+: 1566662746:0;yarn global add  ionic@3
+: 1566662755:0;ionic config set -g yarn true 
+: 1566662763:0;ionic config get -g
+: 1566662779:0;cd ..
+: 1566662784:0;cd projetos/Ionic3TabsNew
+: 1566662795:0;ionic serve --lab
+: 1566662882:0;mv node_modules node_modules_old5
+: 1566662886:0;yarn 
+: 1566662968:0;ionic serve --lab
+: 1566663895:0;cd ..
+: 1566663900:0;cd .
+: 1566663902:0;cd ..
+: 1566663903:0;cd t,
+: 1566663906:0;cd tmp
+: 1566663921:0;ionic start ionic3-node10 sidemenu
+: 1566664002:0;yarn config set prefer-offline true
+: 1566664033:0;cd ionic3-node10
+: 1566664036:0;yarn 
+: 1566664042:0;ionic serve --lab
+: 1566664125:0;cd
+: 1566664127:0;cd Downloads
+: 1566664130:0;cd ionic-site-master
+: 1566664131:0;ls
+: 1566664138:0;npm-script-list 
+: 1566664170:0;open .
+: 1566664190:0;yarn
+: 1566664197:0;nvm use 10
+: 1566664201:0;yarn
+: 1566664214:0;nvm use 10
+: 1566664295:0;cat ~/.nvm/versions/node/v10.16.3
+: 1566664299:0;cat ~/.nvm/versions/node/v10.16.3/etc/npmrc
+: 1566664315:0;nano  ~/.nvm/versions/node/v10.16.3/etc/npmrc
+: 1566664320:0;nvm use 10
+: 1566664325:0;nano  ~/.nvm/versions/node/v10.16.3/etc/npmrc
+: 1566664343:0;yarn 
+: 1566664354:0;yarn bundle-install
+: 1566664370:0;pnpm run bundle-install
+: 1566664384:0;npm-script-list 
+: 1566664392:0;l
+: 1566664401:0;git init
+: 1566664406:0;yarn bundle-install
+: 1566664422:0;ruby -v
+: 1566664439:0;bundle 
+: 1566664452:0;where budle
+: 1566664455:0;where bundle
+: 1566664471:0;rbenv install 2.6.3
+: 1566664482:0;rbenv global 2.6.3 
+: 1566664488:0;bundle 
+: 1566664493:0;yarn bundle-install
+: 1566665184:0;ionic info
+: 1566665472:0;ionic cordova platform add android
+: 1566665497:0;cordova --help
+: 1566665515:0;cordova config set yarn true
+: 1566665521:0;ionic cordova platform add android
+: 1566665538:0;cordova config ls
+: 1566665548:0;cordova config 
+: 1566665555:0;cordova config --help
+: 1566665591:0;cordova --global config ls
+: 1566697108:0;brew cask install softmaker-freeoffice
+: 1566740123:0;~home
+: 1566740132:0;~rmaycon7
+: 1566740137:0;~d
+: 1566740142:0;pwd
+: 1566740147:0;ls
+: 1566740150:0;cd
+: 1566740159:0;cd ~root
+: 1566740798:0;mongo
+: 1566740810:0;brew link mongodb-community@4.0
+: 1566740898:0;brew link mongodb-community@4.0 --force
+: 1566741019:0;brew services list
+: 1566741134:0;brew services start mongodb-community@4.0
+: 1566741247:0;/usr/local/opt/mongodb-community@4.0/bin/mongod
+: 1566741315:0;ls
+: 1566741326:0;ls /usr/local/opt/mongodb-community@4.0/bin/
+: 1566741329:0;ls /usr/local/opt/mongodb-community@4.0/
+: 1566741349:0;brew services start mongodb-community@4.0
+: 1566741381:0;brew link mongodb-community@4.0 --force
+: 1566741390:0;mongo 
+: 1566741413:0;brew unlink mongodb-community@4.0
+: 1566741543:0;mongo 
+: 1566741550:0;brew services list
+: 1566741608:0;brew services list --help
+: 1566741624:0;brew services list --all
+: 1566741632:0;mongo
+: 1566741645:0;brew services stop mongodb-community@4.0
+: 1566741889:0;brew services list --all
+: 1566742267:0;brew services start mongodb-community@4.0
+: 1566743111:0;mongo
+: 1566743145:0;ls /usr/local/opt/mongodb-community@4.0
+: 1566743280:0;where mongod
+: 1566743297:0;brew services list --all
+: 1566743360:0;brew services 
+: 1566743395:0;brew services stop mongodb-community@4.0
+: 1566743445:0;cat ~/Library/LaunchAgents/homebrew.mxcl.mongodb-community@4.0.plist
+: 1566743479:0;subl -a ~/Library/LaunchAgents/homebrew.mxcl.mongodb-community@4.0.plist
+: 1566745387:0;cd Documents/TCC/Novo_Tcc
+: 1566745389:0;git status
+: 1566746569:0;git add anotacoes/artigos.md
+: 1566746608:0;git commit -m "adicionando em anotacoes/artigos um novo autor, um novo trabalho na area de gestao de conhecimento"
+: 1566746616:0;git status
+: 1566746619:0;git log
+: 1566752796:0;brew cask install go2shell 
+: 1566752824:0;ping google.com
+: 1566752904:0;find . -iname *Jr*
+: 1566752909:0;find . -iname "*Jr*"
+: 1566752927:0;find . -iname "arcia"
+: 1566752934:0;find . -iname "*arcia*"
+: 1566752949:0;find ~/Downloads -iname "*arcia*"
+: 1566753668:0;find ~/Downloads -iname "*ike*"
+: 1566753679:0;find . -iname "*ike*"
+: 1566754193:0;for i in *;do\
+echo $i\
+done
+: 1566754267:0;for i in *;do\
+mv "~/Downloads/Video/$i" ~/Downloads/Video/tmp/ \
+done
+: 1566754306:0;for i in *;do\
+mv "$HOME/Downloads/Video/$i" ~/Downloads/Video/tmp/ \
+done
+: 1566754671:0;cd /Volumes/data-hfsplus/Video/Filmes/Romance/New 
+: 1566754726:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+md "$name"\
+mv $i "$name"\
+done
+: 1566754739:0;for i in *.mkv ; do\
+name=$(basename $i .mkv)\
+md "$name"\
+mv $i "$name"\
+done
+: 1566754758:0;for i in *.MP4 ; do\
+name=$(basename $i .MP4)\
+md "$name"\
+mv $i "$name"\
+done
+: 1566754777:0;mv * ../
+: 1566754783:0;cd ..
+: 1566754786:0;rm -fr New
+: 1566754835:0;cd ..
+: 1566754838:0;cd Fic√ß√£o\ Cientifica
+: 1566754845:0;python3
+: 1566754859:0;cd ..
+: 1566754865:0;subl -a change.py
+: 1566755477:0;git status
+: 1566823587:0;brew cask install visual-studio-code 
+: 1566823594:0;brew cask install visual-studio-code --force
+: 1566824366:0;git push
+: 1566829097:0;brew cask install iterm2 firefox 
+: 1566832503:0;brew install xkill
+: 1566833733:0;brew cask install telegram-desktop
+: 1566836999:0;cd www/ionic
+: 1566837002:0;cd ionic-3-essencial
+: 1566837005:0;code -a .
+: 1566839022:0;brew cask install utorrent
+: 1566839078:0;brew search utorrent
+: 1566839176:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1566842568:0;sudo ls /
+: 1566919256:0;brew cask install pgadmin3
+: 1566919340:0;brew cask install mongodb-compass
+: 1566926669:0;for i in *.jpg ; do\
+name=$(basename $i .jpg\
+cp $i $name.png\
+done
+: 1566926680:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+cp $i $name.png\
+done
+: 1566926700:0;rm -fr *.png
+: 1566926701:0;ld
+: 1566926705:0;ls
+: 1566926714:0;rm -fr .png
+: 1566926715:0;ls
+: 1566926726:0;rm -fr *.png
+: 1566926728:0;ls
+: 1566926735:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+mv  $i $name.png\
+done
+: 1566926977:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+cp $i $name\
+done
+: 1566926989:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+mv  $i $name\
+done
+: 1566926990:0;ls
+: 1566926992:0;l
+: 1566926998:0;rm -fr .DS_Store
+: 1566927000:0;ls
+: 1566927002:0;l
+: 1566927083:0;ls
+: 1566927151:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+mv  $i $name.jpeg\
+done
+: 1566927204:0;md converted
+: 1566927268:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+sips -s format png $i --out converted/$name.png\
+done
+: 1566927360:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+sips -s format jpeg $i --out converted/$name.png\
+done
+: 1566927577:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+cp $i converted/$name.jpeg\
+done
+: 1566927660:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+sips -s format png $i --out converted/$name.png\
+done
+: 1566927782:0;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchSe rvices.framework/Versions/A/Support/lsregister -kill -r -v -apps u\
+\
+
+: 1566927791:0;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -v -apps u\
+\
+
+: 1566927921:0;killall Finder
+: 1566928013:0;for i in *.jpg ; do\
+name=$(basename $i .jpg)\
+mv  $i $name\
+done
+: 1566928479:0;brew cask install inkscape
+: 1566928501:0;brew cask install gimp
+: 1566928794:0;brew install mogrify
+: 1566928811:0;brew cask install mogrify 
+: 1566928867:0;brew install imagemagick
+: 1566929019:0;mogrify -format jpg new/*.jpg
+: 1566929025:0;ls new/
+: 1566929051:0;mogrify -format jpg new/*.jpg
+: 1566929061:0;ls
+: 1566929064:0;ls new
+: 1566929071:0;mogrify -format png new/*.jpg
+: 1566929128:0;rm -fr new/*.jpg
+: 1566933465:0;ls /
+: 1566933477:0;ls /usr/
+: 1566933480:0;ls /usr/local
+: 1566933484:0;ls /usr/local/opt
+: 1566960306:0;brew cask install dropbox
+: 1567056858:0;mongo
+: 1567086337:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1567088918:0;node -v
+: 1567088923:0;nvm install 10
+: 1567094245:0;brew cleanup
+: 1567094405:0;brew --cache
+: 1567094429:0;rm -fr $(brew --cache)/downloads
+: 1567178395:0;upgrade_oh_my_zsh
+: 1567178405:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1567212785:0;mongo
+: 1567257968:0;brew cask list  | xargs  brew  cask upgrade
+: 1567257994:0;brew cask list  
+: 1567265024:0;l /sbin
+: 1567265096:0;ntfs-3g --help
+: 1567265108:0;where ntfs-3g
+: 1567265201:0;ls /System/Library/Filesystems/ntfs.fs/Contents/
+: 1567265204:0;ls /System/Library/Filesystems/ntfs.fs/Contents/Resources
+: 1567265224:0;cat  /System/Library/Filesystems/ntfs.fs/Contents/Resources/mount_ntfs
+: 1567265279:0;sudo ln -sf /usr/local/bin/ntfs-3g /sbin/mount_ntfs
+: 1567265287:0;l /sbin
+: 1567265448:0;fuser --help
+: 1567265522:0;man ntfs-3g
+: 1567266367:0;sudo ln -sf /System/Library/Filesystems/ntfs.fs/Contents/Resources/mount_ntfs /sbin/mount_ntfs
+: 1567266548:0;where mount 
+: 1567266563:0;mount_ntfs --help
+: 1567266639:0;mount_ntfs -o force,rw  /dev/disk2s2 /Volumes/data-ntfs
+: 1567266653:0;l /Volumes
+: 1567266708:0;sudo mkdir /Volumes/NTFS
+: 1567266719:0;mount_ntfs -o force,rw  /dev/disk2s2 /Volumes/NTFS
+: 1567266796:0;cat /etc/fstab.hd
+: 1567266952:0;sudo nano /etc/fstab
+: 1567267146:0;open /Volumes
+: 1567267679:0;mount_ntfs -o force,rw  /dev/disk2s2 /Volumes/NTFS
+: 1567267698:0;mount_ntfs -o force,rw  /dev/disk2s2 ~/tmp
+: 1567267707:0;sudo -s
+: 1567267719:0;ls
+: 1567267724:0;mount_ntfs -o force,rw  /dev/disk2s2 ~/tmp
+: 1567267801:0;type mount_tfs
+: 1567267803:0;type mount_ntfs
+: 1567267811:0;type /sbin/mount_ntfs
+: 1567268145:0;l
+: 1567268165:0;ls
+: 1567268166:0;ll
+: 1567268174:0;l
+: 1567268179:0;cd VC_SAbia
+: 1567268180:0;ls
+: 1567268181:0;l
+: 1567268190:0;mpv 10\ \ mist√©rios\ do\ TRI√ÇNGULO\ DAS\ BERMUDAS\ que\ ainda\ N√É£O\ FORAM\ RESOLVIDO\ \!\!.mp4
+: 1567268266:0;ntfs-3g mount /dev/disk2s2 ~/tmp
+: 1567268279:0;ntfs-3g -o rw /dev/disk2s2 ~/tmp
+: 1567268284:0;sudo -s
+: 1567268301:0;ntfs-3g -o rw /dev/disk2s2 ~/tmp
+: 1567268321:0;exit
+: 1567268323:0;cd
+: 1567268366:0;ls
+: 1567268370:0;ntfs-3g -o rw /dev/disk2s2 ~/tmp
+: 1567268437:0;ls
+: 1567268440:0;mpv 10\ \ mist√©rios\ do\ TRI√ÇNGULO\ DAS\ BERMUDAS\ que\ ainda\ N√É£O\ FORAM\ RESOLVIDO\ \!\!.mp4
+: 1567432895:0;sudo htop
+: 1567437742:0;sudo su
+: 1567448875:0;brew cask remove sequential
+: 1567449260:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1567455197:0;sudo su
+: 1567455212:0;sudo -s
+: 1567455221:0;htop
+: 1567475230:0;sudo -s
+: 1567475243:0;htop
+: 1567475317:0;mongo
+: 1567475324:0;nano  ~/.nvm/versions/node/v10.16.3/etc/npmrc
+: 1567475335:0;exit
+: 1567544306:0;brew cask install windscribe
+: 1567544317:0;upgrade_oh_my_zsh
+: 1567544327:0;ls
+: 1567544343:0;cd .oh-my-zsh/custom/themes/spaceship-prompt
+: 1567544349:0;git pull
+: 1567544358:0;cd 
+: 1567551246:0;sudo htop
+: 1567560190:0;htop
+: 1567560200:0;sudo su
+: 1567560294:0;brew services stop mongodb-community@4.0
+: 1567560306:0;brew services start mongodb-community@4.0
+: 1567560311:0;mongo
+: 1567560347:0;brew services stop mongodb-community@4.0
+: 1567560361:0;brew services start mongodb-community@4.0
+: 1567560397:0;brew services stop mongodb-community@4.0
+: 1567560405:0;brew services start mongodb-community@4.0
+: 1567617266:0;brew cask upgrade megasync
+: 1567618029:0;brew cask list | xargs brew cask upgrade
+: 1567618054:0;brew cask list 
+: 1567618074:0;brew cask install android-ndk
+: 1567621900:0;brew cas upgrade
+: 1567621961:0;brew cask upgrade
+: 1567622105:0;brew cask upgrade google-chrome
+: 1567622236:0;brew cask list | xargs brew cask upgrade
+: 1567622853:0;brew cask upgrade 
+: 1567622871:0;brew cask 
+: 1567622881:0;brew cask outdated
+: 1567645227:0;ffmpeg 
+: 1567689324:0;nvm install node
+: 1567689340:0;nvm install 10
+: 1567689349:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1567698421:0;rbenv install 2.6.3
+: 1567734299:0;open /Applications/mpv.app/Contents/Resources/
+: 1567747314:0;ls
+: 1567747320:0;clear
+: 1567787785:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1567819170:0;ls /usr/local/Cellar/node
+: 1567819174:0;ls /usr/local/Cellar/node@10
+: 1567832440:0;htop
+: 1567843276:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0  -vf scale=480hd "$name_480p.mp4"\
+done
+: 1567843319:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0  -vf scale=840x480 "$name_480p.mp4"\
+done
+: 1567843339:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0  -vf scale=840x480 "$name_480p.mkv"\
+done
+: 1567843688:0;ls
+: 1567843693:0;l
+: 1567843723:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0  -vf scale=840x480 "$name-480p.mkv"\
+done
+: 1567843740:0;rm -fr .mp4
+: 1567843743:0;rm -fr .mkv
+: 1567843770:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0  -vf scale=840x480 "$name-480p.mkv"\
+done
+: 1567844131:0;sleep 3600; for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0  -vf scale=840x480 "$name-480p.mkv"\
+done
+: 1567917764:0;mongo
+: 1567962989:0;pnpm add -g @angular/cli
+: 1567963010:0;pnpm add -g @angular/cli --prefer-offline
+: 1567963032:0;pnpm add -g @angular/cli --offline
+: 1567963455:0;node -v
+: 1567963467:0;where node
+: 1567963498:0;node
+: 1567963960:0;tsc --version
+: 1567964124:0;cd www/
+: 1567964128:0;md ts
+: 1567964131:0;cd ts
+: 1567964135:0;md codes
+: 1567964136:0;cd codes
+: 1567964137:0;ls
+: 1567964142:0;code -a .
+: 1567964778:0;tsc src/app.ts
+: 1567964864:0;tsc --init
+: 1567965083:0;tsc --w
+: 1568045728:0;pnpm add -g @angular/
+: 1568045735:0;pnpm add -g @angular/cli
+: 1568220232:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1568308434:0;ping google.com
+: 1568308448:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1568332214:0;where rbenv
+: 1568332230:0;type rbenv
+: 1568332254:0;l /usr/local/bin
+: 1568338080:0;ls
+: 1568387430:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1568389233:0;brew cask install axure
+: 1568389290:0;brew cask install axure-rp
+: 1568389912:0;brew cask edit axure-rp
+: 1568389959:0;brew cask install axure-rp
+: 1568516009:0;cp 01\ Deus\ Dormiu\ l√ÉÅ\ em\ casa.mp3 01\ Deus\ Dormiu\ l√ÉÅ\ em\ casa-2.mp3
+: 1568516122:0;ffmpeg -y -i 01\ Deus\ Dormiu\ l√ÉÅ\ em\ casa-2.mp3 -metadata title="Deus Dormiu L√ÉÅ em Casa" -c copy -map 0 01\ Deus\ Dormiu\ l√ÉÅ\ em\ casa.mp3
+: 1568516130:0;ls
+: 1568516261:0;ffmpeg -y -i 11\ Coragem\ -\ c√≥pia.mp3 -metadata title="Coragem" -c copy -map 0 11\ Coragem.mp3
+: 1568516444:0;htop
+: 1568561456:0;ping google.com
+: 1568564857:0;ls
+: 1568593713:0;htop
+: 1568593831:0;p
+: 1568593841:0;~
+: 1568593849:0;echo ~
+: 1568598659:0;alias please=sudo
+: 1568598665:0;please --help
+: 1568671621:0;brew install vweb
+: 1568671627:0;brew install vwebp
+: 1568671846:0;brew cask install elmediaplayer
+: 1568671924:0;brew cask install elmedia-player vwebp 
+: 1568672095:0;brew cask install elmedia-player 
+: 1568684646:0;ls
+: 1568684666:0;chmod +x make.py
+: 1568684667:0;ls
+: 1568684672:0;./make.py
+: 1568684705:0;subl -a make.py
+: 1568684720:0;cd ..
+: 1568684721:0;ls
+: 1568684730:0;cat ../make.sh
+: 1568684755:0;cd tools
+: 1568684787:0;ls
+: 1568684789:0;./make.py
+: 1568685920:0;subl -a make.py
+: 1568685946:0;./make.py
+: 1568686215:0;python3
+: 1568686264:0;./make.py
+: 1568700662:0;vim 
+: 1568700835:0;vimtutor
+: 1568827092:0;ls
+: 1568827097:0;brew cask install elmedia-player 
+: 1568827105:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1568830928:0;vue --help
+: 1568830945:0;vue create --help
+: 1568830957:0;vue create --help -m yarn 
+: 1568830963:0;vue create  -m yarn 
+: 1568830972:0;cd www
+: 1568830974:0;md Vue
+: 1568830975:0;cd Vue
+: 1568830982:0;md projects
+: 1568830985:0;cd projects
+: 1568830988:0;vue create  -m yarn 
+: 1568830996:0;vue create  -m yarn  aux-project-1
+: 1568831196:0;pnpm up -g --latest
+: 1568831220:0;yarn global add  ionic@3
+: 1568831318:0;vue create  -m yarn  aux-project-2
+: 1568831490:0;vue create  -m pnpm  aux-project-3
+: 1568831611:0;pnpm add -g pnpm
+: 1568831666:0;vue create  -m pnpm  aux-project-4
+: 1568831683:0;pnpm -v
+: 1568831692:0;npm config --global set prefix $HOME/Packages ;npm config set --global cache  $HOME/Packages/npm-cache ;npm config --global set store $HOME/Packages/pnpm-store ;
+: 1568831699:0;pnpm add -g pnpm
+: 1568831711:0;rm -fr /usr/local/lib/node_modules/npm/npmrc
+: 1568831716:0;npm config --global set prefix $HOME/Packages ;npm config set --global cache  $HOME/Packages/npm-cache ;npm config --global set store $HOME/Packages/pnpm-store ;
+: 1568831724:0;yarn config list
+: 1568831728:0;pnpm add -g pnpm
+: 1568831753:0;nvm install 10
+: 1568831761:0;nvm install node
+: 1568831772:0;nvm use system
+: 1568831827:0;pnpm add -g @angular/cli
+: 1568831921:0;du -hs .pnpm-store
+: 1568831973:0;vue create  -m pnpm  aux-project-5
+: 1568832105:0;cd aux-project-5
+: 1568832120:0;cd ..
+: 1568832123:0;md tmp
+: 1568832124:0;cd tmp
+: 1568832131:0;pnpm in
+: 1568832135:0;pnpm init -y
+: 1568832142:0;pnpm add axios babel-cli babel-helper-evaluate-path babel-preset-minify bcryptjs body-parser chai chai-http chalk compression cors dotenv express express-limiter express-rate-limit helmet jasmine jsonwebtoken minimist mocha mongoose node-port-check npm-run-all redis request validator 
+: 1568832191:0;hsi ""-D"
+: 1568832194:0;hsi "-D"
+: 1568832200:0;hsi "D"
+: 1568832216:0;hsi "pnpm"
+: 1568832253:0;cd www
+: 1568832258:0;cd rocketseat-example
+: 1568832259:0;ls
+: 1568832262:0;cat package.json
+: 1568832272:0;ls
+: 1568832283:0;pnpm add --latest
+: 1568832344:0;cd ..
+: 1568832362:0;cd new-api-base
+: 1568832379:0;pnpm aa
+: 1568832383:0;pnpm add
+: 1568832474:0;yarn 
+: 1568832485:0;rm -fr yarn.lock
+: 1568832488:0;rm -fr yarn-error.log
+: 1568832490:0;yarn
+: 1568836920:0;where ffmpeg
+: 1568837124:0;where ffprobe
+: 1569018335:0;ffplay Homem\ Formiga\ e\ a\ Vespa\ 2018\ 4K\ 2160p\ Dual\ √Åudio\ Encoder\ by\ Carlos\ Jos√©\ WWW.BLUDV.TV.mkv
+: 1569170781:0;htop
+: 1569204007:0;ls
+: 1569204091:0;ffmpeg -y -i Primeiro.Ano.2019.1080p.BluRay.x264.DUAL.WWW.COMANDOTORRENTS.COM.mkv -map 0 -metadata title="Primeiro Ano" -vf scale=720hd  Primeiro.Ano.2019.720.BluRay.x264.DUAL.mkv 
+: 1569204101:0;ffmpeg -y -i Primeiro.Ano.2019.1080p.BluRay.x264.DUAL.WWW.COMANDOTORRENTS.COM.mkv -map 0 -metadata title="Primeiro Ano" -vf scale=hd720  Primeiro.Ano.2019.720.BluRay.x264.DUAL.mkv 
+: 1569204307:0;sleep 3600; ffmpeg -y -i Primeiro.Ano.2019.1080p.BluRay.x264.DUAL.WWW.COMANDOTORRENTS.COM.mkv -map 0 -metadata title="Primeiro Ano" -vf scale=hd720  Primeiro.Ano.2019.720.BluRay.x264.DUAL.mkv 
+: 1569336853:0;rm -fr $(brew --cache)/downloads
+: 1569336866:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1569349559:0;rm -fr $(brew --cache)/downloads
+: 1569432551:0;node -v\
+: 1569432554:0;node -v
+: 1569432725:0;cd
+: 1569432730:0;cd www
+: 1569432731:0;ls
+: 1569432737:0;cd new-api-base
+: 1569432738:0;ls
+: 1569432743:0;cat package.json
+: 1569432757:0;yarn 
+: 1569432771:0;pnpm add
+: 1569434655:0;pnpm add sequelize mysql2 pg pg-store 
+: 1569434664:0;pnpm add sequelize mysql2 pg pg-hstore 
+: 1569434734:0;cd www
+: 1569434737:0;cd tmp
+: 1569434738:0;ls
+: 1569434740:0;cg https://github.com/sequelize/sequelize.git
+: 1569434751:0;cd sequelize
+: 1569434759:0;pnpm add
+: 1569434762:0;yarn
+: 1569434780:0;upgrade_oh_my_zsh
+: 1569434797:0;cd ~/.oh-my-zsh/custom/themes/spaceship-prompt
+: 1569434800:0;git pu
+: 1569434803:0;git pull
+: 1569434820:0;cd 
+: 1569434827:0;cd www/new-api-base
+: 1569434846:0;yarn docs
+: 1569434853:0;yarn 
+: 1569435056:0;mv node_modules node_modules_old1
+: 1569435058:0;yarn 
+: 1569435103:0;mogno
+: 1569435105:0;mongo
+: 1569435123:0;yarn docs
+: 1569435169:0;pnpm add -g http-server
+: 1569435177:0;ls
+: 1569435180:0;ls esdoc
+: 1569435188:0;cd esdoc
+: 1569435193:0;http-server
+: 1569435263:0;cd ..cd 
+: 1569435265:0;cd ..
+: 1569435269:0;cg https://github.com/Automattic/mongoose.git 
+: 1569435291:0;cd mongoose
+: 1569435295:0;pnpm add
+: 1569435330:0;mv node_modules node_modules_old1
+: 1569435332:0;yarn 
+: 1569435375:0;http-server
+: 1569519895:0;brew cask install kodi
+: 1569899321:0;ls
+: 1569899423:0;ffmpeg -y -i Shrek\ -By\ JefePsb\ -\ WOLVERDONFILMES.COM.mkv -map 0 -vf scale=hd480 -ac copy -metadata title="Sherek" Shrek.2001.480p.mkv 
+: 1569899442:0;ffmpeg -y -i Shrek\ -By\ JefePsb\ -\ WOLVERDONFILMES.COM.mkv -map 0 -vf scale=hd480  -metadata title="Sherek" Shrek.2001.480p.mkv 
+: 1569899535:0;sleep 3600; ffmpeg -y -i Shrek\ -By\ JefePsb\ -\ WOLVERDONFILMES.COM.mkv -map 0 -vf scale=hd480  -metadata title="Sherek" Shrek.2001.480p.mkv 
+: 1569899788:0;sleep 7200; ffmpeg -y -i Shrek\ -By\ JefePsb\ -\ WOLVERDONFILMES.COM.mkv -map 0 -vf scale=hd480  -metadata title="Sherek" Shrek.2001.480p.mkv 
+: 1569959791:0;/Users/rmaycon7/Downloads/\[Zk3Hentais\]Kinjo_Yuuwaku_Godou_Onsen_Ryokou_Hen/tools 
+: 1569959797:0;./make.py
+: 1570143255:0;ls
+: 1570143262:0;pwd
+: 1570143266:0;p
+: 1570143270:0;type p
+: 1570222339:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1570311565:0;ls
+: 1570311580:0;pwd
+: 1570330366:0;node -v
+: 1570330382:0;rm -fr /usr/local/lib/node_modules/npm/npmrc
+: 1570330391:0;yarn config list
+: 1570330409:0;npm config --global set prefix $HOME/Packages ;npm config set --global cache  $HOME/Packages/npm-cache ;npm config --global set store $HOME/Packages/pnpm-store ;
+: 1570330413:0;yarn config list
+: 1570330483:0;yarn config set init-version 0.0.1
+: 1570330486:0;yarn config list
+: 1570330511:0;npm -v
+: 1570330517:0;pnpm -v
+: 1570330589:0;touch ~/Downloads/Video/ontem
+: 1570330600:0;touch /Users/rmaycon7/Downloads/Video/ontem/*
+: 1570330609:0;touch /Users/rmaycon7/Downloads/Video/ontem/A\ DIFEREN√ÉßA\ √É©\ GRANDE_\ Equipe\ do\ Expediente\ Futebol\ discute\ situa√ß√£o\ do\ Flamengo.mp4 /Users/rmaycon7/Downloads/Video/ontem/A\ pol√™mica\ no\ gol\ impedido\ de\ Gabigol\ _\ Futebol\ na\ Veia.mp4 /Users/rmaycon7/Downloads/Video/ontem/ALGUNS\ MOTIVOS\ QUE\ PODERIAM\ CAUSAR\ UMA\ 3¬™\ GUERRA\ MUNDIAL.mp4 /Users/rmaycon7/Downloads/Video/ontem/AS\ MELHORES\ CANTADAS\ DO\ MUNDO\!\!\ 1000%\ INFAL√É≠VEL\!.mp4 /Users/rmaycon7/Downloads/Video/ontem/AS\ PIORES\ CANTADAS\ DO\ WHATSAPP.mp4 /Users/rmaycon7/Downloads/Video/ontem/BANCO\ DE\ RESERVAS\ N√É£O\ EST√Å\ √Ä\ ALTURA_\ Elenco\ do\ Flamengo\ √©\ tema\ no\ _FOX\ Sports\ R√ÉÅdio_.mp4 /Users/rmaycon7/Downloads/Video/ontem/BATMAN_\ O\ CAVALEIRO\ DA\ VINGAN√ÉßA\ \(FLASHPOINT\)\ -\ Hist√≥ria\ Completa.mp4 /Users/rmaycon7/Downloads/Video/ontem/CONSELHOS\ AMOROSOS\ _\ MEDRABADO.mp4 /Users/rmaycon7/Downloads/Video/ontem/CORINGA\ PODE\ TER\ CONTINUA√Éß√É£O,\ SIM\!.mp4 /Users/rmaycon7/Downloads/Video/ontem/CORINTHIANS\ PODE\ SER\ CAMPE√É£O\ BRASILEIRO_\ Comentaristas\ do\ _FOX\ Sports\ R√ÉÅdio_\ analisam.mp4 /Users/rmaycon7/Downloads/Video/ontem/CRENTE\ GAY\ -\ EiTA.mp4 /Users/rmaycon7/Downloads/Video/ontem/CRENTE\ PODE\ JOGAR\ FREE\ FIRE_\ -\ feat.\ EL\ GATO.mp4 /Users/rmaycon7/Downloads/Video/ontem/Chris\ Isaak\ -\ Wicked\ Game\(Official\ Video\).mp4 /Users/rmaycon7/Downloads/Video/ontem/DESAFIO\ N√É£O\ PODE\ RIR\ COM\ COMPILADO\ DE\ MEMES.mp4 /Users/rmaycon7/Downloads/Video/ontem/ERA\ -\ Ameno.mp4 /Users/rmaycon7/Downloads/Video/ontem/Engana√ß√£o_\ Comentaristas\ detonam\ o\ calend√ÉÅrio\ 2020\ da\ CBF\ _\ SportsCenter.mp4 /Users/rmaycon7/Downloads/Video/ontem/Flamengo\ perde\ chance\ de\ ficar\ perto\ da\ final\ e\ Gr√™mio\ v√™\ empate\ cair\ do\ c√©u.mp4 /Users/rmaycon7/Downloads/Video/ontem/GR√É™MIO\ SOBREVIVE\ A\ UM\ FLA\ MELHOR\ NA\ ARENA.mp4 /Users/rmaycon7/Downloads/Video/ontem/GR√É™MIO\ X\ FLAMENGO_\ VEJA\ CONVERSAS\ ENTRE\ √ÅRBITRO\ E\ VAR\ NA\ LIBERTADORES\!.mp4 /Users/rmaycon7/Downloads/Video/ontem/Hot\ Butter\ -\ Popcorn\ -\ Tyros\ 4\ \(cover\).mp4 /Users/rmaycon7/Downloads/Video/ontem/Hot\ Butter\ -\ Popcorn\ -\ remix\ COVER\ on\ Tyros\ 3\ -\ VST.mp4 /Users/rmaycon7/Downloads/Video/ontem/Imposi√ß√£o\ x\ rea√ß√£o_\ o\ empate\ de\ Gr√™mio\ x\ Flamengo\ na\ Libertadores\ _\ Linha\ de\ Passe.mp4 /Users/rmaycon7/Downloads/Video/ontem/JONAH\ HILL\ SER√Å\ O\ PINGUIN_\ ELE\ QUER\ MAIS\ CACH√É™\ DO\ QUE\ O\ PATTINSON.mp4 /Users/rmaycon7/Downloads/Video/ontem/LIKE\ A\ BOSS\ COMPILATION\ \#111.mp4 /Users/rmaycon7/Downloads/Video/ontem/LIKE\ A\ BOSS\ COMPILATION\ ÉøÉ∏ÉÆÉøÉ∏ÉÆÉøÉ∏ÉÆAMAZING\ 10\ MINUTESÉøÉ≠É©ÉøÉ≠É≤ÉøÉ≠É≥\#96.mp4 /Users/rmaycon7/Downloads/Video/ontem/LIKE\ A\ BOSS\ COMPILATION\ ÉøÉ∏ÉÆÉøÉ∏ÉÆÉøÉ∏ÉÆAMAZING\ 10\ MINUTESÉøÉ≠É©ÉøÉ≠É≤ÉøÉ≠É≥\#98.mp4 /Users/rmaycon7/Downloads/Video/ontem/LIKE\ A\ BOSS\ COMPILATION\ ÉøÉ∏ÉÆÉøÉ∏ÉÆÉøÉ∏ÉÆAMAZING\ 12\ MINUTESÉøÉ≠É©ÉøÉ≠É≤ÉøÉ≠É≥\#97.mp4 /Users/rmaycon7/Downloads/Video/ontem/Memes\ Lixo_2565148786905526.mp4 /Users/rmaycon7/Downloads/Video/ontem/O\ ASTEROIDE\ realmente\ ir√ÉÅ\ COLIDIR\ COM\ A\ TERRA_\ -\ VSNews.mp4 /Users/rmaycon7/Downloads/Video/ontem/O\ TIME\ DO\ CORINTHIANS\ PODERIA\ RENDER\ MAIS\ NA\ M√É£O\ DE\ OUTRO\ TREINADOR\ _.mp4 /Users/rmaycon7/Downloads/Video/ontem/O.M.S.S.S01E01.Baixarseriesnodrive.tk.mp4 /Users/rmaycon7/Downloads/Video/ontem/O.M.S.S.S01E02.Baixarseriesnodrive.tk.mp4 /Users/rmaycon7/Downloads/Video/ontem/OPINI√É£O_\ CORINGA\ \(JOKER\).mp4 /Users/rmaycon7/Downloads/Video/ontem/Popcorn\ Original\ Song.mp4 /Users/rmaycon7/Downloads/Video/ontem/Pregador\ evang√©lico\ e\ cabeleireiro_\ El\ Gato\ conta\ trajet√≥ria\ antes\ de\ jogar\ Free\ Fire\ _\ ESPORTS.mp4 /Users/rmaycon7/Downloads/Video/ontem/Queimado,\ Renato\ Ga√∫cho\ n√£o\ ser√ÉÅ\ t√©cnico\ do\ Flamengo\ com\ a\ atual\ diretoria\ _\ Palmeiras\ quer\ Ded√©_.mp4 /Users/rmaycon7/Downloads/Video/ontem/South\ Am√©rica\ Crentes\ -\ F√ÉÅbrica\ de\ memes\ crist√£os_2429784040390099.mp4 /Users/rmaycon7/Downloads/Video/ontem/TEORIA\ TEMPORAL\ DE\ SHINGEKI\ NO\ KYOJIN\ EXPLICADA\!.mp4 /Users/rmaycon7/Downloads/Video/ontem/TROCAS\ FOR√ÉßADAS_\ as\ adapta√ß√µes\ no\ time\ titular\ do\ Flamengo\ _\ BB\ Debate.mp4 /Users/rmaycon7/Downloads/Video/ontem/Teonice\ Santos\ -\ Rindo\ o\ que\ o\ medo\ n√£o\ faz\ kkkk._2197248883736431.mp4 /Users/rmaycon7/Downloads/Video/ontem/Tyros\ 4\ Popcorn\ 2014.mp4 /Users/rmaycon7/Downloads/Video/ontem/VOC√É™\ CONSEGUE\ ACHAR\ O\ ERRO_\ USOU\ VIRGULA\ ERRADO\!\!\!.mp4 /Users/rmaycon7/Downloads/Video/ontem/You\ so\ fukin\ precious\ when\ you\ smile\ \(Jeff\ the\ killer\)\(Creepypasta\).mp4 /Users/rmaycon7/Downloads/Video/ontem/children\ -\ robert\ miles\ _\ \ remix\ played\ on\ yamaha\ tyros\ 3\ with\ vst\ plugins.mp4
+: 1570394462:0;la
+: 1570394463:0;ls
+: 1570394464:0;;a
+: 1570394466:0;la
+: 1570456595:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1570469846:0;brew tap elastic/tap 
+: 1570469924:0;brew install elastic/tap/elasticsearch-full
+: 1570470456:0;node -v
+: 1570470460:0;nvm install node
+: 1570497519:0;L
+: 1570497521:0;ls
+: 1570497561:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0 "$name.mp3"\
+done
+: 1570498072:0;cd Downloads/Video/Voz\ da\ Verdade
+: 1570498073:0;ls
+: 1570498089:0;md mp3
+: 1570498113:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map 0 mp3/"$name.mp3"\
+done
+: 1570558025:0;cd www
+: 1570558027:0;upgrade_oh_my_zsh
+: 1570558034:0;cd ~/.oh-my-zsh/custom/themes/spaceship-prompt
+: 1570558037:0;git pull
+: 1570558039:0;cd
+: 1570558044:0;cd www/new-api-base
+: 1570558048:0;yarn add mongoosastic
+: 1570558064:0;pnpm add mongoosastic
+: 1570558093:0;brew install httpie
+: 1570558155:0;http get http://localhost:9200
+: 1570558169:0;elasticsearch
+: 1570558194:0;subl ~/.zshrc
+: 1570558224:0;history
+: 1570558236:0;hsi "java"
+: 1570558284:0;brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+: 1570558306:0;ls /Library/Java/JavaVirtualMachines
+: 1570558325:0;ls /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+: 1570558352:0;source ~/.zshrc
+: 1570558364:0;elasticsearch
+: 1570558454:0;http get http://localhost:9200
+: 1570558551:0;cd ..
+: 1570558553:0;cg https://github.com/mongoosastic/mongoosastic.git
+: 1570558561:0;cd mongoosastic
+: 1570558562:0;ls
+: 1570558565:0;yarn 
+: 1570558597:0;yarn config list
+: 1570558603:0;pnpm add -g pnpm
+: 1570558637:0;pnpm -v
+: 1570558641:0;mv node_modules node_modules_old1
+: 1570558643:0;pnpm add
+: 1570558650:0;pnpm
+: 1570558665:0;pnpm i
+: 1570561990:0;cd ..
+: 1570561992:0;cg https://github.com/elastic/docs.git
+: 1570562012:0;cd docs
+: 1570562014:0;cd ..
+: 1570562015:0;ls
+: 1570562027:0;cg https://github.com/elastic/docs.git elasticseash_docs
+: 1570562043:0;cd estudo_curso_dojo
+: 1570562045:0;cd ..
+: 1570562047:0;cd elasticseash_docs
+: 1570562050:0;yarn 
+: 1570562128:0;ls
+: 1570562165:0;cat build_docs.pl
+: 1570562190:0;ls
+: 1570562220:0;cat doc_build_aliases.sh
+: 1570562272:0;ls 
+: 1570562277:0;open .
+: 1570562451:0;./build_docs --doc ./shared/versions/stack/7.4.asciidoc ./out-docs
+: 1570562463:0;md out-docs
+: 1570562499:0;./build_docs --doc ./shared/versions74.asciidoc ./out-docs
+: 1570562511:0;./build_docs --doc ./shared/versions74.asciidoc out-docs
+: 1570562527:0;./build_docs --doc ./shared/versions/stack/7.4.asciidoc out-docs
+: 1570562560:0;brew cask fetch docker
+: 1570581789:0;l
+: 1570581791:0;ls
+: 1570627362:0;python3
+: 1570818055:0;cd Documents
+: 1570818056:0;ls
+: 1570818071:0;mogrify -format jpg minha_foto-3.png
+: 1570827196:0;cd
+: 1570827198:0;cd Downloads/Video
+: 1570827221:0;ffmpeg - -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4 -c copy -map Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570827235:0;ffmpeg - -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4 -c copy -map 0 Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570827258:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4 -c copy -map 0 Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570827277:0;mpv Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570827293:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4  -map 0 Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570827399:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4  -map 0 -vf scale=hd720 Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570827428:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4  -map 0  Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).p3
+: 1570827431:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4  -map 0  Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp3
+: 1570827444:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4  -map a:0  Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp3
+: 1570828638:0;ffmpeg -y -i Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4  -map 0 -vf scale=hd720 Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv
+: 1570917419:0;touch /Users/rmaycon7/Downloads/Video/20\ PESSOAS\ FAZENDO\ COISAS\ INACREDIT√ÅVEIS.mp4 /Users/rmaycon7/Downloads/Video/CALL\ OF\ DUTY\ MOBILE\ VS\ FREE\ FIRE_\ MELHORES\ MEMES.mp4 /Users/rmaycon7/Downloads/Video/C√≥pia\ de\ \[AnimesTC\]\ Nanatsu\ no\ Taizai\ Kamigami\ no\ Gekirin\ \ -\ 01\ \[720p\].mp4 /Users/rmaycon7/Downloads/Video/Dupla\ sertaneja\ do\ Flamengo_.mp4 /Users/rmaycon7/Downloads/Video/Evair\ Almeida_2697551400472124.mp4 /Users/rmaycon7/Downloads/Video/F√ÉÅbio\ Carille\ fala\ ap√≥s\ empate\ do\ Corinthians\ contra\ o\ Athletico-PR\ _\ AO\ VIVO.mp4 /Users/rmaycon7/Downloads/Video/FILMES\ QUE\ NUNCA\ CANSAMOS\ DE\ ASSISTIR.mp4 /Users/rmaycon7/Downloads/Video/Fla\,\ Tim√£o\,\ SP\,\ Cru\,\ Vasco\,\ Galo\ e\ Furac√£o_\ veja\ como\ andam\ os\ lucros\ com\ patroc√≠nios.mp4 /Users/rmaycon7/Downloads/Video/Flamengo\ 3\ x\ 1\ Atl√©tico\ MG\ -\ MENG√É£O\ ATROPELOU\ \!\ Melhores\ Momentos\ \(60fps\)\ -\ Brasileir√£o\ 2019.mp4 /Users/rmaycon7/Downloads/Video/Flamengo\ 3\ x\ 1\ Atl√©tico\ MG\ -\ SEGUE\ O\ L√É≠DER\ \!\ Melhores\ Momentos\ \(HD\)\ -\ Brasileir√£o\ 2019.mp4 /Users/rmaycon7/Downloads/Video/Flamengo\ 3\ x\ 1\ Atl√©tico\ MG\ -\ SHOW\ DO\ MENG√É£O\ \!\ Melhores\ Momentos\ \(COMPLETO\)\ -\ Brasileir√£o\ 2019.mp4 /Users/rmaycon7/Downloads/Video/Flamengo\ 3\ x\ 1\ Atl√©tico-MG\ _\ Melhores\ momentos\ _\ SHOW\ do\ MENG√É£O\ _\ HD.mp4 /Users/rmaycon7/Downloads/Video/FLAMENGO\ 3\ X\ 1\ ATL√É©TICO-MG\ _\ MENG√É£O\ ATROPELOU\ O\ GALO\!\ DISPAROU\ NO\ BRASILEIR√É£O\ \!.mp4 /Users/rmaycon7/Downloads/Video/Flamengo\ 3\ x\ 1\ Atl√©tico-MG\ \(HD\)\ SHOW\ do\ MENG√É£O\ _\ Melhores\ Momentos\ -\ COMPLETO\ -\ Brasileir√£o\ 2019.mp4 /Users/rmaycon7/Downloads/Video/Flamengo\ X\ Atl√©tico\ MG\,\ A\ vit√≥ria\ contundente\ por\ 3\ a\ 1\ diante\ de\ um\ Atl√©tico\ MG\ bem\ armado.mp4 /Users/rmaycon7/Downloads/Video/FLAMENGO\ X\ SELE√Éß√É£O\ BRASILEIRA_\ EDMUNDO\ DIZ\ QUEM\ VENCERIA\ HOJE.mp4 /Users/rmaycon7/Downloads/Video/JARED\ LETO\ FICOU\ TRISTINHO\ COM\ O\ CORINGA\ DO\ JOAQUIN\ PHOENIX.mp4 /Users/rmaycon7/Downloads/Video/JESUS\ √É©\ O\ √É∫NICO\ RESPONS√ÅVEL\ PELA\ MUDAN√ÉßA\ TOTAL\ NO\ FLAMENGO_\ _FOX\ Sports\ R√ÉÅdio_\ debateu.mp4 /Users/rmaycon7/Downloads/Video/Jesus\ mudou\ Ar√£o\,\ recuperou\ Vitinho\,\ Fla\ fez\ 3\ a\ 1\ no\ Galo\ e\ abriu\ 8\ pontos\ sobre\ Palmeiras\ e\ Santos.mp4 /Users/rmaycon7/Downloads/Video/Jogo\ aberto\ \ O\ Flamengo\ iniciou\ a\ partida\ com\ a\ postura\ que\ tem\ marcado\ a\ Era\ J.J.mp4 /Users/rmaycon7/Downloads/Video/LIKE\ A\ BOSS\ COMPILATION\ ÉøÉ∏ÉÆÉøÉ∏É™Éø§£–Éª–£–ß–®–É∏–Éµ\ –Éº–Éæ–Éº–Éµ–ÉΩ–ÉÇ–´\ –É∏–É∑\ –É∂–É∏–É∑–ÉΩ–É∏\ ÉøÉ≠≠ÉøÉ≠©ÉøÉ≠π\#49.mp4 /Users/rmaycon7/Downloads/Video/Mauro\ Cezar\ detona\ t√©cnicos\ \'jur√ÉÅssicos\'\ e\ exalta\ \'gringos\'\ em\ vit√≥ria\ do\ Flamengo\ _\ Linha\ de\ Passe.mp4 /Users/rmaycon7/Downloads/Video/MENG√É£O\ AVASSALADOR\ _\ Flamengo\ 3\ x\ 1\ Atl√©tico-MG\ _\ Melhores\ Momentos\ _\ HD\ 10_10_2019.mp4 /Users/rmaycon7/Downloads/Video/N√É£O\ EXISTE\ S√É©RIE_FILME\ DESNECESS√ÅRIO.mp4 /Users/rmaycon7/Downloads/Video/O\ dia\ em\ que\ CONHECEMOS\ OS\ ATORES\ DE\ BREAKING\ BAD\ \!\!.mp4 /Users/rmaycon7/Downloads/Video/O\ EX√É©RCITO\ DE\ ANJOS\ NA\ 1¬™\ GUERRA\ MUNDIAL\ -\ E\ SE\ FOR\ VERDADE.webm /Users/rmaycon7/Downloads/Video/Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mkv /Users/rmaycon7/Downloads/Video/Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp3 /Users/rmaycon7/Downloads/Video/Pharrell\ Williams\ -\ Happy\ \(Official\ Music\ Video\).mp4 /Users/rmaycon7/Downloads/Video/P√É≥S\ JOGO\ E\ ANALISES\ _\ Flamengo\ 3\ x\ 1\ Atl√©tico-MG\ -\ MENG√É£O\ DISPAROU\!.mp4 /Users/rmaycon7/Downloads/Video/Qual\ tipo\ de\ ESTRAT√É©GIA\ pode\ parar\ o\ FLAMENGO_.mp4 /Users/rmaycon7/Downloads/Video/RANKING\ DE\ CLUBES\ \ -\ BRASILEIR√É£O\ POR\ PONTOS\ CORRIDOS.mp4 /Users/rmaycon7/Downloads/Video/REVELADO\!\ O\ ORIGEM\ DOS\ TIT√É£S_\ N√É£O\ ERA\ O\ QUE\ VOC√É™\ PENSAVA.mp4 /Users/rmaycon7/Downloads/Video/Soraya\ Moraes\ -\ Feliz\ \(Happy\)\ \(Videoclipe\).mp4 /Users/rmaycon7/Downloads/Video/Todas\ as\ narra√ß√µes\ -\ Flamengo\ 3\ x\ 1\ Atl√©tico-MG\ _\ Brasileir√£o\ 2019.mp4 /Users/rmaycon7/Downloads/Video/TROCA\ DE\ PASSES\ _\ FLAMENGO\ 3\ X\ 1\ ATL√É©TICO\ MG_\ COLETIVAMENTE\ MENGO\ √É©\ MUITO\ SUPERIOR\ AOS\ OUTROS\ TIMES.mp4 /Users/rmaycon7/Downloads/Video/VAGNER\ LOVE\ DEVE\ SER\ RESERVA\ NO\ CORINTHIANS_.mp4 /Users/rmaycon7/Downloads/Video/Watch\ -\ Descobrir_686000228586349.mp4 /Users/rmaycon7/Downloads/Video/Watch\ -\ Descobrir_990278451317401.mp4 /Users/rmaycon7/Downloads/Video/Watch\ -\ Descobrir_2991858310828951.mp4 
+: 1570983193:0;killall mds
+: 1570983211:0;top
+: 1570983221:0;htop
+: 1570984500:0;elasticsearch
+: 1570984955:0;ls
+: 1570984970:0;mpv Watch\ -\ Descobrir*
+: 1571066658:0;cd
+: 1571066662:0;cd Music/Pen-Drive/tmp
+: 1571066813:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map a:0 mp3/"$name.mp3"\
+done
+: 1571066816:0;ls
+: 1571066819:0;md mp3
+: 1571066820:0;for i in *.mp4 ; do\
+name=$(basename $i .mp4)\
+ffmpeg -y -i $i -map a:0 mp3/"$name.mp3"\
+done
+: 1571164962:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1571165620:0;cd 
+: 1571165622:0;cd www/new-api-base
+: 1571165625:0;ls
+: 1571165646:0;yarn add @elastic/elastichsearch
+: 1571165657:0;yarn add @elastic/elasticsearch
+: 1571165693:0;mv node_modules node_modules_old1
+: 1571165704:0;pnpm add @elastic/elasticsearch
+: 1571165736:0;pnpm up
+: 1571165751:0;pnpm add -g pnpm
+: 1571165788:0;cd ..
+: 1571165792:0;cd tmp
+: 1571165793:0;ls
+: 1571165797:0;cg https://github.com/elastic/elasticsearch-js.git
+: 1571165805:0;cd elasticsearch-js
+: 1571165808:0;yarn 
+: 1571198677:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/Voz\ da\ Verdade/Voz\ da\ Verdade\ -\ Sublime\,\ PLAY\ BACK.mp4 -map a:0   /Users/rmaycon7/Downloads/Video/Voz\ da\ Verdade/mp3/Voz\ da\ Verdade\ -\ Sublime\,\ PLAY\ BACK.mp4 
+: 1571198694:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/Voz\ da\ Verdade/Voz\ da\ Verdade\ -\ Sublime\,\ PLAY\ BACK.mp4 -map a:0   /Users/rmaycon7/Downloads/Video/Voz\ da\ Verdade/mp3/Voz\ da\ Verdade\ -\ Sublime\,\ PLAY\ BACK.mp3 
+: 1571198889:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/Voz\ da\ Verdade/Voz\ da\ Verdade\ -\ Sublime\,\ PLAY\ BACK.mp4 -map 0   /Users/rmaycon7/Downloads/Video/Voz\ da\ Verdade/mp3/Voz\ da\ Verdade\ -\ Sublime\,\ PLAY\ BACK.mp3 
+: 1571199275:0;ffmpeg -y -i /Volumes/TITO7/Voz\ da\ Verdade/03-O\ Manto.mp3  o-mano.jpg
+: 1571199276:0;ls
+: 1571199280:0;open .
+: 1571258557:0;sleep 7200; ffmpeg -y -i Shrek\ -By\ JefePsb\ -\ WOLVERDONFILMES.COM.mkv -map 0 -vf scale=hd480  -metadata title="Sherek" Shrek.2001.480p.mkv 
+: 1571286470:0;mpv /Volumes/data-ntfs/tmp/Watch\ -\ Descobrir_2514642585296785.mp4 
+: 1571286486:0;cp /Volumes/data-ntfs/tmp/Watch\ -\ Descobrir_2514642585296785.mp4  .
+: 1571286488:0;ls
+: 1571286495:0;open .
+: 1571286590:0;ls /Volumes/data-ntfs/tmp/
+: 1571286599:0;l /Volumes/data-ntfs/tmp/
+: 1571328577:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1571332425:0;brew cask install java
+: 1571335955:0;ls /Library/Java/JavaVirtualMachines/
+: 1571343764:0;python3
+: 1571420996:0;php --version
+: 1571427609:0;l /
+: 1571451729:0;l /.vol
+: 1571451732:0;l /
+: 1571452835:0;open /
+: 1571452913:0;cd /
+: 1571452919:0;ls .Spotlight-V100
+: 1571452923:0;sudo -s
+: 1571452937:0;ls .Spotlight-V100
+: 1571452949:0;ls .Spotlight-V100/Store-V1
+: 1571452950:0;ls .Spotlight-V100/Store-V1/VolumeConfig.plist
+: 1571452958:0;cat .Spotlight-V100/Store-V1/VolumeConfig.plist
+: 1571452982:0;rm -fr .Spotlight-V100
+: 1571452992:0;rm -fr .PKInstallSandboxManager-SystemSoftware
+: 1571453015:0;rm -fr .DocumentRevisions-V100/
+: 1571453025:0;rm -fr .fseventsd
+: 1571453031:0;rm -fr .TemporaryItems
+: 1571453046:0;rm -fr .Trashes
+: 1571453063:0;mv .PKInstallSandboxManager-SystemSoftware ,p
+: 1571453072:0;mv .PKInstallSandboxManager-SystemSoftware .p
+: 1571453154:0;cat .OSInstallerMessages
+: 1571453171:0;cat installer.failurerequests
+: 1571453201:0;rm -fr installer.failurerequests
+: 1571453208:0;cat installer.failurerequests
+: 1571453234:0;diskutil  list
+: 1571453274:0;mount /dev/disk0s1
+: 1571585624:0;cd /Volumes/data-ntfs
+: 1571585626:0;l
+: 1571585637:0;rm --fr .TemporaryItems
+: 1571585641:0;rm -fr .TemporaryItems
+: 1571585683:0;rm -fr \$RECYCLE.BIN
+: 1571586129:0;cd ..
+: 1571586132:0;cd data-hfsplus
+: 1571586137:0;ls .Trashes
+: 1571586139:0;sudo -s
+: 1571586153:0;ls .Trashes
+: 1571586155:0;ls .Trashes/501
+: 1571586161:0;l
+: 1571586177:0;rm .DS_Store
+: 1571586181:0;l
+: 1571586192:0;rm -fr .Spotlight-V100
+: 1571586202:0;rm -fr .DocumentRevisions-V100
+: 1571586211:0;rm -fr .Trashes
+: 1571586214:0;ls
+: 1571586215:0;l
+: 1571586229:0;cd ..
+: 1571586234:0;cd data-ntfs
+: 1571586235:0;l
+: 1571586243:0;rm -fr .fseventsd
+: 1571586261:0;mv \$RECYCLE.BIN tmp
+: 1571586321:0;ls tmp
+: 1571586917:0;exit
+: 1571586925:0;cd Video/tmp/Death\ Note
+: 1571586926:0;s
+: 1571586927:0;ls
+: 1571586947:0;for i in *.rar ; do
+: 1571586950:0;unrar --help
+: 1571586973:0;for i in *.rar ; do\
+unrar e $i \
+done
+: 1571587838:0;cp /Volumes/data-ntfs/tmp/Kimetsu\ no\ Yaiba\ -\ SeÃÅrie\ -\ Aenianos\ Fansubber/t  /Users/rmaycon7/tmp/Kimetsu\ no\ Yaiba\ -\ SeÃÅrie\ -\ Aenianos\ Fansubber  
+: 1571587849:0;cp -v /Volumes/data-ntfs/tmp/Kimetsu\ no\ Yaiba\ -\ SeÃÅrie\ -\ Aenianos\ Fansubber/t  /Users/rmaycon7/tmp/Kimetsu\ no\ Yaiba\ -\ SeÃÅrie\ -\ Aenianos\ Fansubber  
+: 1571587867:0;cp -v /Volumes/data-ntfs/tmp/Kimetsu\ no\ Yaiba\ -\ SeÃÅrie\ -\ Aenianos\ Fansubber/t/*  /Users/rmaycon7/tmp/Kimetsu\ no\ Yaiba\ -\ SeÃÅrie\ -\ Aenianos\ Fansubber  
+: 1571588079:0;cd
+: 1571678354:0;type dlsite
+: 1571678379:0;cd Pictures
+: 1571678382:0;md Mang√ÉÅs
+: 1571678383:0;cd m
+: 1571678388:0;cd Mang√ÉÅs
+: 1571678392:0;md tmp
+: 1571678394:0;cd tmp
+: 1571678398:0;md hunter
+: 1571678399:0;cd 
+: 1571678405:0;cd Pictures/Mang√ÉÅs/tmp/hunter
+: 1571678407:0;ls
+: 1571678409:0;l
+: 1571678416:0;subl -a .
+: 1571678596:0;nano down.sh
+: 1571678649:0;for i in {1..2}:\
+echo $i
+: 1571678659:0;for i in {1..2}; do\
+echo $i\
+done
+: 1571678662:0;nano down.sh
+: 1571678691:0;chmod +x down.sh
+: 1571678709:0;./down.sh -i hunter_link.txt -A png,jpg,jpeg
+: 1571678718:0;nano down.sh
+: 1571678737:0;./down.sh -i hunter_link.txt -A png,jpg,jpeg
+: 1571678818:0;dlsite -A jpg,png,jpeg -i hunter_link.txt
+: 1571678846:0;brew cask install sequential
+: 1571679947:0;brew cask install bittorrent-sync
+: 1571680897:0;brew cask install sequential2
+: 1571686629:0;ls
+: 1571686636:0;cd lermangaonline.com/mm-admin/uploads/mangas/hunter-x-hunterr
+: 1571686637:0;ls
+: 1571686663:0;l
+: 1571686677:0;python3
+: 1571687137:0;ls
+: 1571687138:0;cd ..
+: 1571687139:0;ls
+: 1571687145:0;subl -a change.py
+: 1571687424:0;cd ..
+: 1571687429:0;ls
+: 1571687434:0;dlsite -A jpg,png,jpeg https://lermangaonline.com/mangabr/hunter-x-hunterr/289
+: 1571687654:0;dlsite -A jpg,png,jpeg https://lermangaonline.com/mangabr/hunter-x-hunterr/290
+: 1571687666:0;dlsite -A jpg,png,jpeg,JPG https://lermangaonline.com/mangabr/hunter-x-hunterr/290
+: 1571687674:0;dlsite -A jpg,png,jpeg,JPG https://lermangaonline.com/mangabr/hunter-x-hunterr/289
+: 1571702213:0;python3
+: 1571771697:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1571820157:0;/Users/rmaycon7/Pictures/Mang√ÉÅs/tmp/hunter/lermangaonline.com/mm-admin/uploads/mangas/hunter-x-hunterr 
+: 1571820162:0;ls
+: 1571820193:0;rar a 'hunter-x-hunter-186.cbr' 186/*
+: 1571937696:0;brew install dart
+: 1571937835:0;brew install dartsim
+: 1571937872:0;brew tap dart-lang/dart
+: 1571937885:0;brew install dart
+: 1571942585:0;dart -v
+: 1571942589:0;dart --version
+: 1571949235:0;brew cask remove android-studio
+: 1572035447:0;where dart
+: 1572035462:0;l $(where dart)
+: 1572035487:0;ls /usr/local/Cellar/dart/2.5.2/bin
+: 1572035491:0;dart 
+: 1572068884:0;p
+: 1572070318:0;brew cask install flutter 
+: 1572070333:0;brew install flutter 
+: 1572290295:0;htop
+: 1572290450:0;brew cask install docker
+: 1572290475:0;rm -fr $(brew --cache)/downloads
+: 1572365120:0;ping localhost:3427
+: 1572365129:0;ping 127.0.0.1:3427
+: 1572365137:0;ping 127.0.0.1
+: 1572365160:0;ping 127.0.0.1:31487
+: 1572365182:0;ping 127.0.0.1:27017
+: 1572365200:0;http get http://localhost:9200 -p 31487
+: 1572365220:0;http-server -p 31487
+: 1572400718:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/Voc√™\ Sabia_\ -\ YouTube/COISAS\ BIZARRAS\ que\ PODEM\ acontecer\ em\ uma\ ENTREVISTA\ DE\ EMPREGO\ \!\!.mp4 -map 0  /Users/rmaycon7/Downloads/Video/Voc√™\ Sabia_\ -\ YouTube/COISAS\ BIZARRAS\ que\ PODEM\ acontecer\ em\ uma\ ENTREVISTA\ DE\ EMPREGO\ \!\!.webm 
+: 1572400755:0;ffmpeg -y -i /Users/rmaycon7/Downloads/Video/Voc√™\ Sabia_\ -\ YouTube/COISAS\ BIZARRAS\ que\ PODEM\ acontecer\ em\ uma\ ENTREVISTA\ DE\ EMPREGO\ \!\!.mp4 -map 0  -vf scale=hd480  /Users/rmaycon7/Downloads/Video/Voc√™\ Sabia_\ -\ YouTube/COISAS\ BIZARRAS\ que\ PODEM\ acontecer\ em\ uma\ ENTREVISTA\ DE\ EMPREGO\ \!\!.webm 
+: 1572406893:0;cd
+: 1572406896:0;cd Documents
+: 1572406899:0;cd TCC
+: 1572406901:0;ls
+: 1572406917:0;md tcc-app-project
+: 1572406921:0;cd tcc-app-project
+: 1572406929:0;git init 
+: 1572406933:0;ls
+: 1572406940:0;l
+: 1572406949:0;md app
+: 1572406953:0;rm -fr app
+: 1572406976:0;md app-code
+: 1572406978:0;cd app-code
+: 1572406983:0;yarn init -y
+: 1572406988:0;cd ..
+: 1572406994:0;ls
+: 1572406996:0;cd app-code
+: 1572407000:0;rm -fr package.json
+: 1572407009:0;md api-micro-service
+: 1572407024:0;md client
+: 1572407026:0;ls
+: 1572407035:0;cd api-micro-service
+: 1572407037:0;yarn init -y
+: 1572407038:0;cd ..
+: 1572407040:0;cd client
+: 1572407046:0;ls
+: 1572407048:0;l
+: 1572407050:0;cd ..
+: 1572407052:0;ls
+: 1572407060:0;md app-schemas
+: 1572407064:0;cd app-schemas
+: 1572407070:0;cd ..
+: 1572407074:0;p
+: 1572407080:0;git add --all
+: 1572407089:0;git commit -m "first commit"
+: 1572407092:0;git s
+: 1572407094:0;git status
+: 1572407097:0;git log
+: 1572458084:0;ls
+: 1572458094:0;dlsite -A jpg,png,jpeg,JPG https://lermangaonline.com/mangabr/hunter-x-hunter-hisoka-original-story-06-08-2018/01
+: 1572458136:0;dlsite -A jpg,png,jpeg,JPG,PNG,JPEG, https://lermangaonline.com/mangabr/hunter-x-hunter-hisoka-original-story-06-08-2018/01
+: 1572458170:0;dlsite -A jpg,png,jpeg,JPG,PNG,JPEG -i hunter_link.txt
+: 1572458801:0;dlsite -A jpg,png,jpeg,JPG,PNG,JPEG -i https://lermangaonline.com/mangabr/boku-no-hero-academiaa/248
+: 1572542885:0;dlsite -A jpg,png,jpeg,JPG,PNG,JPEG -i hunter_link.txt
+: 1572553814:0;rm -fr $(brew --cache)/downloads
+: 1572629838:0;brew cask install airdroid
+: 1572630114:0;brew cask install send-anywhere
+: 1572630294:0;cd 
+: 1572630299:0;cd Downloads/apks
+: 1572630300:0;ls
+: 1572630305:0;http-server -p 8080
+: 1572706156:0;htop
+: 1572730068:0;ls
+: 1572730070:0;cd
+: 1572730072:0;l
+: 1572881992:0;cd Documents/TCC/tcc-app-project
+: 1572882106:0;git remote add origin git@github.com:rmaycon7/tcc-app-project.git
+: 1572882116:0;git push -u origin master
+: 1572882137:0;touch README.md
+: 1572882149:0;git add README.md 
+: 1572882156:0;git commit -m "first commit"
+: 1572882166:0;git push
+: 1572882180:0;cd app-code
+: 1572882186:0;ls 
+: 1572882192:0;cd api-micro-service
+: 1572882201:0;ls
+: 1572882225:0;nano .gitignore
+: 1572882251:0;yarn add @elastic/elasticsearch
+: 1572882311:0;ls
+: 1572882354:0;yarn add mongoose express eslint eslint-plugin-prettier 
+: 1572882508:0;ls
+: 1572882539:0;upgrade_oh_my_zsh
+: 1572882632:0;cd
+: 1572882636:0;cd .zplugin
+: 1572882642:0;git pull
+: 1572882644:0;ls
+: 1572882653:0;cd  plugins/
+: 1572882661:0;for i in */ do;
+: 1572882677:0;for i in */ ; do\
+cd $i \
+git pull\
+cd .\
+cd ..\
+done
+: 1572882688:0;ls
+: 1572882691:0;cd ..
+: 1572882692:0;ls
+: 1572882696:0;cd snippets
+: 1572882697:0;ls
+: 1572882703:0;cd ..
+: 1572882704:0;ls
+: 1572882708:0;cd completions
+: 1572882709:0;ls
+: 1572882711:0;cd ..
+: 1572882712:0;ls
+: 1572882714:0;cd ..
+: 1572882719:0;cd .oh-my-zsh/custom/themes/spaceship-prompt
+: 1572882724:0;git pull
+: 1572882727:0;ls
+: 1572882729:0;cd ..
+: 1572882735:0;ls
+: 1572882739:0;cd ..
+: 1572882741:0;ls
+: 1572882744:0;cd plugins
+: 1572882746:0;ls
+: 1572882749:0;ccd
+: 1572882750:0;cd
+: 1572882752:0;ls
+: 1572882753:0;l
+: 1572882779:0;source ~/.zshrc
+: 1572882801:0;ls
+: 1572882811:0;yarn add mongoosastic
+: 1572882938:0;yarn add express  mongoose morgan multer cors helmet compress nodemon sucrase typescript @types/express @types/mongoose @types/multer @types/cors @types/helmet prettier
+: 1572883168:0;cd ..
+: 1572883169:0;ls
+: 1572883181:0;vue create  -m yarn client
+: 1572883506:0;ls
+: 1572883511:0;cd ..
+: 1572883513:0;nano .gitignore
+: 1572883526:0;git status
+: 1572883535:0;git add --all
+: 1572883549:0;git commit -m "iniciando projetos"
+: 1572883559:0;git push
+: 1572883600:0;ls
+: 1572967433:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1572968142:0;node -v
+: 1572968184:0;brew install node@12
+: 1572968262:0;brew install node
+: 1572968281:0;brew install node@13
+: 1572968416:0;nvm install node
+: 1572968474:0;node -v
+: 1572968479:0;nvm install 12
+: 1572970568:0;brew remove node@10
+: 1572973649:0;cd 
+: 1572973652:0;cd www
+: 1572973653:0;ls
+: 1572973764:0;cg https://gitlab.com/rmaycon7/api-file-share
+: 1572973786:0;cg git@git:gitlab.com/rmaycon7/api-file-share
+: 1572973825:0;cg https://github.com/rmaycon7/api-file-share
+: 1572973839:0;cg https://github.com/rmaycon7/host-share
+: 1572973849:0;cd api-file-share
+: 1572973851:0;ls
+: 1572973854:0;yarn
+: 1572973870:0;cd ..
+: 1572973872:0;cd host-share
+: 1572973874:0;ls
+: 1572973885:0;open .
+: 1572973913:0;yarn
+: 1572973927:0;nvm use system
+: 1572973931:0;yarn
+: 1572973937:0;nano package.json
+: 1572973958:0;yarn
+: 1572973964:0;pnpm i
+: 1572973993:0;yarn start
+: 1572974123:0;pnpm add -g pnpm
+: 1572974233:0;pnpm up -g --latest
+: 1572974258:0;pnpm ls -g
+: 1572974265:0;rm -fr /usr/local/lib/node_modules/npm/npmrc
+: 1572974269:0;npm config --global set prefix $HOME/Packages ;npm config set --global cache  $HOME/Packages/npm-cache ;npm config --global set store $HOME/Packages/pnpm-store ;
+: 1572974277:0;pnpm add -g pnpm npm
+: 1572974313:0;pnpm ls -g
+: 1572974337:0;ls ~/Packages/pnpm-global/2
+: 1572974340:0;ls ~/Packages/pnpm-global/2/node_modules
+: 1572974404:0;pnpm add -g http-server @angulas/cli @vue @adonisjs @ionic cordova cordova-res mongo-hacker sucrase typescript yarn npm-script-list native-run 
+: 1572974425:0;pnpm add -g http-server @angulas/cli @vue/cli @adonisjs/cli @ionic cordova cordova-res mongo-hacker sucrase typescript yarn npm-script-list native-run 
+: 1572974435:0;ls ~/Packages/pnpm-global/2/node_modules/@ionic
+: 1572974451:0;pnpm add -g http-server @angulas/cli @vue/cli @adonisjs/cli @ionic/lab ionic cordova cordova-res mongo-hacker sucrase typescript yarn npm-script-list native-run 
+: 1572974618:0;pnpm add -g http-server @angular/cli @vue/cli @adonisjs/cli @ionic/lab ionic cordova cordova-res mongo-hacker sucrase typescript yarn npm-script-list native-run 
+: 1572975262:0;pbcopy < ~/.ssh/id_rsa.pub
+: 1572975326:0;yarn build 
+: 1572975334:0;cd ..
+: 1572975336:0;cd tmp
+: 1572975338:0;cg git@gitlab.com:rmaycon7/api-file-share.git
+: 1572975472:0;pnpm add validator
+: 1572975489:0;yarn config list
+: 1572975499:0;pnpm add validator
+: 1572975521:0;rm -fr ~/.pnpm-store
+: 1572975544:0;pnpm add validator
+: 1572975550:0;pnpm add validator --force
+: 1572975669:0;ls
+: 1572975673:0;yarn build 
+: 1572975688:0;ls ~/.pnpm-store
+: 1572975707:0;brew install node@13
+: 1572975724:0;brew install node
+: 1573007392:0;nano tmp.py
+: 1573007420:0;python3 tmp.py
+: 1573054663:0;brew install node
+: 1573054677:0;yarn add axios 
+: 1573056861:0;pnpm add axios babel-cli babel-helper-evaluate-path babel-preset-minify bcryptjs body-parser chai chai-http chalk compression cors dotenv express express-limiter express-rate-limit helmet jasmine jsonwebtoken minimist mocha mongoose node-port-check npm-run-all redis request validator 
+: 1573059566:0;brew cask install inkscape
+: 1573060624:0;brew cask install xquartz
+: 1573060959:0;ls
+: 1573060968:0;yarn init -y
+: 1573061018:0;yarn add axios babel-cli babel-helper-evaluate-path babel-preset-minify bcryptjs body-parser chai chai-http chalk compression cors dotenv express express-limiter express-rate-limit helmet jasmine jsonwebtoken minimist mocha mongoose node-port-check npm-run-all redis request validator 
+: 1573061102:0;hsi "esl"
+: 1573061121:0;yarn add mongoose express eslint eslint-plugin-prettier 
+: 1573061277:0;ls
+: 1573061283:0;cd ..
+: 1573061284:0;ls
+: 1573061290:0;cd api-file-share
+: 1573061292:0;cd ..
+: 1573061295:0;cd new-api-base
+: 1573061296:0;ls
+: 1573061298:0;yarn 
+: 1573061319:0;yarn ls
+: 1573061328:0;yarn list
+: 1573061333:0;yarn 
+: 1573061345:0;brew cask install inkscape
+: 1573061352:0;cd ..
+: 1573061360:0;cd rocketseat-example
+: 1573061361:0;ls
+: 1573061365:0;yarn
+: 1573061370:0;cd ..
+: 1573061371:0;ls
+: 1573061383:0;cd connect
+: 1573061384:0;ls
+: 1573061386:0;yarn
+: 1573061516:0;cd ..
+: 1573061520:0;ls
+: 1573062591:0;brew cask install texstudio
+: 1573063337:0;rm -fr $(brew --cache)/downloads
+: 1573063553:0;brew install dart
+: 1573063584:0;brew upgrade dart
+: 1573065858:0;dart --version
+: 1573065913:0;brew switch dart 2.4
+: 1573067482:0;ls
+: 1573067490:0;yarn add mongoosastic
+: 1573067501:0;ls
+: 1573067503:0;cd ..
+: 1573067509:0;cd tmp
+: 1573067511:0;ls
+: 1573067514:0;yarn add mongoosastic
+: 1573086499:0;ls
+: 1573094616:0;cd Downloads/ViD
+: 1573094619:0;cd Downloads/Video
+: 1573094621:0;ls
+: 1573094651:0;ffmpeg -y -i Kavinsky\ -\ Nightcall\ \(Drive\ Original\ Movie\ Soundtrack\)\ \(Official\ Audio\).mp4 -map 0 Kavinsky\ -\ Nightcall\ \(Drive\ Original\ Movie\ Soundtrack\)\ \(Official\ Audio\).webm
+: 1573094685:0;ffmpeg -y -i Kavinsky\ -\ Nightcall\ \(Drive\ Original\ Movie\ Soundtrack\)\ \(Official\ Audio\).mp4 -map 0 -vf scale=hd720  Kavinsky\ -\ Nightcall\ \(Drive\ Original\ Movie\ Soundtrack\)\ \(Official\ Audio\).webm
+: 1573094709:0;ffmpeg -y -i Kavinsky\ -\ Nightcall\ \(Drive\ Original\ Movie\ Soundtrack\)\ \(Official\ Audio\).mp4 -map 0 -vf scale=hd480  Kavinsky\ -\ Nightcall\ \(Drive\ Original\ Movie\ Soundtrack\)\ \(Official\ Audio\).webm
+: 1573098955:0;pwd
+: 1573133896:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1573134769:0;ffmpeg -y -i 
+: 1573143682:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1573231247:0;brew install redis couchdb 
+: 1573231464:0;ls
+: 1573231513:0;md src/app/controllers src/app/models src/database src/config src/app/middlewares src/app/routes
+: 1573232517:0;yarn start
+: 1573232782:0;yarn dev
+: 1573233394:0;yarn add body-parser
+: 1573233442:0;yarn dev
+: 1573267699:0;ls
+: 1573267705:0;yarn add prettier --offline
+: 1573267750:0;open .
+: 1573268043:0;cd new-api-base
+: 1573268045:0;code -a .
+: 1573268091:0;yarn global add  eslint --offline
+: 1573268108:0;pnpm add -g --offline eslint
+: 1573268251:0;cd 
+: 1573268261:0;cd Documents/TCC/tcc-app-project/app-schemas
+: 1573268265:0;code -a .
+: 1573268692:0;cd ..
+: 1573268697:0;git status
+: 1573268709:0;git add --all
+: 1573268722:0;git commit -m "criando esquema da api"
+: 1573269265:0;git add --all
+: 1573269267:0;git status
+: 1573269302:0;git commit -m "atualizando esquema da api: adicionando rotas ..."
+: 1573269380:0;mongo
+: 1573269455:0;cd app-code/api-micro-service
+: 1573269456:0;ls
+: 1573269461:0;git status
+: 1573269466:0;yarn dev
+: 1573269512:0;yarn
+: 1573269545:0;yarn dev
+: 1573269611:0;hsi "mongoose"
+: 1573271012:0;node -v
+: 1573271336:0;yarn add dotenv --oflfine
+: 1573271343:0;yarn add dotenv --offline
+: 1573271780:0;ls
+: 1573271782:0;cd ...
+: 1573271791:0;cd tcc-app-project
+: 1573271792:0;ls
+: 1573271796:0;cd app-code
+: 1573271797:0;ls
+: 1573271800:0;cd api-micro-service
+: 1573271801:0;ls
+: 1573271809:0;js --version
+: 1573271818:0;node
+: 1573271855:0;ls
+: 1573271857:0;md tmp
+: 1573271859:0;cd tmp
+: 1573271868:0;touch test.js
+: 1573271963:0;ls
+: 1573271998:0;node test.js
+: 1573272056:0;cd ..
+: 1573272059:0;node tmp/test.js
+: 1573272612:0;mongo
+: 1573272707:0;git status
+: 1573272717:0;rm -fr tmp
+: 1573272719:0;ls
+: 1573272720:0;git status
+: 1573272810:0;git rm --cached .DS_Store
+: 1573272812:0;git status
+: 1573272824:0;git rm --cached ../.DS_Store
+: 1573272828:0;git status
+: 1573272836:0;git add --all
+: 1573272895:0;git commit -m "atualizando: adicionando suporte para arquivos staticos, onde as fotos de perfil firacam salvas"
+: 1573272897:0;git status
+: 1573274571:0;yarn dev
+: 1573274583:0;elasticsearch
+: 1573275784:0;yarn add @elastic/elasticsearch
+: 1573275793:0;yarn add @elastic/elasticsearch --offline
+: 1573275839:0;pnpm add @elastic/elasticsearch --offline
+: 1573275859:0;yarn 
+: 1573275886:0;mv node_modules node_modules_old1
+: 1573275888:0;yarn 
+: 1573275899:0;yarn  --offline
+: 1573275962:0;yarn add @elastic/elasticsearch --offline
+: 1573276050:0;ls /Users/rmaycon7/Packages/yarn-cache/v6/npm-@ionic-cli-framework-0.1.3-305ce75f39a3a88db17b969b5dfb323ef119d06c-integrity/node_modules/@ionic/Users/rmaycon7/Packages/yarn-cache/v6/npm-@ionic-cli-framework-0.1.3-305ce75f39a3a88db17b969b5dfb323ef119d06c-integrity/node_modules/@ionic
+: 1573276054:0;ls /Users/rmaycon7/Packages/yarn-cache/v6/npm-@ionic-cli-framework-0.1.3-305ce75f39a3a88db17b969b5dfb323ef119d06c-integrity/node_modules/@ionic
+: 1573276063:0;cd /Users/rmaycon7/Packages/yarn-cache/v6/npm-@ionic-cli-framework-0.1.3-305ce75f39a3a88db17b969b5dfb323ef119d06c-integrity/node_modules/@ionic
+: 1573276065:0;ls
+: 1573276071:0;cd ..
+: 1573276072:0;ls
+: 1573276077:0;pwd
+: 1573276081:0;cd ..
+: 1573276082:0;ls 
+: 1573276085:0;ls *
+: 1573276092:0;l *
+: 1573276094:0;cd ..
+: 1573276095:0;ls
+: 1573276145:0;htop
+: 1573276257:0;elasticsearch --version
+: 1573323785:0;yarn dev
+: 1573323810:0;elasticsearch 
+: 1573323872:0;yarn dev
+: 1573324482:0;mongo
+: 1573324644:0;cd /Users/rmaycon7/www/tmp/mongoose 
+: 1573324654:0;http-server -p 80000
+: 1573324658:0;http-server -p 4000
+: 1573434089:0;open ~/Pictures/Mang√ÉÅs/tmp/hunter/lermangaonline.com/mm-admin/uploads/mangas/hunter-x-hunterr/
+: 1573483108:0;ping google.com
+: 1573483118:0;ifconfig 
+: 1573483133:0;http-server -p 4000
+: 1573483196:0;ping google.com
+: 1573483435:0;http-server -p 4000
+: 1573488471:0;yarn add @elastic/elasticsearch 
+: 1573489314:0;yarn add dotenv 
+: 1573489892:0;cd 
+: 1573489895:0;cd www/btm-api
+: 1573489896:0;ls
+: 1573489898:0;yarn 
+: 1573489906:0;nano package.json
+: 1573490035:0;yarn 
+: 1573490078:0;yarn upgrade
+: 1573490109:0;yarn global add  eslint 
+: 1573490158:0;yarn global add  prettier 
+: 1573490251:0;yarn add -D  axios babel-cli babel-helper-evaluate-path babel-preset-minify bcryptjs body-parser chai chai-http chalk compression cors dotenv express express-limiter express-rate-limit helmet jasmine jsonwebtoken minimist mocha mongoose node-port-check npm-run-all redis request validator 
+: 1573492447:0;cd
+: 1573492455:0;nano emails.txt
+: 1573496576:0;cd MEGAsync\ Downloads/Hunter-X-Hunter/Hunter\ x\ Hunter\ -\ 1999
+: 1573496587:0;ffmpeg -y -i \[MDAN\]\ Hunter\ x\ Hunter\ 01.avi
+: 1573497401:0;brew cask install aegisub
+: 1573526994:0;git status
+: 1573526997:0;git add --all
+: 1573527000:0;git status
+: 1573527028:0;git commit -m "Atualizando: adicionando novos models"
+: 1573527035:0;git status
+: 1573570195:0;cd Documents/TCC/tcc-app-project/app-schemas
+: 1573570204:0;cd ..
+: 1573570208:0;git push
+: 1573570757:0;elasticsearch --version
+: 1573570981:0;yarn add mongoose-elasticsearch-xp
+: 1573571095:0;upgrade_oh_my_zsh
+: 1573571115:0;cd 
+: 1573571120:0;cd .oh-my-zsh/custom/themes/spaceship-prompt
+: 1573571124:0;git pull
+: 1573571127:0;cd
+: 1573571206:0;mongo
+: 1573571230:0;elasticsearch --version
+: 1573571253:0;elasticsearch 
+: 1573571278:0;code -a ~/.zshrc
+: 1573571301:0;ls /Library/Java/JavaVirtualMachines/
+: 1573571307:0;ls /Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk
+: 1573571353:0;elasticsearch 
+: 1573571372:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1573571399:0;yarn dev
+: 1573571441:0;yarn add @elastic/elasticsearch 
+: 1573571450:0;yarn deb
+: 1573571454:0;yarn dv
+: 1573571457:0;yarn dev
+: 1573571488:0;yarn add elasticsearch 
+: 1573571496:0;yarn dev
+: 1573571528:0;npm  add mongoose-elasticsearch-xp
+: 1573571544:0;node -v
+: 1573571630:0;yarn config list
+: 1573571647:0;yarn dev
+: 1573572436:0;cd ~/Documents/TCC/tcc-app-project
+: 1573572459:0;l
+: 1573572464:0;cd app-code/api-micro-service
+: 1573572466:0;ls
+: 1573572480:0;git status
+: 1573572557:0;ls .
+: 1573572561:0;ls .../
+: 1573572565:0;ls ../
+: 1573572571:0;ls ../../
+: 1573572580:0;cd ..
+: 1573572584:0;rm -fr node_modules
+: 1573572588:0;rm -fr package.json
+: 1573572596:0;ls
+: 1573572599:0;rm -fr yarn.lock
+: 1573572604:0;cd app-code/api-micro-service
+: 1573572607:0;ls
+: 1573572641:0;cd ..
+: 1573572646:0;ls
+: 1573572658:0;md Git_repos_help
+: 1573572660:0;cd Git_repos_help
+: 1573572662:0;cg https://github.com/jbdemonte/mongoose-elasticsearch-xp
+: 1573572670:0;cd mongoose-elasticsearch-xp
+: 1573572672:0;yarn 
+: 1573572771:0;npm add
+: 1573573462:0;ls ~/www
+: 1573573468:0;ls ~/www/scripts
+: 1573573480:0;ls ~/www/my-zsh-config
+: 1573573490:0;code -a  ~/www/my-zsh-config
+: 1573573544:0;yarn add mongoose-bcrypt
+: 1573573550:0;ls
+: 1573573554:0;cd app-code
+: 1573573555:0;cd 
+: 1573573563:0;cd ~/Documents/TCC/tcc-app-project
+: 1573573566:0;cd app-code/api-micro-service
+: 1573573567:0;ls
+: 1573573570:0;yarn add mongoose-bcrypt
+: 1573575194:0;yarn add mongoose-version
+: 1573575333:0;mongo
+: 1573577556:0;yarn add -D  morgan socket.io 
+: 1573577584:0;ls
+: 1573577590:0;rm -fr node_modules_old1
+: 1573577618:0;mv node_modules node_modules_old1
+: 1573577622:0;pnpm i
+: 1573656232:0;brew upgrade ; brew update ; brew upgrade ; brew cask upgrade
+: 1573673709:0;mongo
+: 1573674867:0;node -v
+: 1573674886:0;brew install node@13
+: 1573674905:0;node
+: 1573675092:0;brew search node
+: 1573675140:0;nvm install 12
+: 1573675150:0;nvm install node
+: 1573675585:0;cd ..
+: 1573675587:0;ls
+: 1573675588:0;cd ..
+: 1573675589:0;ls
+: 1573675592:0;cd Git_repos_help
+: 1573675594:0;cg https://github.com/prettier/prettier
+: 1573675607:0;cd prettier
+: 1573675609:0;yarn 
+: 1573675638:0;ls
+: 1573675643:0;yarn
+: 1573675648:0;cd ..
+: 1573675649:0;ls
+: 1573675786:0;md tmp
+: 1573675793:0;yarn init -y
+: 1573675827:0;yarn add eslint-plugin-prettier eslint-config-prettier prettier-eslint
+: 1573675868:0;yarn add prettier-eslint-cli
+: 1573676983:0;ls
+: 1573676993:0;yarn add jsonwebtoken
+: 1573677018:0;yarn add bcrytpjs
+: 1573677023:0;yarn add bcryptjs
+: 1573677039:0;yarn add bcryptjs prettier eslint
+: 1573677169:0;cd www/my-zsh-config
+: 1573677171:0;git status
+: 1573677179:0;l ~/
+: 1573677211:0;ln -fs ~/.zsh_history .
+: 1573677214:0;git status
+: 1573677219:0;git add --all
+: 1573677237:0;git commit -m "atualizando zsh_history"
+: 1573677243:0;ls
+: 1573677245:0;l
+: 1573677280:0;git status
+: 1573677284:0;git log
+: 1573677302:0;nano .gitignore
+: 1573677318:0;ls
+: 1573677324:0;rm -fr zsh_history
+: 1573677333:0;ln -fs ~/.zsh_history zsh_history
+: 1573677338:0;l
+: 1573677345:0;ln -f ~/.zsh_history zsh_history
+: 1573677347:0;ls
+: 1573677354:0;cat zsh_history
+: 1573677364:0;ls
+: 1573677368:0;ls ~
+: 1573677370:0;cat zsh_history
+: 1573677374:0;git add --all
