@@ -81,7 +81,9 @@ export PATH="$PATH:$ANDROID_SDK_ROOT/tools"
 export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home"
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home"
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home"
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/"
+
 # /Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk
 export ANDROID_HOME=$ANDROID_SDK_ROOT
 
@@ -341,7 +343,7 @@ alias pi3off='pip3 install --user --no-index --find-links=file://$HOME/.mypypi '
 alias cp='cp -r'
 alias cg="git clone"
 alias dlsite='wget -mrkEpnp -N  --backup-converted   --adjust-extension --page-requisites --html-extension --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 OPR/52.0.2871.40" -c -m -p -r -k -erobots=off'
-
+alias please=sudo
 
 
 # rm -f ~/.zcompdump; compinit
